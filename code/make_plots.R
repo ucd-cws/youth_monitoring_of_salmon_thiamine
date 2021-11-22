@@ -56,10 +56,12 @@ g1
 
 # eggs hatched
 g2 <- ggplot() +
-  geom_line(data=df, aes(x=date, y=eggs_hatched, fill=schools),
-            show.legend=FALSE)+
-  geom_point(data=df, aes(x=date, y=eggs_hatched, fill=schools),
-             show.legend =FALSE)+
+  geom_line(data=df, aes(x=date, y=eggs_hatched),
+            show.legend=FALSE) +
+  geom_point(data=df, aes(x=date, y=eggs_hatched),
+             show.legend =FALSE) +
+  geom_point(data=df %>% group_by(schools) %>% filter(date==max(date)), aes(x=date, y=eggs_hatched), pch=21, size=4, fill="maroon") +
+  geom_text(data=df %>% group_by(schools) %>% filter(date==max(date)), aes(x=date, y=eggs_hatched), label="Current", nudge_x = -5, color="maroon") +
   ylim(c(0,35)) +
   facet_wrap(.~schools) +
   theme_cowplot() +
@@ -72,13 +74,13 @@ g2
 
 # Survival Curve ----------------------------------------------------------
 
-df$survival <- df$eggs_hatched/ifelse(df$dead==0, NA_real_, df$dead)
-df$surv_prcntle <- round(ecdf(df$survival)(df$survival),4)*100
-# make fake thiamine based on percentile
-df <- df %>%
-  mutate(thiamine = case_when(
-    surv_prcntle > 60 ~ sample(round(runif(50,min=0.55, max=1),2), nrow(df)),
-    surv_prcntle <=60 ~ sample(round(runif(50,min=0, max=0.37),2), nrow(df))))
+# df$survival <- df$eggs_hatched/ifelse(df$dead==0, NA_real_, df$dead)
+# df$surv_prcntle <- round(ecdf(df$survival)(df$survival),4)*100
+# # make fake thiamine based on percentile
+# df <- df %>%
+#   mutate(thiamine = case_when(
+#     surv_prcntle > 60 ~ sample(round(runif(50,min=0.55, max=1),2), nrow(df)),
+#     surv_prcntle <=60 ~ sample(round(runif(50,min=0, max=0.37),2), nrow(df))))
 
 
 # survival

@@ -25,6 +25,15 @@ f_make_sim_data <- function(){
                    eggs_hatched, swimming_up,
                    swimming_up_but_down,
                    swimming_up_but_spinning, dead)
+
+  sim_df$survival <- sim_df$eggs_hatched/ifelse(sim_df$dead==0, NA_real_, sim_df$dead)
+  sim_df$surv_prcntle <- round(ecdf(sim_df$survival)(sim_df$survival),4)*100
+  # make fake thiamine based on percentile
+  sim_df <- sim_df %>%
+    mutate(thiamine = case_when(
+      surv_prcntle > 60 ~ sample(round(runif(50,min=0.55, max=1),2), nrow(sim_df)),
+      surv_prcntle <=60 ~ sample(round(runif(50,min=0, max=0.37),2), nrow(sim_df))))
+
   return(sim_df)
 
 }
