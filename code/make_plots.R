@@ -1,7 +1,5 @@
 # plots
 
-
-
 # Load Libraries ----------------------------------------------------------
 
 library(ggplot2)
@@ -18,7 +16,6 @@ df <- f_make_sim_data() # warning ok
 
 # make date col
 df$date <- as.Date(df$datetimes)
-
 
 # Barplot of Egg Status by Class ---------------------------
 
@@ -41,22 +38,24 @@ select(-unhatched_dead) %>%
 
 
 # eggs hatched by status type
-ggplot() +
+g1 <- ggplot() +
   geom_col(data=df_class, aes(x=date, y=values, fill=status2),
             show.legend=TRUE)+
   ylim(c(0,35)) +
   facet_wrap(.~schools) +
   theme_cowplot() +
   scale_x_date(date_breaks = "1 week", date_labels = "%m-%d") +
-  labs(title = "Simulated data for eggs status by class",
+  scale_fill_colorblind("Status") +
+  labs(subtitle = "Simulated data for eggs status by HS",
        y="Eggs Hatched", x="Obs Date")+
   theme(axis.text.x = element_text(angle=90, vjust = 0.5))
 
+g1
 
-# Eggs Hatched over time by  Class ---------------------------
+# Eggs Hatched over time by HS ---------------------------
 
 # eggs hatched
-ggplot() +
+g2 <- ggplot() +
   geom_line(data=df, aes(x=date, y=eggs_hatched, fill=schools),
             show.legend=FALSE)+
   geom_point(data=df, aes(x=date, y=eggs_hatched, fill=schools),
@@ -65,6 +64,40 @@ ggplot() +
   facet_wrap(.~schools) +
   theme_cowplot() +
   scale_x_date(date_breaks = "1 week", date_labels = "%m-%d") +
-  labs(title = "Simulated data for eggs hatched through time",
+  labs(subtitle = "Simulated data for eggs hatched through time",
        y="Eggs Hatched", x="Obs Date")+
   theme(axis.text.x = element_text(angle=90, vjust = 0.5))
+g2
+
+
+# Survival Curve ----------------------------------------------------------
+
+df$survival <- df$eggs_hatched/ifelse(df$dead==0, NA_real_, df$dead)
+df$surv_prcntle <- round(ecdf(df$survival)(df$survival),4)*100
+# make fake thiamine based on percentile
+df <- df %>%
+  mutate(thiamine = case_when(
+    surv_prcntle > 60 ~ sample(round(runif(50,min=0.55, max=1),2), nrow(df)),
+    surv_prcntle <=60 ~ sample(round(runif(50,min=0, max=0.37),2), nrow(df))))
+
+
+# survival
+g3 <- ggplot() +
+  geom_point(data=df, aes(x=thiamine, y=survival, fill=schools),
+            show.legend=TRUE, pch=21, size=3) +
+  geom_smooth(data=df, aes(x=thiamine, y=survival),method = "gam", color="orange") +
+  #geom_smooth(data=df, aes(x=thiamine, y=survival), method = "loess", span=1.5)+
+  theme_cowplot() +
+  scale_fill_colorblind("School") +
+  labs(title = "Simulated data: survival vs. thiamine",
+       y="Survival (# alive / # dead)", x="Female (egg thiamine/ug/g)")
+
+g3
+
+
+# Patchwork -----------------------------------------------------------
+
+library(patchwork)
+(g1 + g2) / g3
+
+ggsave(filename = "figures/simulated_plots_of_data.png", width = 10, height = 8, dpi=300)

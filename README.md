@@ -20,6 +20,10 @@ Raw data will be collected via a google form, downloaded and saved, and then cle
 
 Additionally, a few summary plots of the data will be updated each week, and saved in the [`figures`](figures/) folder.
 
+![](figures/simulated_plots_of_data.png)
+
 ### Open Source and Accessible
 
 All the [`code`](code/) and figures posted here can be used or reused, with credit. Code is written using the freely open source [**R software**](https://cran.r-project.org) (`v.4.1.2`) and the [**RStudio IDE**](https://www.rstudio.com/products/rstudio/download/).
+
+
