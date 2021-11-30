@@ -74,25 +74,16 @@ g2
 
 # Survival Curve ----------------------------------------------------------
 
-# df$survival <- df$eggs_hatched/ifelse(df$dead==0, NA_real_, df$dead)
-# df$surv_prcntle <- round(ecdf(df$survival)(df$survival),4)*100
-# # make fake thiamine based on percentile
-# df <- df %>%
-#   mutate(thiamine = case_when(
-#     surv_prcntle > 60 ~ sample(round(runif(50,min=0.55, max=1),2), nrow(df)),
-#     surv_prcntle <=60 ~ sample(round(runif(50,min=0, max=0.37),2), nrow(df))))
-
-
 # survival
 g3 <- ggplot() +
-  geom_point(data=df, aes(x=thiamine, y=survival, fill=schools),
+  geom_point(data=df, aes(x=thiamine, y=surv_prcnt, fill=schools),
             show.legend=TRUE, pch=21, size=3) +
-  geom_smooth(data=df, aes(x=thiamine, y=survival),method = "gam", color="orange") +
-  #geom_smooth(data=df, aes(x=thiamine, y=survival), method = "loess", span=1.5)+
+  geom_smooth(data=df, aes(x=thiamine, y=surv_prcnt),method = "gam", color="orange") +
+  #geom_smooth(data=df, aes(x=thiamine, y=surv_prcnt), method = "loess", span=1.5)+
   theme_cowplot() +
   scale_fill_colorblind("School") +
   labs(title = "Simulated data: survival vs. thiamine",
-       y="Survival (# alive / # dead)", x="Female (egg thiamine/ug/g)")
+       y="% Survival (# alive / total)", x="Female egg thiamine concentration (\u03BCg/g)")
 
 g3
 
