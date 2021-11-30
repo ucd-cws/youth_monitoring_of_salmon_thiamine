@@ -33,7 +33,7 @@ f_make_sim_data <- function(){
   sim_df <- sim_df %>%
     mutate(thiamine = case_when(
       surv_prcnt < 50 ~ sample(round(runif(50,min=0.01, max=3),2), nrow(sim_df)),
-      surv_prcnt >=50 ~ sample(round(runif(50,min=4, max=12),2), nrow(sim_df))))
+      surv_prcnt >=50 ~ sample(round(runif(50,min=5.5, max=12),2), nrow(sim_df))))
 
   return(sim_df)
 
