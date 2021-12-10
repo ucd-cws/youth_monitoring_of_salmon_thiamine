@@ -44,7 +44,7 @@ f_import_data <- function(){
   df_select <- df %>% select(site:dead, tank_number, comments, questions)
 
   # Write out Data ------------------------------
-  write_csv(df_select, glue("data_clean/clean_sample_data.csv"))
+  write_csv(df_select, glue("data_clean/clean_salmon_thiamine_data_current.csv"))
   print(glue("Data saved to data_clean."))
   return(df_select)
 
