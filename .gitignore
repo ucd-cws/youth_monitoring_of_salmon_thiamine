@@ -34,3 +34,7 @@ vignettes/*.pdf
 .secrets
 .secrets*
 /Users/rapeek/Documents/github/youth_monitoring_of_salmon_thiamine/.secrets
+code/functions/f_download_data_rap.R
+
+# ignore key template
+documents/*.key

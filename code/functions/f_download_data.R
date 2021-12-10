@@ -60,5 +60,3 @@ f_download_data <- function(deauth=FALSE){
 
   }
 }
-
-

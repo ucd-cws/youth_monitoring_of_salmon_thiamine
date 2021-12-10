@@ -16,11 +16,22 @@ More information about this project and related work can be found at:
 
 Raw data will be collected via a google form, downloaded and saved, and then cleaned and summarized before being posted in the [`data_clean`](data_clean/) folder in this repository, with the date the data were most recently updated.
 
+A template of the type of data that will be collected from each tank can be seen here: [`documents`](documents/thiamine_salmon_egg_tracking_template.pdf).
+
 ### Visualization & Figures
 
 Additionally, a few summary plots of the data will be updated each week, and saved in the [`figures`](figures/) folder.
 
+This is a **simulated** version (using made-up data) to demonstrate what things may look like at the end.
+
 ![](figures/simulated_plots_of_data.png)
+
+### CURRENT UPDATE!
+
+For a current snapshot of what things look like, see below! Again, these can be found [here](figures/) and called `summary_plots_updated_YYYY-MM-DD.png`  if you want to download a copy.
+
+![](figures/summary_plots_updated_2021-12-10.png)
+
 
 ### Open Source and Accessible
 
