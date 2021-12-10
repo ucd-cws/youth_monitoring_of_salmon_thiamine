@@ -21,16 +21,32 @@ f_import_data <- function(){
   df <- read_csv(sort(g_files, decreasing = TRUE)[1],
                        show_col_types = FALSE)
 
+  # make some shorter names
+  df <- df %>%
+    rename(datetime = date_time_of_observation,
+           water_temp_f = water_temperature_in_farenheit,
+           eggs_hatched = number_of_eggs_hatched,
+           swimming_up = of_the_eggs_that_have_hatched_how_many_fish_are_swimming_up,
+           laying_on_side = of_the_fish_attempting_to_swim_how_many_if_any_fish_are_laying_on_their_side,
+           spinning = of_the_fish_attempting_to_swim_how_many_if_any_fish_are_spinning,
+           dead = how_many_if_any_salmon_died_since_last_reporting,
+           started_feeding_date = have_you_started_feeding_if_yes_please_report_date,
+           questions = do_you_have_any_questions,
+           comments = do_you_have_additional_observations_thoughts_or_comments) %>%
+    # make a date column
+    mutate(date = as.Date(datetime), .after="datetime")
+
   print(glue("Data successfully imported, using {sort(g_files, decreasing=TRUE)[1]}"))
 
   # Tidy Data -----
 
   # drop columns that are comments/notes for now
-  df_select <- df %>% select(site:how_many_if_any_salmon_died_since_last_reporting)
+  df_select <- df %>% select(site:dead, tank_number, comments, questions)
 
   # Write out Data ------------------------------
   write_csv(df_select, glue("data_clean/clean_sample_data.csv"))
   print(glue("Data saved to data_clean."))
+  return(df_select)
 
 }
 
