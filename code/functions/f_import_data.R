@@ -29,7 +29,7 @@ f_import_data <- function(){
            swimming_up = of_the_eggs_that_have_hatched_how_many_fish_are_swimming_up,
            laying_on_side = of_the_fish_attempting_to_swim_how_many_if_any_fish_are_laying_on_their_side,
            spinning = of_the_fish_attempting_to_swim_how_many_if_any_fish_are_spinning,
-           dead = how_many_if_any_salmon_died_since_last_reporting,
+           dead = how_many_if_any_salmon_died_since_you_began_reporting,
            started_feeding_date = have_you_started_feeding_if_yes_please_report_date,
            questions = do_you_have_any_questions,
            comments = do_you_have_additional_observations_thoughts_or_comments) %>%

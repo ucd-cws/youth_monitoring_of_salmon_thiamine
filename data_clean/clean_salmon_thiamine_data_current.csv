@@ -1,8 +1,23 @@
 site,datetime,date,water_temp_f,water_clarity,eggs_hatched,swimming_up,laying_on_side,spinning,dead,tank_number,comments,questions
 Hamilton High School,2021-11-21T22:00:00Z,2021-11-21,55,"Water is clear, pump functioning well",0,0,0,1,0,NA,Testing,Nope...testing
 Edward Harris Jr. MS,2021-11-30T16:20:00Z,2021-11-30,56,"Water is clear, pump functioning well",1,0,0,0,2,13,One egg was covered in fuzz when we returned from Thanksgiving break.  Another egg has ruptured,NA
-Edward Harris Jr. MS,2021-12-02T15:45:00Z,2021-12-02,58,"Water is clear, pump functioning well",9,9,1,0,2,13,"the 2 dead were both eggs that became fuzzy and were discarded
+Edward Harris Jr. MS,2021-12-02T15:45:00Z,2021-12-02,58,"Water is clear, pump functioning well",9,9,1,0,4,13,"the 2 dead were both eggs that became fuzzy and were discarded
 On the swimming question, I wasn't sure how to answer for this stage of their life.   8 are sitting upright on the gravel, and another is on it's side.  It's probably dead, but I'll check in the morning to verify.",NA
-Edward Harris Jr. MS,2021-12-07T22:05:00Z,2021-12-07,55,"Water is clear, pump functioning well",29,29,0,0,2,13,NA,NA
+Edward Harris Jr. MS,2021-12-07T22:05:00Z,2021-12-07,55,"Water is clear, pump functioning well",29,29,0,0,4,13,NA,NA
 King High School,2021-12-07T10:34:59Z,2021-12-07,51,"Water is clear, pump functioning well",35,0,0,0,0,11,Fish hatched 12/3/2021; all are currently alevin,NA
-Edward Harris Jr. MS,2021-12-09T15:29:59Z,2021-12-09,55,"Water is clear, pump functioning well",29,29,2,0,2,13,"the 2 alevin that are on their sides attempt to right themselves, but slowly fall back onto their sides",NA
+Edward Harris Jr. MS,2021-12-09T15:29:59Z,2021-12-09,55,"Water is clear, pump functioning well",29,29,2,0,4,13,"the 2 alevin that are on their sides attempt to right themselves, but slowly fall back onto their sides",NA
+Edward Harris Jr. MS,2021-12-14T11:15:00Z,2021-12-14,55,"Water is clear, pump functioning well",29,29,0,0,4,13,NA,NA
+King High School,2021-12-09T10:34:59Z,2021-12-09,52,"Water is clear, pump functioning well",35,0,0,0,0,11,NA,NA
+King High School,2021-12-14T10:34:59Z,2021-12-14,53,"Water is clear, pump functioning well",35,0,0,0,0,11,NA,NA
+Edward Harris Jr. MS,2021-12-17T10:59:59Z,2021-12-17,55,"Water is clear, pump functioning well",30,30,1,0,5,13,all 5 of the dead were eggs that didn't hatch,NA
+Samuel Jackman MS,2021-11-17T07:59:59Z,2021-11-17,54,"Water is clear, pump functioning well",0,0,0,0,0,12,NA,NA
+Samuel Jackman MS,2021-11-29T07:59:59Z,2021-11-29,50,"Water is clear, pump functioning well",0,0,0,0,0,12,NA,NA
+Samuel Jackman MS,2021-12-01T07:59:59Z,2021-12-01,50,"Water is clear, pump functioning well",3,0,0,0,0,12,NA,NA
+Samuel Jackman MS,2021-12-02T07:59:59Z,2021-12-02,52,"Water is clear, pump functioning well",20,0,0,0,5,12,the 5 dead were nonviable eggs that were removed because they had turned opaque white/pink,NA
+Samuel Jackman MS,2021-12-03T07:59:59Z,2021-12-03,49,"Water is clear, pump functioning well",30,0,0,0,5,12,NA,NA
+Samuel Jackman MS,2021-12-06T07:59:59Z,2021-12-06,50,"Water is clear, pump functioning well",30,0,0,0,5,12,NA,NA
+Samuel Jackman MS,2021-12-08T07:59:59Z,2021-12-08,51,"Water is clear, pump functioning well",30,0,0,0,5,12,NA,NA
+Samuel Jackman MS,2021-12-10T07:59:59Z,2021-12-10,50,"Water is clear, pump functioning well",30,0,0,0,5,12,NA,NA
+Samuel Jackman MS,2021-12-13T07:59:59Z,2021-12-13,50,"Water is clear, pump functioning well",30,0,0,0,5,12,NA,NA
+Samuel Jackman MS,2021-12-17T07:59:59Z,2021-12-17,50,"Water is clear, pump functioning well",30,0,0,0,6,12,The salmon were released before they had reached fry stage due to time constraints (winter break starting).  One of the alevin was deformed and had to be culled before release - I counted this in my total deaths.,NA
+King High School,2021-12-17T23:30:00Z,2021-12-17,52,"Water is clear, pump functioning well",35,0,0,0,0,10,NA,NA
