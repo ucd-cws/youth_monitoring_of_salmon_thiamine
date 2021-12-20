@@ -45,7 +45,7 @@ df <- df %>%
 table(df$dead_qa)
 
 
-a# Make Egg Status Summary By Class -----------------------------------
+# Make Egg Status Summary By Class -----------------------------------
 
 df_status <- df %>%
   select(site, date, eggs_hatched, dead, tank_number) %>%
