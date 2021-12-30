@@ -109,7 +109,6 @@ g1 <- ggplot() +
 g1
 
 
-
 # eggs hatched by status type
 g1 <- ggplot() +
   geom_hline(yintercept = 35, color="gray", lty=2) +
@@ -119,6 +118,9 @@ g1 <- ggplot() +
   geom_line(data=df_status %>% filter(status!="Dead"),
               aes(x=date, y=count, color=status),
               show.legend=TRUE, lwd=1.7) +
+  geom_point(data=df_status %>% filter(status!="Dead"),
+             aes(x=date, y=count, fill=status),
+             show.legend=TRUE, alpha=0.7, pch=21) +
   # only dead
   geom_line(data=df_status %>% filter(status=="Dead"),
             aes(x=date, y=count, color=status),
