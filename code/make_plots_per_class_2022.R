@@ -16,10 +16,18 @@ library(cowplot)
 source("code/functions/f_download_data_rap.R")
 f_download_data()
 
+source("code/functions/f_download_eggs_allotted.R")
+f_download_eggs_allotted()
+
 # Load Data ---------------------------------------------------------------
 
 source("code/functions/f_import_data.R")
 df <- f_import_data()
+
+# read in number of eggs per tank and join:
+eggs_lookup <- read_csv("data_raw/raw_eggs_allotted_downloaded_2022-01-10.csv") %>%
+  select(site=school, tank_number, total_egg_count)
+
 
 # Check for Test Data -----------------------------------------------------
 
@@ -27,7 +35,8 @@ df <- f_import_data()
 df_orig <- nrow(df)
 
 df <- df %>%
-  filter(!grepl("Test|Testing|test", comments))
+  filter(!grepl("Test|Testing|test", comments)) %>%
+  filter(ymd(date) > ymd("2022-01-02"))
 
 glue("Full data had {df_orig} rows, {df_orig - nrow(df)} dropped")
 
@@ -35,7 +44,7 @@ glue("Full data had {df_orig} rows, {df_orig - nrow(df)} dropped")
 # need to fix dead that decreases...add check col
 df <- df %>%
   arrange(site, date) %>%
-  group_by(site) %>%
+  group_by(site, tank_number) %>%
   mutate(dead_qa = case_when(
     lag(dead) - dead > 0 ~ "CHECK NUMBERS",
     TRUE ~ "OK"
@@ -45,40 +54,41 @@ df <- df %>%
 table(df$dead_qa)
 
 
+# Join the Original Number of Eggs Provided -------------------------------
+
+df <- left_join(df, eggs_lookup)
+
 # Make Egg Status Summary By Class -----------------------------------
 
 df_status <- df %>%
-  select(site, date, eggs_hatched, dead, tank_number) %>%
+  select(site, date, tank_number, total_egg_count, eggs_hatched, dead) %>%
   group_by(site, date, tank_number) %>%
-  mutate(unhatched = 35 - eggs_hatched) %>%
-  tidyr::pivot_longer(c(eggs_hatched, dead, unhatched), names_to = "egg_status", values_to = "count") %>%
+  mutate(unhatched = total_egg_count - eggs_hatched, .after=eggs_hatched) %>%
+  tidyr::pivot_longer(c(total_egg_count, eggs_hatched, unhatched, dead), names_to = "egg_status", values_to = "count") %>%
   ungroup() %>%
   mutate(status = case_when(
+    egg_status == "total_egg_count" ~ "Total",
     egg_status == "eggs_hatched" ~ "Hatched",
     egg_status == "dead" ~ "Dead",
     egg_status == "unhatched" ~ "Unhatched"))
 
-df_status_detail <- df %>%
+df_status_prop <- df %>%
+  mutate(unhatched = total_egg_count - eggs_hatched, .after=eggs_hatched) %>%
   # select cols of interest
-  select(site, date, eggs_hatched:dead) %>%
+  select(site, date, tank_number, total_egg_count, unhatched, eggs_hatched:dead) %>%
   # group by date and site
-  group_by(site, date) %>%
+  group_by(site, tank_number) %>%
+  # now add proportions for comparisons and plots
+  mutate(across(unhatched:dead, .fns = ~(.x/total_egg_count))) %>%
   # now make the data longer for plotting purposes
-  tidyr::pivot_longer(c(eggs_hatched:dead),
-                      names_to = "egg_status",
-                      values_to = "count") %>%
-  group_by(site, date) %>%
-  # now pivot wider again to merge the unhatched column back in
-  tidyr::pivot_wider(id_cols = c(site, date, egg_status),
-                     names_from =c( egg_status),
-                     values_from = c(count)) %>%
-  # now pivot long again and reclassify
-  tidyr::pivot_longer(cols = c(eggs_hatched:dead),
+  tidyr::pivot_longer(c(total_egg_count, unhatched, eggs_hatched:dead),
                       names_to = "status",
-                      values_to = "values") %>%
+                      values_to = "prop") %>%
   ungroup() %>%
   mutate(status2 = case_when(
     status == "eggs_hatched" ~ "Hatched",
+    status == "unhatched" ~ "Unhatched",
+    status == "total_egg_count" ~ "Total",
     status == "dead" ~ "Dead",
     status == "laying_on_side" ~ "Laying on side",
     status == "spinning" ~ "Spinning",
@@ -89,46 +99,49 @@ df_status_detail <- df %>%
 
 # eggs hatched by status type
 g1 <- ggplot() +
-  geom_hline(yintercept = 35, color="gray", lty=2) +
-  geom_col(data=df_status %>% filter(status!="Dead"),
-           aes(x=date, y=count, fill=status),
-            show.legend=TRUE) +
-  scale_y_continuous(limits=c(0,35), breaks = c(seq(0,35,5))) +
+  geom_hline(yintercept = 1, color="gray", lty=2) +
+  geom_col(data=df_status_prop %>%
+             filter(status2 %in% c("Hatched", "Unhatched","Dead")),
+           aes(x=date, y=prop, fill=status2),
+            show.legend=TRUE, position = "dodge") +
+  scale_y_continuous(labels = scales::percent_format(scale = 100)) +
   theme_cowplot() +
-  scale_x_date(date_labels = "%m-%d-%y",
-               date_breaks = "week") +
-  #scale_fill_colorblind("Status") +
+  scale_x_date(date_labels = "%m-%d") +
+  scale_fill_colorblind("Status") +
   cowplot::background_grid("y") +
-  scale_fill_few("Medium", "Status") +
+  #scale_fill_few("Medium", "Status") +
   labs(subtitle = "Eggs status by Site",
-       y="Eggs Hatched", x="")+
-  facet_grid(site~., scales = "free_x") +
-  theme(axis.text.x = element_text(angle=90, vjust = 0.5),
+       y="Proportion Eggs Hatched", x="")+
+  facet_wrap(tank_number~site, scales = "free_x") +
+  theme(axis.text.x = element_text(angle=70, vjust = 0.5),
         plot.background = element_rect(fill="white"))
 
 g1
 
 
 # eggs hatched by status type
-g1 <- ggplot() +
-  geom_hline(yintercept = 35, color="gray", lty=2) +
-  geom_ribbon(data=df_status %>% filter(status!="Dead"),
-           aes(x=date, ymax=count, ymin=0, fill=status),
+g1b <- ggplot() +
+  geom_hline(yintercept = 1, color="gray", lty=2) +
+  geom_ribbon(data=df_status_prop %>%
+                filter(status2 %in% c("Hatched", "Unhatched")),
+           aes(x=date, ymax=prop, ymin=0, fill=status2),
            show.legend=TRUE, alpha=0.7) +
-  geom_line(data=df_status %>% filter(status!="Dead"),
-              aes(x=date, y=count, color=status),
+  geom_line(data=df_status_prop %>%
+              filter(status2 %in% c("Hatched", "Unhatched")),
+              aes(x=date, y=prop, color=status2),
               show.legend=TRUE, lwd=1.7) +
-  geom_point(data=df_status %>% filter(status!="Dead"),
-             aes(x=date, y=count, fill=status),
+  geom_point(data=df_status_prop %>%
+               filter(status2 %in% c("Hatched", "Unhatched")),
+             aes(x=date, y=prop, fill=status2),
              show.legend=TRUE, alpha=0.7, pch=21) +
   # only dead
-  geom_line(data=df_status %>% filter(status=="Dead"),
-            aes(x=date, y=count, color=status),
+  geom_line(data=df_status_prop %>%
+              filter(status2 %in% c("Dead")),
+            aes(x=date, y=prop, color=status2),
             show.legend=FALSE, alpha=0.9, lwd=0.6, lty=4) +
-  scale_y_continuous(limits=c(0,35), breaks = c(seq(0,35,5))) +
+  scale_y_continuous(labels = scales::percent_format(scale = 100)) +
   theme_cowplot() +
-  scale_x_date(date_labels = "%m-%d-%y",
-               date_breaks = "week") +
+  scale_x_date(date_labels = "%m-%d") +
   cowplot::background_grid("y") +
   scale_fill_manual("Status", values = c("Hatched"="#0072B2",
                                           "Unhatched" = "#E69F00",
@@ -137,25 +150,23 @@ g1 <- ggplot() +
                                           "Unhatched" = "#E69F00",
                                           "Dead"= "black")) +
   #scale_fill_few("Medium", "Status") +
-  labs(subtitle = "Eggs status by Site",
-       y="Eggs Hatched", x="")+
-  facet_grid(site~., scales = "free_x") +
+  labs(subtitle = "Eggs status by school and site",
+       y="Proportion Eggs Hatched", x="")+
+  facet_wrap(site~tank_number, scales = "free_x") +
   theme(axis.text.x = element_text(angle=90, vjust = 0.5),
         plot.background = element_rect(fill="white"))
 
-g1
+g1b
 
 # now by only hatched eggs:
 
 # eggs hatched by status type
-g2 <- df_status_detail %>%
-  filter(!status2 %in% c("Hatched"),
-         site!="King High School") %>%
+g2 <- df_status_prop %>%
+  filter(!status2 %in% c("Total", "Dead")) %>%
   ggplot() +
-  geom_hline(yintercept = 35, color="gray", lty=2) +
-  geom_col(aes(x=date, y=values, fill=status2), show.legend=TRUE)+
-  scale_y_continuous(limits=c(0,40), breaks = c(seq(0,35,5))) +
-  facet_grid(site~.) +
+  geom_col(aes(x=date, y=prop, fill=status2), show.legend=TRUE, position = "dodge")+
+  scale_y_continuous(labels = scales::percent_format(scale = 100)) +
+  facet_wrap(site~tank_number) +
   theme_cowplot() +
   cowplot::background_grid("y") +
   scale_x_date(date_labels = "%m-%d-%y") +
@@ -173,49 +184,32 @@ g2
 
 # eggs hatched
 g3 <- ggplot() +
-  geom_hline(yintercept = 35, color="gray", lty=2) +
-  annotate("text",label="Total possible", x=as.Date("2021-12-01"), y=34, color="gray50") +
+  geom_hline(data = df, aes(yintercept = total_egg_count), color="gray", lty=2, lwd=1) +
   geom_line(data=df, aes(x=date, y=eggs_hatched),
             show.legend=FALSE) +
   geom_point(data=df, aes(x=date, y=eggs_hatched),
              show.legend =FALSE) +
-  geom_point(data=df %>% group_by(site) %>% filter(date==max(date)), aes(x=date, y=eggs_hatched), pch=21, size=4, fill="maroon") +
-  #scale_y_continuous(limits=c(0,35), breaks = c(seq(0,35,5))) +
-  facet_wrap(.~site) +
+  geom_point(data=df %>% group_by(site, tank_number) %>% filter(date==max(date)), aes(x=date, y=eggs_hatched), pch=21, size=4, fill="maroon") +
+  facet_wrap(tank_number + site ~.) +
   theme_cowplot() +
   cowplot::background_grid("y") +
-  scale_x_date(date_labels = "%m-%d-%y") +
+  #scale_x_date(date_labels = "%m-%d-%y") +
   #scale_x_date(date_breaks = "1 week", date_labels = "%m-%d-%y") +
   labs(subtitle = "Eggs hatched through time (current = maroon)",
-       y="Eggs Hatched", x="") +
+       y="Eggs Hatched", x="",
+       caption = "Gray dashed line = total eggs provided in tank") +
   theme(axis.text.x = element_text(angle=90, vjust = 0.5),
         plot.background = element_rect(fill="white"))
 g3
 
 
-# Survival Curve ----------------------------------------------------------
-
-# # survival
-# g3 <- ggplot() +
-#   geom_point(data=df, aes(x=thiamine, y=surv_prcnt, fill=site),
-#             show.legend=TRUE, pch=21, size=3) +
-#   geom_smooth(data=df, aes(x=thiamine, y=surv_prcnt),method = "gam", color="orange") +
-#   #geom_smooth(data=df, aes(x=thiamine, y=surv_prcnt), method = "loess", span=1.5)+
-#   theme_cowplot() +
-#   scale_fill_colorblind("School") +
-#   labs(title = "Simulated data: survival vs. thiamine",
-#        y="% Survival (# alive / total)", x="Female egg thiamine concentration (\u03BCg/g)")
-#
-# g3
-
-
 # Patchwork -----------------------------------------------------------
 
-ggsave(g1, filename = glue("figures/summary_eggs_hatched_updated_{Sys.Date()}.png"), width = 11, height = 8, dpi=300)
+ggsave(g1b, filename = glue("figures/summary_2022_eggs_hatched_updated_{Sys.Date()}.png"), width = 11, height = 8, dpi=300)
 
-ggsave(g2, filename = glue("figures/summary_egg_status_hatched_updated_{Sys.Date()}.png"), width = 11, height = 8, dpi=300)
+ggsave(g2, filename = glue("figures/summary_2022_egg_status_hatched_updated_{Sys.Date()}.png"), width = 11, height = 8, dpi=300)
 
-ggsave(g3, filename = glue("figures/summary_eggs_hatched_over_time_updated_{Sys.Date()}.png"), width = 11, height = 7, dpi=300)
+ggsave(g3, filename = glue("figures/summary_2022_eggs_hatched_over_time_updated_{Sys.Date()}.png"), width = 11, height = 7, dpi=300)
 
 # library(patchwork)
 # (g1 + g2) / g3
