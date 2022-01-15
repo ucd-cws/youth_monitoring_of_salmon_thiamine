@@ -25,23 +25,23 @@ source("code/functions/f_import_data.R")
 df <- f_import_data()
 
 # read in number of eggs per tank and join:
-eggs_lookup <- read_csv("data_raw/raw_eggs_allotted_downloaded_2022-01-10.csv") %>%
+eggs_lookup <- read_csv("data_raw/raw_eggs_allotted_downloaded_2022-01-14.csv") %>%
   select(site=school, tank_number, total_egg_count)
 
+summary(eggs_lookup)
 
-# Check for Test Data -----------------------------------------------------
+# Check Data -----------------------------------------------------
 
 # filter out anything with Test/Testing
 df_orig <- nrow(df)
 
 df <- df %>%
   filter(!grepl("Test|Testing|test", comments)) %>%
-  filter(ymd(date) > ymd("2022-01-02"))
+  filter(ymd(date) > ymd("2022-01-02")) # filter previous experiment out
 
 glue("Full data had {df_orig} rows, {df_orig - nrow(df)} dropped")
 
 # if dead in previous time they need to stay dead
-# need to fix dead that decreases...add check col
 df <- df %>%
   arrange(site, date) %>%
   group_by(site, tank_number) %>%
@@ -51,11 +51,11 @@ df <- df %>%
   ), .after=dead)
 
 # any issues?
-table(df$dead_qa)
-
+table(df$dead_qa) # should all be OK
 
 # Join the Original Number of Eggs Provided -------------------------------
 
+# add initial timestamp
 df <- left_join(df, eggs_lookup)
 
 # Make Egg Status Summary By Class -----------------------------------
@@ -101,7 +101,7 @@ df_status_prop <- df %>%
 g1 <- ggplot() +
   geom_hline(yintercept = 1, color="gray", lty=2) +
   geom_col(data=df_status_prop %>%
-             filter(status2 %in% c("Hatched", "Unhatched","Dead")),
+             filter(status2 %in% c("Hatched", "Unhatched", "Dead")),
            aes(x=date, y=prop, fill=status2),
             show.legend=TRUE, position = "dodge") +
   scale_y_continuous(labels = scales::percent_format(scale = 100)) +
@@ -178,6 +178,26 @@ g2 <- df_status_prop %>%
         plot.background = element_rect(fill="white"))
 
 g2
+
+# eggs hatched by status type: Laying on Side
+# g2b <- df_status_prop %>%
+#   filter(status2 %in% c("Laying on side")) %>%
+#   ggplot() +
+#   geom_line(aes(x=date, y=prop, group=tank_number), show.legend=FALSE, color="gray70")+
+#   geom_point(aes(x=date, y=prop,fill=site, group=tank_number), pch=21, size=4, show.legend=TRUE) +
+#   facet_grid(tank_number~., scales = "free_y") +
+#   scale_y_continuous(labels = scales::percent_format(scale = 100)) +
+#   #facet_wrap(site~tank_number) +
+#   theme_cowplot() +
+#   cowplot::background_grid("y") +
+#   scale_x_date(date_labels = "%m-%d-%y") +
+#   scale_fill_viridis_d("Site") +
+#   labs(subtitle = "Status: Proportion laying on side",
+#        y="Proportion of Total Hatched Eggs Laying on Side", x="")+
+#   theme(axis.text.x = element_text(angle=90, vjust = 0.5),
+#         plot.background = element_rect(fill="white"))
+#
+# g2b
 
 
 # Eggs Hatched over time by HS ---------------------------
