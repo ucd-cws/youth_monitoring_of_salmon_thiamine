@@ -25,8 +25,8 @@ source("code/functions/f_import_data.R")
 df <- f_import_data()
 
 # read in number of eggs per tank and join:
-eggs_lookup <- read_csv("data_raw/raw_eggs_allotted_downloaded_2022-01-14.csv") %>%
-  select(site=school, tank_number, total_egg_count)
+eggs_lookup <- read_csv("data_raw/raw_eggs_allotted_downloaded_2022-01-21.csv") %>%
+  select(site=school, tank_number, total_egg_count, avg_th, status)
 
 summary(eggs_lookup)
 
@@ -37,7 +37,7 @@ df_orig <- nrow(df)
 
 df <- df %>%
   filter(!grepl("Test|Testing|test", comments)) %>%
-  filter(ymd(date) > ymd("2022-01-02")) # filter previous experiment out
+  filter(tank_number %in% c(1:8, 16, 17, 18)) # filter to only tanks of current exp
 
 glue("Full data had {df_orig} rows, {df_orig - nrow(df)} dropped")
 
@@ -161,22 +161,39 @@ g1b
 # now by only hatched eggs:
 
 # eggs hatched by status type
-g2 <- df_status_prop %>%
-  filter(!status2 %in% c("Total", "Dead")) %>%
-  ggplot() +
-  geom_col(aes(x=date, y=prop, fill=status2), show.legend=TRUE, position = "dodge")+
+df_filt <- df_status_prop %>%
+  filter(!status2 %in% c("Total", "Dead"))
+g2 <- ggplot() +
+  # hatched
+  geom_line(data=df_filt %>% filter(status2 %in% c("Hatched", "Unhatched")),
+            aes(x=date, y=prop, group=status2), color="gray40", alpha=0.6) +
+  geom_point(data=df_filt %>% filter(status2 %in% c("Hatched", "Unhatched")),
+             aes(x=date, y=prop, fill=status2),
+             alpha=0.8, pch=21, show.legend=TRUE, size=2.5) +
+
+  # everything else
+  geom_line(data=df_filt %>% filter(!status2 %in% c("Hatched", "Unhatched")),
+             aes(x=date, y=prop, color=status2),
+             alpha=0.8, show.legend=FALSE) +
+  geom_point(data=df_filt %>% filter(!status2 %in% c("Hatched", "Unhatched")),
+             aes(x=date, y=prop, color=status2, shape=status2),
+             alpha=0.8, show.legend=TRUE, size=4) +
   scale_y_continuous(labels = scales::percent_format(scale = 100)) +
   facet_wrap(site~tank_number) +
-  theme_cowplot() +
+  theme_cowplot(font_family = "Roboto Condensed") +
   cowplot::background_grid("y") +
   scale_x_date(date_labels = "%m-%d-%y") +
-  scale_fill_colorblind("Status") +
+  scale_shape_discrete("Status") +
+  scale_color_colorblind("Status") +
+  scale_fill_manual(NULL, values=c("gray40", "gray90")) +
   labs(subtitle = "Eggs status by site for all hatched eggs",
        y="Hatched Egg Status", x="",
        caption = "No effect observed if status is only = 'Hatched'")+
   theme(axis.text.x = element_text(angle=90, vjust = 0.5),
-        plot.background = element_rect(fill="white"))
-
+        plot.background = element_rect(fill="white")) +
+  guides(fill=guide_legend(override.aes =
+                             list(fill=c("gray40", "gray90"),
+                                  shape=c(21,21), size=c(4,4))))
 g2
 
 # eggs hatched by status type: Laying on Side

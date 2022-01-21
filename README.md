@@ -22,15 +22,18 @@ A template of the type of data that will be collected from each tank can be seen
 
 Additionally, a few summary plots of the data will be updated each week, and saved in the [`figures`](figures/) folder.
 
-### CURRENT UPDATE!
+### CURRENT UPDATE! 
 
 For a current snapshot of what things look like, see below! Again, these can be found [here](figures/) and called `summary_plots_updated_YYYY-MM-DD.png`  if you want to download a copy. 
 
-![](figures/summary_2022_eggs_hatched_updated_2022-01-14.png)
+__*updated 2021-01-21*__
 
-![](figures/summary_2022_egg_status_hatched_updated_2022-01-14.png)
 
-![](figures/summary_2022_eggs_hatched_over_time_updated_2022-01-14.png)
+![](figures/summary_2022_eggs_hatched_updated_2022-01-21.png)
+
+![](figures/summary_2022_egg_status_hatched_updated_2022-01-21.png)
+
+![](figures/summary_2022_eggs_hatched_over_time_updated_2022-01-21.png)
 
 ### Open Source and Accessible
 
