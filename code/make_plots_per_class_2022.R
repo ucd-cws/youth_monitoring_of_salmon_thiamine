@@ -25,7 +25,7 @@ source("code/functions/f_import_data.R")
 df <- f_import_data()
 
 # read in number of eggs per tank and join:
-eggs_lookup <- read_csv("data_raw/raw_eggs_allotted_downloaded_2022-01-21.csv") %>%
+eggs_lookup <- read_csv(glue("data_raw/raw_eggs_allotted_downloaded_{Sys.Date()}.csv")) %>%
   select(site=school, tank_number, total_egg_count, avg_th, status)
 
 summary(eggs_lookup)
@@ -98,28 +98,28 @@ df_status_prop <- df %>%
 # Barplot of Egg Status by Class ---------------------------
 
 # eggs hatched by status type
-g1 <- ggplot() +
-  geom_hline(yintercept = 1, color="gray", lty=2) +
-  geom_col(data=df_status_prop %>%
-             filter(status2 %in% c("Hatched", "Unhatched", "Dead")),
-           aes(x=date, y=prop, fill=status2),
-            show.legend=TRUE, position = "dodge") +
-  scale_y_continuous(labels = scales::percent_format(scale = 100)) +
-  theme_cowplot() +
-  scale_x_date(date_labels = "%m-%d") +
-  scale_fill_colorblind("Status") +
-  cowplot::background_grid("y") +
-  #scale_fill_few("Medium", "Status") +
-  labs(subtitle = "Eggs status by Site",
-       y="Proportion Eggs Hatched", x="")+
-  facet_wrap(tank_number~site, scales = "free_x") +
-  theme(axis.text.x = element_text(angle=70, vjust = 0.5),
-        plot.background = element_rect(fill="white"))
+# g1 <- ggplot() +
+#   geom_hline(yintercept = 1, color="gray", lty=2) +
+#   geom_col(data=df_status_prop %>%
+#              filter(status2 %in% c("Hatched", "Unhatched", "Dead")),
+#            aes(x=date, y=prop, fill=status2),
+#             show.legend=TRUE, position = "dodge") +
+#   scale_y_continuous(labels = scales::percent_format(scale = 100)) +
+#   theme_cowplot() +
+#   scale_x_date(date_labels = "%m-%d") +
+#   scale_fill_colorblind("Status") +
+#   cowplot::background_grid("y") +
+#   #scale_fill_few("Medium", "Status") +
+#   labs(subtitle = "Eggs status by Site",
+#        y="Proportion Eggs Hatched", x="")+
+#   facet_wrap(tank_number~site, scales = "free_x") +
+#   theme(axis.text.x = element_text(angle=70, vjust = 0.5),
+#         plot.background = element_rect(fill="white"))
+#
+# g1
 
-g1
+# Lineplot of Egg Status by Class ---------------------------
 
-
-# eggs hatched by status type
 g1b <- ggplot() +
   geom_hline(yintercept = 1, color="gray", lty=2) +
   geom_ribbon(data=df_status_prop %>%
@@ -154,15 +154,22 @@ g1b <- ggplot() +
        y="Proportion Eggs Hatched", x="")+
   facet_wrap(site~tank_number, scales = "free_x") +
   theme(axis.text.x = element_text(angle=90, vjust = 0.5),
-        plot.background = element_rect(fill="white"))
+        plot.background = element_rect(fill="white"),
+        # adjust legend position
+        legend.position = c(0.93, 0.02),
+        legend.justification = c(0.93, 0))
 
 g1b
 
-# now by only hatched eggs:
 
+# Plot of Hatched Egg Status ----------------------------------------------
+
+# now by only hatched eggs:
 # eggs hatched by status type
 df_filt <- df_status_prop %>%
   filter(!status2 %in% c("Total", "Dead"))
+
+# now plot
 g2 <- ggplot() +
   # hatched
   geom_line(data=df_filt %>% filter(status2 %in% c("Hatched", "Unhatched")),
