@@ -1,93 +1,31 @@
 site,datetime,date,water_temp_f,water_clarity,eggs_hatched,swimming_up,laying_on_side,spinning,dead,tank_number,comments,questions
 Hamilton High School,2021-11-21T22:00:00Z,2021-11-21,NA,"Water is clear, pump functioning well",0,0,0,1,0,NA,Testing,Nope...testing
-Edward Harris Jr. MS,2021-11-30T16:20:00Z,2021-11-30,NA,"Water is clear, pump functioning well",1,0,0,0,2,13,One egg was covered in fuzz when we returned from Thanksgiving break.  Another egg has ruptured,NA
-Edward Harris Jr. MS,2021-12-02T15:45:00Z,2021-12-02,NA,"Water is clear, pump functioning well",9,9,1,0,4,13,"the 2 dead were both eggs that became fuzzy and were discarded
-On the swimming question, I wasn't sure how to answer for this stage of their life.   8 are sitting upright on the gravel, and another is on it's side.  It's probably dead, but I'll check in the morning to verify.",NA
-Edward Harris Jr. MS,2021-12-07T22:05:00Z,2021-12-07,NA,"Water is clear, pump functioning well",29,29,0,0,4,13,NA,NA
-King High School,2021-12-07T10:34:59Z,2021-12-07,NA,"Water is clear, pump functioning well",35,0,0,0,0,11,Fish hatched 12/3/2021; all are currently alevin,NA
-Edward Harris Jr. MS,2021-12-09T15:29:59Z,2021-12-09,NA,"Water is clear, pump functioning well",29,29,2,0,4,13,"the 2 alevin that are on their sides attempt to right themselves, but slowly fall back onto their sides",NA
-Edward Harris Jr. MS,2021-12-14T11:15:00Z,2021-12-14,NA,"Water is clear, pump functioning well",29,29,0,0,4,13,NA,NA
-King High School,2021-12-09T10:34:59Z,2021-12-09,NA,"Water is clear, pump functioning well",35,0,0,0,0,11,NA,NA
-King High School,2021-12-14T10:34:59Z,2021-12-14,NA,"Water is clear, pump functioning well",35,0,0,0,0,11,NA,NA
-Edward Harris Jr. MS,2021-12-17T10:59:59Z,2021-12-17,NA,"Water is clear, pump functioning well",30,30,1,0,5,13,all 5 of the dead were eggs that didn't hatch,NA
 Samuel Jackman MS,2021-11-17T07:59:59Z,2021-11-17,NA,"Water is clear, pump functioning well",0,0,0,0,0,12,NA,NA
 Samuel Jackman MS,2021-11-29T07:59:59Z,2021-11-29,NA,"Water is clear, pump functioning well",0,0,0,0,0,12,NA,NA
+Edward Harris Jr. MS,2021-11-30T16:20:00Z,2021-11-30,NA,"Water is clear, pump functioning well",1,0,0,0,2,13,One egg was covered in fuzz when we returned from Thanksgiving break.  Another egg has ruptured,NA
 Samuel Jackman MS,2021-12-01T07:59:59Z,2021-12-01,NA,"Water is clear, pump functioning well",3,0,0,0,0,12,NA,NA
 Samuel Jackman MS,2021-12-02T07:59:59Z,2021-12-02,NA,"Water is clear, pump functioning well",20,0,0,0,5,12,the 5 dead were nonviable eggs that were removed because they had turned opaque white/pink,NA
+Edward Harris Jr. MS,2021-12-02T15:45:00Z,2021-12-02,NA,"Water is clear, pump functioning well",9,9,1,0,4,13,"the 2 dead were both eggs that became fuzzy and were discarded
+On the swimming question, I wasn't sure how to answer for this stage of their life.   8 are sitting upright on the gravel, and another is on it's side.  It's probably dead, but I'll check in the morning to verify.",NA
 Samuel Jackman MS,2021-12-03T07:59:59Z,2021-12-03,NA,"Water is clear, pump functioning well",30,0,0,0,5,12,NA,NA
 Samuel Jackman MS,2021-12-06T07:59:59Z,2021-12-06,NA,"Water is clear, pump functioning well",30,0,0,0,5,12,NA,NA
+King High School,2021-12-07T10:34:59Z,2021-12-07,NA,"Water is clear, pump functioning well",35,0,0,0,0,11,Fish hatched 12/3/2021; all are currently alevin,NA
+Edward Harris Jr. MS,2021-12-07T22:05:00Z,2021-12-07,NA,"Water is clear, pump functioning well",29,29,0,0,4,13,NA,NA
 Samuel Jackman MS,2021-12-08T07:59:59Z,2021-12-08,NA,"Water is clear, pump functioning well",30,0,0,0,5,12,NA,NA
+King High School,2021-12-09T10:34:59Z,2021-12-09,NA,"Water is clear, pump functioning well",35,0,0,0,0,11,NA,NA
+Edward Harris Jr. MS,2021-12-09T15:29:59Z,2021-12-09,NA,"Water is clear, pump functioning well",29,29,2,0,4,13,"the 2 alevin that are on their sides attempt to right themselves, but slowly fall back onto their sides",NA
 Samuel Jackman MS,2021-12-10T07:59:59Z,2021-12-10,NA,"Water is clear, pump functioning well",30,0,0,0,5,12,NA,NA
 Samuel Jackman MS,2021-12-13T07:59:59Z,2021-12-13,NA,"Water is clear, pump functioning well",30,0,0,0,5,12,NA,NA
+King High School,2021-12-14T10:34:59Z,2021-12-14,NA,"Water is clear, pump functioning well",35,0,0,0,0,11,NA,NA
+Edward Harris Jr. MS,2021-12-14T11:15:00Z,2021-12-14,NA,"Water is clear, pump functioning well",29,29,0,0,4,13,NA,NA
 Samuel Jackman MS,2021-12-17T07:59:59Z,2021-12-17,NA,"Water is clear, pump functioning well",30,0,0,0,6,12,The salmon were released before they had reached fry stage due to time constraints (winter break starting).  One of the alevin was deformed and had to be culled before release - I counted this in my total deaths.,NA
+Edward Harris Jr. MS,2021-12-17T10:59:59Z,2021-12-17,NA,"Water is clear, pump functioning well",30,30,1,0,5,13,all 5 of the dead were eggs that didn't hatch,NA
 King High School,2021-12-17T23:30:00Z,2021-12-17,NA,"Water is clear, pump functioning well",35,0,0,0,0,10,NA,NA
 Edward Harris Jr. MS,2021-12-22T09:30:00Z,2021-12-22,NA,"Water is clear, pump functioning well",30,30,8,0,5,13,"Because my school is closed for winter break, and the fish haven't buttoned up yet, I had to bring the tank home.  The water temp is higher because I heat my home at night, where the classroom is only heated during the day.",NA
 Edward Harris Jr. MS,2021-12-25T16:59:59Z,2021-12-25,NA,"Water is clear, pump functioning well",30,14,6,0,5,13,"Water temp is actually 64.  Today is the first day that the 14 are actually swimming.  Previously, they had just been hanging out in the gravel.  But those 14 are full swimmers at this point.  The 6 on their sides are just laying there and breathing.  The remaining 10 are hanging out in the gravel, belly down and normal looking.",NA
 Edward Harris Jr. MS,2021-12-29T15:00:00Z,2021-12-29,NA,"Water is clear, pump functioning well",30,22,1,0,7,13,"Actual water temp is 62.  As they become more active, I'm beginning to question the way I was previously reporting my data.  Of the 28 fish that are still alive, 1 is laying on it's side in the gravel.  5 are sitting upright in the gravel, but not swimming, and the remaining 22 are actively swimming around the tank.  
 Should there be a question in the form that says something like, ""how many fish have hatched, and sitting on the gravel but not actively swimming?"", as a way to differentiate between those two stages?  Or do I only report the ones ""swimming up"" as the ones who have moved out of the gravel?  If that's the case, my data needs to be revised.","The surviving fish are not fully buttoned up yet.  If new eggs are being delivered next week, I will need to let these fish go in the next couple days.  Is that ok?  Or should I hold on to them until they are a little larger, and pass on the new eggs?"
 Edward Harris Jr. MS,2022-01-01T10:00:00Z,2022-01-01,NA,"Water is clear, pump functioning well",30,27,0,0,8,13,NA,NA
-Edward Harris Jr. MS,2022-01-04T13:59:59Z,2022-01-04,NA,"Water is clear, pump functioning well",35,0,0,0,0,18,"My permit says I received 35 eggs, but I'm counting 50 in the tank.  
-39 have hatched so far, but I can't put a number larger than 30 for the question about how many have hatched",NA
-Red Bluff High School,2022-01-05T13:36:00Z,2022-01-05,NA,"Water is clear, pump functioning well",36,0,1,0,0,2,NA,NA
-Red Bluff High School,2022-01-05T13:40:00Z,2022-01-05,NA,"Water is clear, pump functioning well",50,0,0,0,0,1,NA,NA
-Willows High School,2022-01-05T15:10:59Z,2022-01-05,NA,"Water is clear, pump functioning well",45,0,0,0,0,8,The fish are gathering in one location of the tank: the bottom left & right corners in a huge clump.,What do we feed the fish and when do we start feeding them?
-Pierce High School,2022-01-04T17:46:00Z,2022-01-04,NA,"Water is clear, pump functioning well",41,0,0,0,0,5,NA,NA
-Pierce High School,2022-01-04T17:50:00Z,2022-01-04,NA,"Water is clear, pump functioning well",43,0,0,0,0,6,NA,NA
-Willows High School,2022-01-04T14:06:59Z,2022-01-04,NA,"Water is clear, pump functioning well",41,0,41,0,0,7,NA,NA
-Willows High School,2022-01-07T10:14:59Z,2022-01-07,NA,"Water is clear, pump functioning well",44,1,42,1,0,7,NA,NA
-Edward Harris Jr. MS,2022-01-07T13:30:00Z,2022-01-07,NA,"Water is clear, pump functioning well",48,0,0,0,1,18,"I initially thought there were 50 eggs, but I think there were only 49.  One ruptured, and I have only been able to count 48 alevin",NA
-Red Bluff High School,2022-01-07T14:35:00Z,2022-01-07,NA,"Water is clear, pump functioning well",39,0,0,0,0,2,NA,NA
-Red Bluff High School,2022-01-07T14:40:00Z,2022-01-07,NA,"Water is clear, pump functioning well",50,0,0,0,0,1,NA,NA
-Willows High School,2022-01-07T02:56:00Z,2022-01-07,NA,"Water is clear, pump functioning well",45,0,0,0,0,8,NA,NA
-Orland High School,2022-01-04T08:44:59Z,2022-01-04,NA,"Water is clear, pump functioning well",24,0,0,0,0,3,NA,NA
-Orland High School,2022-01-04T08:47:00Z,2022-01-04,NA,"Water is clear, pump functioning well",38,0,0,0,0,4,NA,NA
-Orland High School,2022-01-06T08:40:00Z,2022-01-06,NA,"Water is clear, pump functioning well",50,0,0,0,1,3,NA,NA
-Orland High School,2022-01-06T08:40:00Z,2022-01-06,NA,"Water is clear, pump functioning well",47,0,0,0,0,4,NA,NA
-Orland High School,2022-01-10T08:05:00Z,2022-01-10,NA,Water is clouding,50,0,0,0,1,3,We removed the one dead fish today.,I just want to verify that we are waiting for the yolk to reduce prior to feeding. And if we do need to feed what will we feed?
-Orland High School,2022-01-10T08:05:00Z,2022-01-10,NA,"Water is clear, pump functioning well",47,0,0,0,0,4,NA,NA
-Red Bluff High School,2022-01-11T10:00:00Z,2022-01-11,NA,"Water is clear, pump functioning well",50,0,0,0,0,1,Most alevins are clumped together and are down on the rocks. A few alevins are spaced farther away from the group. Not much movement of the fish.,NA
-Red Bluff High School,2022-01-11T10:00:00Z,2022-01-11,NA,"Water is clear, pump functioning well",41,0,0,0,0,2,Most alevins are clumped together and are down on the rocks. A few alevins are spaced farther away from the group. Not much movement of the fish.,NA
-Edward Harris Jr. MS,2022-01-11T13:10:00Z,2022-01-11,NA,"Water is clear, pump functioning well",48,0,0,0,1,18,NA,NA
-Samuel Jackman MS,2022-01-06T10:50:00Z,2022-01-06,NA,"Water is clear, pump functioning well",35,0,0,0,0,17,NA,NA
-Samuel Jackman MS,2022-01-11T13:59:59Z,2022-01-11,NA,"Water is clear, pump functioning well",35,0,0,0,0,17,NA,NA
-Willows High School,2022-01-11T15:27:00Z,2022-01-11,NA,"Water is clear, pump functioning well",45,1,0,0,0,8,NA,NA
-Willows High School,2022-01-11T12:29:59Z,2022-01-11,NA,"Water is clear, pump functioning well",44,0,5,0,0,7,no,no
-Willows High School,2022-01-12T09:29:59Z,2022-01-12,NA,"Water is clear, pump functioning well",44,0,7,3,0,7,no,no
-King High School,2022-01-12T10:40:00Z,2022-01-12,NA,"Water is clear, pump functioning well",35,0,0,0,1,16,NA,NA
-Edward Harris Jr. MS,2022-01-14T12:29:59Z,2022-01-14,NA,"Water is clear, pump functioning well",48,0,0,0,2,18,NA,NA
-Pierce High School,2022-01-12T15:45:00Z,2022-01-12,NA,"Water is clear, pump functioning well",44,0,0,0,0,5,"For the chillers, I have had to set the temperature on the chillers to 46 or 47 degrees (on tank 5 and 6) to keep the total temperature of the tanks down at 48 degrees.",Not at the moment!
-Pierce High School,2022-01-12T15:25:00Z,2022-01-12,NA,"Water is clear, pump functioning well",47,0,0,0,0,6,"For the chillers, I have had to set the temperature on the chillers to 46 or 47 degrees (on tank 5 and 6) to keep the total temperature of the tanks down at 48 degrees.",NA
-Pierce High School,2022-01-14T15:15:00Z,2022-01-14,NA,"Water is clear, pump functioning well",44,0,0,0,0,5,NA,NA
-King High School,2022-01-17T09:00:00Z,2022-01-17,NA,"Water is clear, pump functioning well",35,0,0,0,1,11,NA,NA
-Willows High School,2022-01-18T09:15:00Z,2022-01-18,NA,"Water is clear, pump functioning well",44,7,13,3,0,7,NA,NA
-Edward Harris Jr. MS,2022-01-18T16:00:00Z,2022-01-18,NA,"Water is clear, pump functioning well",48,4,10,0,2,18,4 fish are attempting to swim up.  those 4 are fine.  10 of the alevin sitting in the gravel are laying on their sides.,NA
-Red Bluff High School,2022-01-14T09:00:00Z,2022-01-14,NA,"Water is clear, pump functioning well",50,0,0,0,0,1,NA,NA
-Red Bluff High School,2022-01-14T09:00:00Z,2022-01-14,NA,"Water is clear, pump functioning well",41,0,0,0,0,2,NA,NA
-Red Bluff High School,2022-01-18T10:00:00Z,2022-01-18,NA,"Water is clear, pump functioning well",50,15,0,0,0,1,NA,NA
-Red Bluff High School,2022-01-18T10:00:00Z,2022-01-18,NA,"Water is clear, pump functioning well",41,10,0,0,0,2,NA,NA
-Edward Harris Jr. MS,2022-01-20T13:59:59Z,2022-01-20,NA,"Water is clear, but unsure of pump functioning",48,4,20,0,7,18,"5 fish died in the last day.  twice as many are laying on their side today, as there were 2 days ago.  The ones on their sides are breathing really hard; like they're panting.  The pump is working fine, but maybe the charcoal in the upper part is clogged?  There's not a ton of bubbles making it out of the unit.  I pulled the charcoal filter off the end to try to get them as much oxygen as possible, and I'll take it home and try to get it cleaned out.  Can I refill it with charcoal that I have for my goldfish tank?",NA
-Willows High School,2022-01-20T10:37:00Z,2022-01-20,NA,"Water is clear, pump functioning well",45,1,6,0,0,8,NA,NA
-Willows High School,2022-01-24T10:37:00Z,2022-01-24,NA,"Water is clear, pump functioning well",45,17,6,1,0,8,NA,NA
-Willows High School,2022-01-24T08:15:00Z,2022-01-24,NA,"Water is clear, pump functioning well",44,5,7,1,1,7,NA,NA
-Pierce High School,2022-01-18T07:59:59Z,2022-01-18,NA,"Water is clear, pump functioning well",47,7,0,0,0,5,NA,NA
-Pierce High School,2022-01-18T08:14:00Z,2022-01-18,NA,"Water is clear, pump functioning well",47,0,0,0,0,6,NA,NA
-Pierce High School,2022-01-21T08:12:59Z,2022-01-21,NA,"Water is clear, pump functioning well",44,4,5,0,0,5,NA,NA
-Pierce High School,2022-01-21T08:12:00Z,2022-01-21,NA,"Water is clear, pump functioning well",47,0,2,0,0,6,NA,NA
-Pierce High School,2022-01-24T08:16:00Z,2022-01-24,NA,"Water is clear, pump functioning well",44,6,8,0,0,5,NA,NA
-Pierce High School,2022-01-24T08:15:00Z,2022-01-24,NA,"Water is clear, pump functioning well",47,0,6,0,0,6,NA,NA
-King High School,2022-01-18T10:30:00Z,2022-01-18,NA,"Water is clear, pump functioning well",34,0,0,0,1,16,NA,NA
-King High School,2022-01-20T10:34:59Z,2022-01-20,NA,"Water is clear, pump functioning well",34,0,0,0,1,16,NA,NA
-King High School,2022-01-25T10:34:59Z,2022-01-25,NA,"Water is clear, pump functioning well",35,0,0,0,1,16,NA,NA
-Willows High School,2022-01-25T12:15:00Z,2022-01-25,NA,"Water is clear, pump functioning well",44,4,38,1,1,7,NA,NA
-Edward Harris Jr. MS,2022-01-26T10:59:59Z,2022-01-26,NA,"Water is clear, pump functioning well",48,10,9,0,16,18,NA,NA
-Samuel Jackman MS,2022-01-24T07:30:00Z,2022-01-24,NA,"Water is clear, pump functioning well",35,0,0,0,0,17,NA,NA
-Samuel Jackman MS,2022-01-26T13:00:00Z,2022-01-26,NA,Water is clouding,35,3,0,0,0,17,NA,NA
-Samuel Jackman MS,2022-01-27T15:00:00Z,2022-01-27,NA,"Water is clear, pump functioning well",35,2,0,0,0,17,"Water was clouding and smelly, so I did a 5 gallon change.  I also had large river rocks in the tank, but I removed them to make observations more effective and easy.  We were worried that we had lost several fish, but after removing the large rocks we could see the rest of alevin living and borrowed in the gravel under the large rocks.  The fish are too hidden in the gravel to count, but I do not see any dead fish.",NA
-Red Bluff High School,2022-01-25T07:59:59Z,2022-01-25,NA,"Water is clear, pump functioning well",50,4,0,0,0,1,Fish seem to move towards bottom of tank when the cover is removed.,NA
-Red Bluff High School,2022-01-25T07:59:59Z,2022-01-25,NA,"Water is clear, pump functioning well",41,5,0,0,0,2,We see two alevin that are sharing one egg sac. Both are alive but very small compared to the others.,NA
-Red Bluff High School,2022-01-28T08:30:00Z,2022-01-28,NA,"Water is clear, pump functioning well",50,12,0,0,0,1,"The fish are a lot more consistently active and swimming. Before, the fish would swim and then settle back down on the bottom. Now they stay swimming",NA
-Red Bluff High School,2022-01-28T08:15:00Z,2022-01-28,NA,"Water is clear, pump functioning well",41,14,0,0,0,2,Fish are clumped together in one corner. The fish that are swimming are staying directly above the other group of fish in the gravel.,NA
-Edward Harris Jr. MS,2022-01-28T13:40:00Z,2022-01-28,NA,"Water is clear, pump functioning well",48,14,4,0,18,18,NA,NA
 Red Bluff High School,2022-01-03T12:44:00Z,2022-01-03,NA,NA,1,0,0,0,0,1,NA,NA
 Red Bluff High School,2022-01-03T12:44:00Z,2022-01-03,NA,NA,30,0,0,0,0,2,NA,NA
 Orland High School,2022-01-03T12:44:00Z,2022-01-03,NA,NA,1,0,0,0,0,3,NA,NA
@@ -96,6 +34,101 @@ Pierce High School,2022-01-03T12:44:00Z,2022-01-03,NA,NA,28,0,0,0,0,5,NA,NA
 Pierce High School,2022-01-03T12:44:00Z,2022-01-03,NA,NA,17,0,0,0,0,6,NA,NA
 Willows High School,2022-01-03T12:44:00Z,2022-01-03,NA,NA,33,0,0,0,0,7,NA,NA
 Willows High School,2022-01-03T12:44:00Z,2022-01-03,NA,NA,28,0,0,0,0,8,NA,NA
+Orland High School,2022-01-04T08:44:59Z,2022-01-04,NA,"Water is clear, pump functioning well",24,0,0,0,0,3,NA,NA
+Orland High School,2022-01-04T08:47:00Z,2022-01-04,NA,"Water is clear, pump functioning well",38,0,0,0,0,4,NA,NA
 King High School,2022-01-04T12:44:00Z,2022-01-04,NA,NA,35,0,0,0,0,16,NA,NA
 Samuel Jackman MS,2022-01-04T12:44:00Z,2022-01-04,NA,NA,35,0,0,0,0,17,NA,NA
 Edward Harris Jr. MS,2022-01-04T12:44:00Z,2022-01-04,NA,NA,35,0,0,0,0,18,NA,NA
+Edward Harris Jr. MS,2022-01-04T13:59:59Z,2022-01-04,NA,"Water is clear, pump functioning well",35,0,0,0,0,18,"My permit says I received 35 eggs, but I'm counting 50 in the tank.  
+39 have hatched so far, but I can't put a number larger than 30 for the question about how many have hatched",NA
+Willows High School,2022-01-04T14:06:59Z,2022-01-04,NA,"Water is clear, pump functioning well",41,0,41,0,0,7,NA,NA
+Pierce High School,2022-01-04T17:46:00Z,2022-01-04,NA,"Water is clear, pump functioning well",41,0,0,0,0,5,NA,NA
+Pierce High School,2022-01-04T17:50:00Z,2022-01-04,NA,"Water is clear, pump functioning well",43,0,0,0,0,6,NA,NA
+Red Bluff High School,2022-01-05T13:36:00Z,2022-01-05,NA,"Water is clear, pump functioning well",36,0,1,0,0,2,NA,NA
+Red Bluff High School,2022-01-05T13:40:00Z,2022-01-05,NA,"Water is clear, pump functioning well",50,0,0,0,0,1,NA,NA
+Willows High School,2022-01-05T15:10:59Z,2022-01-05,NA,"Water is clear, pump functioning well",45,0,0,0,0,8,The fish are gathering in one location of the tank: the bottom left & right corners in a huge clump.,What do we feed the fish and when do we start feeding them?
+Orland High School,2022-01-06T08:40:00Z,2022-01-06,NA,"Water is clear, pump functioning well",50,0,0,0,1,3,NA,NA
+Orland High School,2022-01-06T08:40:00Z,2022-01-06,NA,"Water is clear, pump functioning well",47,0,0,0,0,4,NA,NA
+Samuel Jackman MS,2022-01-06T10:50:00Z,2022-01-06,NA,"Water is clear, pump functioning well",35,0,0,0,0,17,NA,NA
+Willows High School,2022-01-07T02:56:00Z,2022-01-07,NA,"Water is clear, pump functioning well",45,0,0,0,0,8,NA,NA
+Willows High School,2022-01-07T10:14:59Z,2022-01-07,NA,"Water is clear, pump functioning well",44,1,42,1,0,7,NA,NA
+Edward Harris Jr. MS,2022-01-07T13:30:00Z,2022-01-07,NA,"Water is clear, pump functioning well",48,0,0,0,1,18,"I initially thought there were 50 eggs, but I think there were only 49.  One ruptured, and I have only been able to count 48 alevin",NA
+Red Bluff High School,2022-01-07T14:35:00Z,2022-01-07,NA,"Water is clear, pump functioning well",39,0,0,0,0,2,NA,NA
+Red Bluff High School,2022-01-07T14:40:00Z,2022-01-07,NA,"Water is clear, pump functioning well",50,0,0,0,0,1,NA,NA
+Orland High School,2022-01-10T08:05:00Z,2022-01-10,NA,Water is clouding,50,0,0,0,1,3,We removed the one dead fish today.,I just want to verify that we are waiting for the yolk to reduce prior to feeding. And if we do need to feed what will we feed?
+Orland High School,2022-01-10T08:05:00Z,2022-01-10,NA,"Water is clear, pump functioning well",47,0,0,0,0,4,NA,NA
+Red Bluff High School,2022-01-11T10:00:00Z,2022-01-11,NA,"Water is clear, pump functioning well",50,0,0,0,0,1,Most alevins are clumped together and are down on the rocks. A few alevins are spaced farther away from the group. Not much movement of the fish.,NA
+Red Bluff High School,2022-01-11T10:00:00Z,2022-01-11,NA,"Water is clear, pump functioning well",41,0,0,0,0,2,Most alevins are clumped together and are down on the rocks. A few alevins are spaced farther away from the group. Not much movement of the fish.,NA
+Willows High School,2022-01-11T12:29:59Z,2022-01-11,NA,"Water is clear, pump functioning well",44,0,5,0,0,7,no,no
+Edward Harris Jr. MS,2022-01-11T13:10:00Z,2022-01-11,NA,"Water is clear, pump functioning well",48,0,0,0,1,18,NA,NA
+Samuel Jackman MS,2022-01-11T13:59:59Z,2022-01-11,NA,"Water is clear, pump functioning well",35,0,0,0,0,17,NA,NA
+Willows High School,2022-01-11T15:27:00Z,2022-01-11,NA,"Water is clear, pump functioning well",45,1,0,0,0,8,NA,NA
+Orland High School,2022-01-12T08:02:00Z,2022-01-12,NA,"Water is clear, pump functioning well",50,0,0,0,1,3,NA,NA
+Orland High School,2022-01-12T08:03:00Z,2022-01-12,NA,"Water is clear, pump functioning well",47,0,0,0,0,4,NA,NA
+Willows High School,2022-01-12T09:29:59Z,2022-01-12,NA,"Water is clear, pump functioning well",44,0,7,3,0,7,no,no
+King High School,2022-01-12T10:40:00Z,2022-01-12,NA,"Water is clear, pump functioning well",35,0,0,0,1,16,NA,NA
+Pierce High School,2022-01-12T15:25:00Z,2022-01-12,NA,"Water is clear, pump functioning well",47,0,0,0,0,6,"For the chillers, I have had to set the temperature on the chillers to 46 or 47 degrees (on tank 5 and 6) to keep the total temperature of the tanks down at 48 degrees.",NA
+Pierce High School,2022-01-12T15:45:00Z,2022-01-12,NA,"Water is clear, pump functioning well",44,0,0,0,0,5,"For the chillers, I have had to set the temperature on the chillers to 46 or 47 degrees (on tank 5 and 6) to keep the total temperature of the tanks down at 48 degrees.",Not at the moment!
+Red Bluff High School,2022-01-14T09:00:00Z,2022-01-14,NA,"Water is clear, pump functioning well",50,0,0,0,0,1,NA,NA
+Red Bluff High School,2022-01-14T09:00:00Z,2022-01-14,NA,"Water is clear, pump functioning well",41,0,0,0,0,2,NA,NA
+Edward Harris Jr. MS,2022-01-14T12:29:59Z,2022-01-14,NA,"Water is clear, pump functioning well",48,0,0,0,2,18,NA,NA
+Pierce High School,2022-01-14T15:15:00Z,2022-01-14,NA,"Water is clear, pump functioning well",44,0,0,0,0,5,NA,NA
+King High School,2022-01-17T09:00:00Z,2022-01-17,NA,"Water is clear, pump functioning well",35,0,0,0,1,11,NA,NA
+Orland High School,2022-01-18T07:59:00Z,2022-01-18,NA,"Water is clear, pump functioning well",50,0,0,0,1,3,NA,NA
+Pierce High School,2022-01-18T07:59:59Z,2022-01-18,NA,"Water is clear, pump functioning well",47,7,0,0,0,5,NA,NA
+Orland High School,2022-01-18T08:01:00Z,2022-01-18,NA,"Water is clear, pump functioning well",47,0,0,0,0,4,NA,NA
+Pierce High School,2022-01-18T08:14:00Z,2022-01-18,NA,"Water is clear, pump functioning well",47,0,0,0,0,6,NA,NA
+Willows High School,2022-01-18T09:15:00Z,2022-01-18,NA,"Water is clear, pump functioning well",44,7,13,3,0,7,NA,NA
+Red Bluff High School,2022-01-18T10:00:00Z,2022-01-18,NA,"Water is clear, pump functioning well",50,15,0,0,0,1,NA,NA
+Red Bluff High School,2022-01-18T10:00:00Z,2022-01-18,NA,"Water is clear, pump functioning well",41,10,0,0,0,2,NA,NA
+King High School,2022-01-18T10:30:00Z,2022-01-18,NA,"Water is clear, pump functioning well",34,0,0,0,1,16,NA,NA
+Edward Harris Jr. MS,2022-01-18T16:00:00Z,2022-01-18,NA,"Water is clear, pump functioning well",48,4,10,0,2,18,4 fish are attempting to swim up.  those 4 are fine.  10 of the alevin sitting in the gravel are laying on their sides.,NA
+Orland High School,2022-01-20T08:05:00Z,2022-01-20,NA,"Water is clear, pump functioning well",47,0,0,0,0,4,NA,NA
+Orland High School,2022-01-20T08:10:00Z,2022-01-20,NA,"Water is clear, pump functioning well",50,0,0,0,1,3,NA,NA
+King High School,2022-01-20T10:34:59Z,2022-01-20,NA,"Water is clear, pump functioning well",34,0,0,0,1,16,NA,NA
+Willows High School,2022-01-20T10:37:00Z,2022-01-20,NA,"Water is clear, pump functioning well",45,1,6,0,0,8,NA,NA
+Edward Harris Jr. MS,2022-01-20T13:59:59Z,2022-01-20,NA,"Water is clear, but unsure of pump functioning",48,4,20,0,7,18,"5 fish died in the last day.  twice as many are laying on their side today, as there were 2 days ago.  The ones on their sides are breathing really hard; like they're panting.  The pump is working fine, but maybe the charcoal in the upper part is clogged?  There's not a ton of bubbles making it out of the unit.  I pulled the charcoal filter off the end to try to get them as much oxygen as possible, and I'll take it home and try to get it cleaned out.  Can I refill it with charcoal that I have for my goldfish tank?",NA
+Pierce High School,2022-01-21T08:12:00Z,2022-01-21,NA,"Water is clear, pump functioning well",47,0,2,0,0,6,NA,NA
+Pierce High School,2022-01-21T08:12:59Z,2022-01-21,NA,"Water is clear, pump functioning well",44,4,5,0,0,5,NA,NA
+Samuel Jackman MS,2022-01-24T07:30:00Z,2022-01-24,NA,"Water is clear, pump functioning well",35,0,0,0,0,17,NA,NA
+Orland High School,2022-01-24T08:06:00Z,2022-01-24,NA,"Water is clear, pump functioning well",47,0,0,0,0,4,NA,NA
+Orland High School,2022-01-24T08:10:00Z,2022-01-24,NA,"Water is clear, pump functioning well",50,0,0,0,1,3,NA,NA
+Willows High School,2022-01-24T08:15:00Z,2022-01-24,NA,"Water is clear, pump functioning well",44,5,7,1,1,7,NA,NA
+Pierce High School,2022-01-24T08:15:00Z,2022-01-24,NA,"Water is clear, pump functioning well",47,0,6,0,0,6,NA,NA
+Pierce High School,2022-01-24T08:16:00Z,2022-01-24,NA,"Water is clear, pump functioning well",44,6,8,0,0,5,NA,NA
+Willows High School,2022-01-24T10:11:00Z,2022-01-24,NA,"Water is clear, pump functioning well",45,17,6,1,0,8,NA,NA
+Willows High School,2022-01-24T10:37:00Z,2022-01-24,NA,"Water is clear, pump functioning well",45,17,6,1,0,8,NA,NA
+Red Bluff High School,2022-01-25T07:59:59Z,2022-01-25,NA,"Water is clear, pump functioning well",50,4,0,0,0,1,Fish seem to move towards bottom of tank when the cover is removed.,NA
+Red Bluff High School,2022-01-25T07:59:59Z,2022-01-25,NA,"Water is clear, pump functioning well",41,5,0,0,0,2,We see two alevin that are sharing one egg sac. Both are alive but very small compared to the others.,NA
+King High School,2022-01-25T10:34:59Z,2022-01-25,NA,"Water is clear, pump functioning well",35,0,0,0,1,16,NA,NA
+Willows High School,2022-01-25T12:15:00Z,2022-01-25,NA,"Water is clear, pump functioning well",44,4,38,1,1,7,NA,NA
+Edward Harris Jr. MS,2022-01-26T10:59:59Z,2022-01-26,NA,"Water is clear, pump functioning well",48,10,9,0,16,18,NA,NA
+Samuel Jackman MS,2022-01-26T13:00:00Z,2022-01-26,NA,Water is clouding,35,3,0,0,0,17,NA,NA
+Pierce High School,2022-01-27T09:12:00Z,2022-01-27,NA,"Water is clear, pump functioning well",44,0,2,0,0,5,NA,NA
+Pierce High School,2022-01-27T09:14:00Z,2022-01-27,NA,"Water is clear, pump functioning well",47,0,1,0,0,6,The fish in this tank had some issue that were fixed during this observation. About half of the fish wedged themselves behind the tube that lead to the chiller because of a shallow dip in the pebbles there. Fish were gently moved and the hole was filled in. It was noticed that the fish in tank 6 seem to have more yolk still than those from tank 5 and this may be due to them piling up in the corner with each other for an extended period of time.,NA
+Samuel Jackman MS,2022-01-27T15:00:00Z,2022-01-27,NA,"Water is clear, pump functioning well",35,2,0,0,0,17,"Water was clouding and smelly, so I did a 5 gallon change.  I also had large river rocks in the tank, but I removed them to make observations more effective and easy.  We were worried that we had lost several fish, but after removing the large rocks we could see the rest of alevin living and borrowed in the gravel under the large rocks.  The fish are too hidden in the gravel to count, but I do not see any dead fish.",NA
+Orland High School,2022-01-28T08:05:00Z,2022-01-28,NA,"Water is clear, pump functioning well",50,16,0,0,1,3,NA,NA
+Orland High School,2022-01-28T08:06:00Z,2022-01-28,NA,"Water is clear, pump functioning well",47,5,0,0,0,4,They are starting to school and all swim in the same spot on the gravel.,NA
+Red Bluff High School,2022-01-28T08:15:00Z,2022-01-28,NA,"Water is clear, pump functioning well",41,14,0,0,0,2,Fish are clumped together in one corner. The fish that are swimming are staying directly above the other group of fish in the gravel.,NA
+Red Bluff High School,2022-01-28T08:30:00Z,2022-01-28,NA,"Water is clear, pump functioning well",50,12,0,0,0,1,"The fish are a lot more consistently active and swimming. Before, the fish would swim and then settle back down on the bottom. Now they stay swimming",NA
+King High School,2022-01-28T10:34:59Z,2022-01-28,NA,"Water is clear, pump functioning well",34,34,0,0,1,16,NA,NA
+Samuel Jackman MS,2022-01-28T11:30:00Z,2022-01-28,NA,"Water is clear, pump functioning well",35,17,0,0,0,17,NA,NA
+Edward Harris Jr. MS,2022-01-28T13:40:00Z,2022-01-28,NA,"Water is clear, pump functioning well",48,14,4,0,18,18,NA,NA
+Willows High School,2022-01-28T15:00:00Z,2022-01-28,NA,"Water is clear, pump functioning well",45,20,0,0,0,8,Most of the finish seem way more active than before! Our students love it!,NA
+Orland High School,2022-01-31T08:47:00Z,2022-01-31,NA,"Water is clear, pump functioning well",50,46,0,0,1,3,"The fish are swimming in the current fairly parallel to the tank floor, not necessarily swimming up. But that was our best choice.",NA
+Orland High School,2022-01-31T08:48:00Z,2022-01-31,NA,"Water is clear, pump functioning well",47,12,0,0,0,4,They are no longer schooling and are all swimming in random directions. This tank has different behaviors than the other tank (3).,NA
+Willows High School,2022-01-31T10:08:00Z,2022-01-31,NA,"Water is clear, pump functioning well",44,33,9,0,2,7,NA,NA
+King High School,2022-02-01T10:34:59Z,2022-02-01,NA,"Water is clear, pump functioning well",34,34,0,0,1,16,NA,NA
+Edward Harris Jr. MS,2022-02-01T16:00:00Z,2022-02-01,NA,"Water is clear, pump functioning well",48,15,2,0,28,18,NA,NA
+Samuel Jackman MS,2022-02-02T07:30:00Z,2022-02-02,NA,"Water is clear, pump functioning well",35,35,0,0,0,17,NA,NA
+Willows High School,2022-02-02T07:45:00Z,2022-02-02,NA,"Water is clear, pump functioning well",45,43,0,0,0,8,This morning six fish were on the left side of the tank and the rest were on the right side of the tank. Both groups were staring at each other. There’s one fish that is laying on its side; it looks like it’s still alive but might not make it. I’m rooting for it to live!,NA
+Red Bluff High School,2022-02-02T09:00:00Z,2022-02-02,NA,"Water is clear, pump functioning well",50,49,0,0,0,1,NA,NA
+Red Bluff High School,2022-02-02T09:00:00Z,2022-02-02,NA,"Water is clear, pump functioning well",41,38,3,0,0,2,NA,NA
+Orland High School,2022-02-02T09:16:59Z,2022-02-02,NA,"Water is clear, pump functioning well",47,47,0,0,0,4,The are more schooling and swimming in the current than swimming up.,NA
+Orland High School,2022-02-02T09:19:00Z,2022-02-02,NA,"Water is clear, pump functioning well",50,49,0,0,1,3,The are more schooling and swimming in the current than swimming up.,NA
+Willows High School,2022-02-02T12:16:59Z,2022-02-02,NA,"Water is clear, pump functioning well",44,39,3,0,2,7,NA,NA
+King High School,2022-02-03T10:34:59Z,2022-02-03,NA,"Water is clear, pump functioning well",35,33,0,0,2,16,NA,NA
+Red Bluff High School,2022-02-04T13:00:00Z,2022-02-04,NA,"Water is clear, pump functioning well",50,50,0,0,0,1,NA,NA
+Red Bluff High School,2022-02-04T13:59:59Z,2022-02-04,NA,"Water is clear, pump functioning well",41,39,0,0,0,2,Conjoined fish are still alive but unable to swim.,NA
+Edward Harris Jr. MS,2022-02-04T14:30:00Z,2022-02-04,NA,"Water is clear, pump functioning well",48,16,0,0,31,18,NA,NA
+Samuel Jackman MS,2022-02-04T15:35:00Z,2022-02-04,NA,"Water is clear, pump functioning well",35,35,35,0,0,17,NA,NA
