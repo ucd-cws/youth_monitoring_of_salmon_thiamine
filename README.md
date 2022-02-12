@@ -29,11 +29,11 @@ For a current snapshot of what things look like, see below! Again, these can be 
 __*updated 2021-02-04*__
 
 
-![](figures/summary_2022_eggs_hatched_updated_2022-02-04.png)
+![](figures/summary_2022_eggs_hatched_updated_2022-02-11.png)
 
-![](figures/summary_2022_egg_status_hatched_updated_2022-02-04.png)
+![](figures/summary_2022_egg_status_hatched_updated_2022-02-11.png)
 
-![](figures/summary_2022_eggs_hatched_over_time_updated_2022-02-04.png)
+![](figures/summary_2022_eggs_hatched_over_time_updated_2022-02-11.png)
 
 ### Open Source and Accessible
 
