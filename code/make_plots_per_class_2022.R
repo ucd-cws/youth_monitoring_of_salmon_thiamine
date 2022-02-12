@@ -125,20 +125,20 @@ g1b <- ggplot() +
   geom_ribbon(data=df_status_prop %>%
                 filter(status2 %in% c("Hatched", "Unhatched")),
            aes(x=date, ymax=prop, ymin=0, fill=status2),
-           show.legend=TRUE, alpha=0.7) +
+           show.legend=TRUE, alpha=0.5) +
   geom_line(data=df_status_prop %>%
               filter(status2 %in% c("Hatched", "Unhatched")),
               aes(x=date, y=prop, color=status2),
-              show.legend=TRUE, lwd=1.7) +
+              show.legend=TRUE, lwd=0.7) +
   geom_point(data=df_status_prop %>%
                filter(status2 %in% c("Hatched", "Unhatched")),
              aes(x=date, y=prop, fill=status2),
-             show.legend=TRUE, alpha=0.7, pch=21) +
+             show.legend=TRUE, alpha=0.9, pch=21) +
   # only dead
   geom_line(data=df_status_prop %>%
               filter(status2 %in% c("Dead")),
             aes(x=date, y=prop, color=status2),
-            show.legend=FALSE, alpha=0.9, lwd=0.6, lty=4) +
+            show.legend=FALSE, alpha=0.9, lwd=1.3, lty=1) +
   scale_y_continuous(labels = scales::percent_format(scale = 100)) +
   theme_cowplot() +
   scale_x_date(date_labels = "%m-%d") +
@@ -172,11 +172,11 @@ df_filt <- df_status_prop %>%
 # now plot
 g2 <- ggplot() +
   # hatched
-  geom_line(data=df_filt %>% filter(status2 %in% c("Hatched", "Unhatched")),
-            aes(x=date, y=prop, group=status2), color="gray40", alpha=0.6) +
-  geom_point(data=df_filt %>% filter(status2 %in% c("Hatched", "Unhatched")),
-             aes(x=date, y=prop, fill=status2),
-             alpha=0.8, pch=21, show.legend=TRUE, size=2.5) +
+  # geom_line(data=df_filt %>% filter(status2 %in% c("Hatched", "Unhatched")),
+  #           aes(x=date, y=prop, group=status2), color="gray40", alpha=0.6) +
+  # geom_point(data=df_filt %>% filter(status2 %in% c("Hatched", "Unhatched")),
+  #            aes(x=date, y=prop, fill=status2),
+  #            alpha=0.8, pch=21, show.legend=TRUE, size=2.5) +
 
   # everything else
   geom_line(data=df_filt %>% filter(!status2 %in% c("Hatched", "Unhatched")),
@@ -228,24 +228,34 @@ g2
 
 # eggs hatched
 g3 <- ggplot() +
-  geom_hline(data = df, aes(yintercept = total_egg_count), color="gray", lty=2, lwd=1) +
-  geom_line(data=df, aes(x=date, y=eggs_hatched),
+  geom_hline(data = df, aes(yintercept = total_egg_count), color="purple3", lty=1, lwd=1.7, alpha=0.5) +
+  # dead
+  geom_line(data=df, aes(x=date, y=dead, color="Dead"),
             show.legend=FALSE) +
-  geom_point(data=df, aes(x=date, y=eggs_hatched),
-             show.legend =FALSE) +
-  geom_point(data=df %>% group_by(site, tank_number) %>% filter(date==max(date)), aes(x=date, y=eggs_hatched), pch=21, size=4, fill="maroon") +
+  geom_point(data=df, aes(x=date, y=dead, fill="Dead"),
+            show.legend=TRUE, size=3, pch=23,alpha=0.8) +
+  geom_line(data=df, aes(x=date, y=eggs_hatched, color="Hatched"),
+            show.legend=FALSE) +
+  geom_point(data=df, aes(x=date, y=eggs_hatched, fill="Hatched"),
+             show.legend=TRUE, pch=21, size=2.7) +
+  #geom_point(data=df %>% group_by(site, tank_number) %>% filter(date==max(date)), aes(x=date, y=eggs_hatched), pch=21, size=4, fill="maroon") +
+  scale_fill_manual("Status", breaks=c("Dead", "Hatched"),
+                     values=c("Dead"="black", "Hatched"="forestgreen"))+
+  scale_color_manual("Status", breaks=c("Dead", "Hatched"),
+                    values=c("Dead"="black", "Hatched"="forestgreen"))+
+  guides(color="none", shape="") +
   facet_wrap(tank_number + site ~.) +
-  theme_cowplot() +
+  theme_bw() +
   cowplot::background_grid("y") +
   #scale_x_date(date_labels = "%m-%d-%y") +
   #scale_x_date(date_breaks = "1 week", date_labels = "%m-%d-%y") +
-  labs(subtitle = "Eggs hatched through time (current = maroon)",
+  labs(subtitle = "Eggs hatched through time",
        y="Eggs Hatched", x="",
-       caption = "Gray dashed line = total eggs provided in tank") +
+       caption = "Purple line = total eggs provided in tank") +
   theme(axis.text.x = element_text(angle=90, vjust = 0.5),
-        plot.background = element_rect(fill="white"))
+        plot.background = element_rect(fill="white"),
+        legend.position = c(0.9,0.1))
 g3
-
 
 # Patchwork -----------------------------------------------------------
 

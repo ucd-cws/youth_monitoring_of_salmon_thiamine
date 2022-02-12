@@ -41,7 +41,9 @@ f_import_data <- function(){
   # Tidy Data -----
 
   # drop columns that are comments/notes for now
-  df_select <- df %>% select(site:dead, tank_number, comments, questions)
+  df_select <- df %>% select(site:dead, tank_number,
+                             date_of_release,
+                             number_of_salmon_released, comments, questions)
 
   # Write out Data ------------------------------
   write_csv(df_select, glue("data_clean/clean_salmon_thiamine_data_current.csv"))
