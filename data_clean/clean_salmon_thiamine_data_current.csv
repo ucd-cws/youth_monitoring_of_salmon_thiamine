@@ -41,7 +41,7 @@ Samuel Jackman MS,2022-01-04T12:44:00Z,2022-01-04,NA,NA,35,0,0,0,0,17,NA,NA,NA,N
 Edward Harris Jr. MS,2022-01-04T12:44:00Z,2022-01-04,NA,NA,35,0,0,0,0,18,NA,NA,NA,NA
 Edward Harris Jr. MS,2022-01-04T13:59:59Z,2022-01-04,NA,"Water is clear, pump functioning well",35,0,0,0,0,18,NA,NA,"My permit says I received 35 eggs, but I'm counting 50 in the tank.  
 39 have hatched so far, but I can't put a number larger than 30 for the question about how many have hatched",NA
-Willows High School,2022-01-04T14:06:59Z,2022-01-04,NA,"Water is clear, pump functioning well",41,0,41,0,0,7,NA,NA,NA,NA
+Willows High School,2022-01-04T14:06:59Z,2022-01-04,NA,"Water is clear, pump functioning well",41,0,0,0,0,7,NA,NA,NA,NA
 Pierce High School,2022-01-04T17:46:00Z,2022-01-04,NA,"Water is clear, pump functioning well",41,0,0,0,0,5,NA,NA,NA,NA
 Pierce High School,2022-01-04T17:50:00Z,2022-01-04,NA,"Water is clear, pump functioning well",43,0,0,0,0,6,NA,NA,NA,NA
 Red Bluff High School,2022-01-05T13:36:00Z,2022-01-05,NA,"Water is clear, pump functioning well",36,0,1,0,0,2,NA,NA,NA,NA
@@ -51,7 +51,7 @@ Orland High School,2022-01-06T08:40:00Z,2022-01-06,NA,"Water is clear, pump func
 Orland High School,2022-01-06T08:40:00Z,2022-01-06,NA,"Water is clear, pump functioning well",47,0,0,0,0,4,NA,NA,NA,NA
 Samuel Jackman MS,2022-01-06T10:50:00Z,2022-01-06,NA,"Water is clear, pump functioning well",35,0,0,0,0,17,NA,NA,NA,NA
 Willows High School,2022-01-07T02:56:00Z,2022-01-07,NA,"Water is clear, pump functioning well",45,0,0,0,0,8,NA,NA,NA,NA
-Willows High School,2022-01-07T10:14:59Z,2022-01-07,NA,"Water is clear, pump functioning well",44,1,42,1,0,7,NA,NA,NA,NA
+Willows High School,2022-01-07T10:14:59Z,2022-01-07,NA,"Water is clear, pump functioning well",44,1,2,1,0,7,NA,NA,NA,NA
 Edward Harris Jr. MS,2022-01-07T13:30:00Z,2022-01-07,NA,"Water is clear, pump functioning well",48,0,0,0,1,18,NA,NA,"I initially thought there were 50 eggs, but I think there were only 49.  One ruptured, and I have only been able to count 48 alevin",NA
 Red Bluff High School,2022-01-07T14:35:00Z,2022-01-07,NA,"Water is clear, pump functioning well",39,0,0,0,0,2,NA,NA,NA,NA
 Red Bluff High School,2022-01-07T14:40:00Z,2022-01-07,NA,"Water is clear, pump functioning well",50,0,0,0,0,1,NA,NA,NA,NA
@@ -65,7 +65,7 @@ Samuel Jackman MS,2022-01-11T13:59:59Z,2022-01-11,NA,"Water is clear, pump funct
 Willows High School,2022-01-11T15:27:00Z,2022-01-11,NA,"Water is clear, pump functioning well",45,1,0,0,0,8,NA,NA,NA,NA
 Orland High School,2022-01-12T08:02:00Z,2022-01-12,NA,"Water is clear, pump functioning well",50,0,0,0,1,3,NA,NA,NA,NA
 Orland High School,2022-01-12T08:03:00Z,2022-01-12,NA,"Water is clear, pump functioning well",47,0,0,0,0,4,NA,NA,NA,NA
-Willows High School,2022-01-12T09:29:59Z,2022-01-12,NA,"Water is clear, pump functioning well",44,0,7,3,0,7,NA,NA,no,no
+Willows High School,2022-01-12T09:29:59Z,2022-01-12,NA,"Water is clear, pump functioning well",44,0,2,3,0,7,NA,NA,no,no
 King High School,2022-01-12T10:40:00Z,2022-01-12,NA,"Water is clear, pump functioning well",35,0,0,0,1,16,NA,NA,NA,NA
 Pierce High School,2022-01-12T15:25:00Z,2022-01-12,NA,"Water is clear, pump functioning well",47,0,0,0,0,6,NA,NA,"For the chillers, I have had to set the temperature on the chillers to 46 or 47 degrees (on tank 5 and 6) to keep the total temperature of the tanks down at 48 degrees.",NA
 Pierce High School,2022-01-12T15:45:00Z,2022-01-12,NA,"Water is clear, pump functioning well",44,0,0,0,0,5,NA,NA,"For the chillers, I have had to set the temperature on the chillers to 46 or 47 degrees (on tank 5 and 6) to keep the total temperature of the tanks down at 48 degrees.",Not at the moment!
@@ -78,7 +78,7 @@ Orland High School,2022-01-18T07:59:00Z,2022-01-18,NA,"Water is clear, pump func
 Pierce High School,2022-01-18T07:59:59Z,2022-01-18,NA,"Water is clear, pump functioning well",47,7,0,0,0,5,NA,NA,NA,NA
 Orland High School,2022-01-18T08:01:00Z,2022-01-18,NA,"Water is clear, pump functioning well",47,0,0,0,0,4,NA,NA,NA,NA
 Pierce High School,2022-01-18T08:14:00Z,2022-01-18,NA,"Water is clear, pump functioning well",47,0,0,0,0,6,NA,NA,NA,NA
-Willows High School,2022-01-18T09:15:00Z,2022-01-18,NA,"Water is clear, pump functioning well",44,7,13,3,0,7,NA,NA,NA,NA
+Willows High School,2022-01-18T09:15:00Z,2022-01-18,NA,"Water is clear, pump functioning well",44,7,4,3,0,7,NA,NA,NA,NA
 Red Bluff High School,2022-01-18T10:00:00Z,2022-01-18,NA,"Water is clear, pump functioning well",50,15,0,0,0,1,NA,NA,NA,NA
 Red Bluff High School,2022-01-18T10:00:00Z,2022-01-18,NA,"Water is clear, pump functioning well",41,10,0,0,0,2,NA,NA,NA,NA
 King High School,2022-01-18T10:30:00Z,2022-01-18,NA,"Water is clear, pump functioning well",34,0,0,0,1,16,NA,NA,NA,NA
@@ -93,7 +93,7 @@ Pierce High School,2022-01-21T08:12:59Z,2022-01-21,NA,"Water is clear, pump func
 Samuel Jackman MS,2022-01-24T07:30:00Z,2022-01-24,NA,"Water is clear, pump functioning well",35,0,0,0,0,17,NA,NA,NA,NA
 Orland High School,2022-01-24T08:06:00Z,2022-01-24,NA,"Water is clear, pump functioning well",47,0,0,0,0,4,NA,NA,NA,NA
 Orland High School,2022-01-24T08:10:00Z,2022-01-24,NA,"Water is clear, pump functioning well",50,0,0,0,1,3,NA,NA,NA,NA
-Willows High School,2022-01-24T08:15:00Z,2022-01-24,NA,"Water is clear, pump functioning well",44,5,7,1,1,7,NA,NA,NA,NA
+Willows High School,2022-01-24T08:15:00Z,2022-01-24,NA,"Water is clear, pump functioning well",44,5,3,1,1,7,NA,NA,NA,NA
 Pierce High School,2022-01-24T08:15:00Z,2022-01-24,NA,"Water is clear, pump functioning well",47,0,6,0,0,6,NA,NA,NA,NA
 Pierce High School,2022-01-24T08:16:00Z,2022-01-24,NA,"Water is clear, pump functioning well",44,6,8,0,0,5,NA,NA,NA,NA
 Willows High School,2022-01-24T10:11:00Z,2022-01-24,NA,"Water is clear, pump functioning well",45,17,6,1,0,8,NA,NA,NA,NA
@@ -101,7 +101,7 @@ Willows High School,2022-01-24T10:37:00Z,2022-01-24,NA,"Water is clear, pump fun
 Red Bluff High School,2022-01-25T07:59:59Z,2022-01-25,NA,"Water is clear, pump functioning well",50,4,0,0,0,1,NA,NA,Fish seem to move towards bottom of tank when the cover is removed.,NA
 Red Bluff High School,2022-01-25T07:59:59Z,2022-01-25,NA,"Water is clear, pump functioning well",41,5,0,0,0,2,NA,NA,We see two alevin that are sharing one egg sac. Both are alive but very small compared to the others.,NA
 King High School,2022-01-25T10:34:59Z,2022-01-25,NA,"Water is clear, pump functioning well",35,0,0,0,1,16,NA,NA,NA,NA
-Willows High School,2022-01-25T12:15:00Z,2022-01-25,NA,"Water is clear, pump functioning well",44,4,38,1,1,7,NA,NA,NA,NA
+Willows High School,2022-01-25T12:15:00Z,2022-01-25,NA,"Water is clear, pump functioning well",44,38,4,1,1,7,NA,NA,NA,NA
 Edward Harris Jr. MS,2022-01-26T10:59:59Z,2022-01-26,NA,"Water is clear, pump functioning well",48,10,9,0,16,18,NA,NA,NA,NA
 Samuel Jackman MS,2022-01-26T13:00:00Z,2022-01-26,NA,Water is clouding,35,3,0,0,0,17,NA,NA,NA,NA
 Pierce High School,2022-01-27T09:12:00Z,2022-01-27,NA,"Water is clear, pump functioning well",44,0,2,0,0,5,NA,NA,NA,NA
@@ -131,15 +131,29 @@ King High School,2022-02-03T10:34:59Z,2022-02-03,NA,"Water is clear, pump functi
 Red Bluff High School,2022-02-04T13:00:00Z,2022-02-04,NA,"Water is clear, pump functioning well",50,50,0,0,0,1,NA,NA,NA,NA
 Red Bluff High School,2022-02-04T13:59:59Z,2022-02-04,NA,"Water is clear, pump functioning well",41,39,0,0,0,2,NA,NA,Conjoined fish are still alive but unable to swim.,NA
 Edward Harris Jr. MS,2022-02-04T14:30:00Z,2022-02-04,NA,"Water is clear, pump functioning well",48,16,0,0,31,18,NA,NA,NA,NA
-Samuel Jackman MS,2022-02-04T15:35:00Z,2022-02-04,NA,"Water is clear, pump functioning well",35,35,35,0,0,17,NA,NA,NA,NA
+Samuel Jackman MS,2022-02-04T15:35:00Z,2022-02-04,NA,"Water is clear, pump functioning well",35,35,0,0,0,17,NA,NA,NA,NA
 Pierce High School,2022-02-02T08:16:00Z,2022-02-02,NA,"Water is clear, pump functioning well",44,40,4,0,0,5,NA,NA,"This tank has a salmon that has a was born with a deformity. Said salmon has a curled body and tail. Salmon is still alive, but growth is stunted and fish is sitting on the bottom of the tank unable to swim.",NA
 Pierce High School,2022-02-04T08:18:00Z,2022-02-04,NA,"Water is clear, pump functioning well",44,43,1,0,0,5,NA,NA,NA,NA
 Pierce High School,2022-02-02T08:14:00Z,2022-02-02,NA,"Water is clear, pump functioning well",47,32,4,0,0,6,NA,NA,NA,NA
 Pierce High School,2022-02-04T08:10:00Z,2022-02-04,NA,"Water is clear, pump functioning well",47,25,6,0,0,6,NA,NA,NA,NA
-Willows High School,2022-02-07T09:10:00Z,2022-02-07,NA,"Water is clear, pump functioning well",44,41,0,0,3,7,2022-02-10T00:00:00Z,NA,NA,Is there a particular way that you would like us to release the fish into the river?
+Willows High School,2022-02-07T09:10:00Z,2022-02-07,NA,"Water is clear, pump functioning well",44,40,0,0,4,7,2022-02-10T00:00:00Z,NA,NA,Is there a particular way that you would like us to release the fish into the river?
 Edward Harris Jr. MS,2022-02-09T14:44:59Z,2022-02-09,NA,"Water is clear, pump functioning well",48,14,0,0,32,18,NA,NA,"My numbers don't seem to add up.  I only count 14 fish swimming around the tank, but my number of dead indicates there should be16.  So I either didn't write down 2 dead at some point, or there's 2 hiding under the gravel in the corner of the tank.",NA
 Red Bluff High School,2022-02-07T08:15:00Z,2022-02-07,NA,"Water is clear, pump functioning well",50,49,0,0,1,1,NA,NA,NA,NA
 Red Bluff High School,2022-02-07T08:15:00Z,2022-02-07,NA,"Water is clear, pump functioning well",41,41,0,0,0,2,NA,NA,NA,NA
 Red Bluff High School,2022-02-16T12:00:00Z,2022-02-16,NA,"Water is clear, pump functioning well",50,49,0,0,1,1,2022-02-09T00:00:00Z,NA,NA,NA
 Red Bluff High School,2022-02-09T12:00:00Z,2022-02-09,NA,"Water is clear, pump functioning well",41,41,0,0,0,2,2022-02-09T00:00:00Z,NA,NA,NA
 Edward Harris Jr. MS,2022-02-11T08:44:59Z,2022-02-11,NA,"Water is clear, pump functioning well",48,16,0,0,32,18,NA,NA,"the 2 that we couldn't find at the last counting, have been found.  They must have been hiding under the rocks.",NA
+Willows High School,2022-02-14T15:00:00Z,2022-02-14,NA,"Water is clear, pump functioning well",45,44,1,0,0,8,2022-02-14T00:00:00Z,NA,NA,NA
+Pierce High School,2022-02-11T10:14:59Z,2022-02-11,NA,"Water is clear, pump functioning well",44,43,1,0,0,5,NA,NA,NA,NA
+Pierce High School,2022-02-10T10:05:00Z,2022-02-10,NA,"Water is clear, pump functioning well",47,43,0,0,0,6,NA,NA,NA,NA
+Pierce High School,2022-02-09T09:44:00Z,2022-02-09,NA,"Water is clear, pump functioning well",47,21,0,0,0,6,NA,NA,NA,NA
+Pierce High School,2022-02-09T09:44:00Z,2022-02-09,NA,"Water is clear, pump functioning well",44,7,0,0,0,5,NA,NA,NA,NA
+Pierce High School,2022-02-14T08:10:00Z,2022-02-14,NA,"Water is clear, pump functioning well",44,43,0,0,0,5,NA,NA,NA,NA
+Pierce High School,2022-02-14T08:16:00Z,2022-02-14,NA,"Water is clear, pump functioning well",47,47,0,0,0,6,NA,NA,NA,NA
+Orland High School,2022-02-07T16:16:00Z,2022-02-07,NA,"Water is clear, pump functioning well",50,49,0,0,1,3,2022-02-07T00:00:00Z,NA,In transferring the fish from the tank in the classroom to the bucket one was killed. Otherwise the rest (48) successfully made it to the river.,NA
+Orland High School,2022-02-07T16:16:00Z,2022-02-07,NA,"Water is clear, pump functioning well",47,47,0,0,0,4,2022-02-07T00:00:00Z,NA,NA,NA
+Pierce High School,2022-02-17T07:43:00Z,2022-02-17,NA,"Water is clear, pump functioning well",44,43,0,0,0,5,2022-02-17T00:00:00Z,NA,NA,NA
+Pierce High School,2022-02-17T08:05:00Z,2022-02-17,NA,"Water is clear, pump functioning well",47,47,0,0,0,6,2022-02-17T00:00:00Z,NA,NA,NA
+Edward Harris Jr. MS,2022-02-25T16:00:00Z,2022-02-25,NA,"Water is clear, pump functioning well",48,11,0,0,38,18,2022-02-25T00:00:00Z,NA,"I ended up being out of school from the 15th through the 25th.  The 11 survivors didn't get any food and were pretty scrawny when they were released, but they were swimming around fine.",NA
+King High School,2022-02-22T10:30:00Z,2022-02-22,NA,"Water is clear, pump functioning well",35,25,0,0,10,16,2022-02-27T00:00:00Z,NA,Had 8 die overnight for a total of 10 decesased.,NA
+Samuel Jackman MS,2022-02-15T10:00:00Z,2022-02-15,NA,"Water is clear, pump functioning well",35,35,0,0,0,17,2015-02-22T00:00:00Z,NA,NA,NA
