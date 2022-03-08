@@ -1,5 +1,4 @@
 site,datetime,date,water_temp_f,water_clarity,eggs_hatched,swimming_up,laying_on_side,spinning,dead,tank_number,date_of_release,number_of_salmon_released,comments,questions
-Hamilton High School,2021-11-21T22:00:00Z,2021-11-21,NA,"Water is clear, pump functioning well",0,0,0,1,0,NA,NA,NA,Testing,Nope...testing
 Samuel Jackman MS,2021-11-17T07:59:59Z,2021-11-17,NA,"Water is clear, pump functioning well",0,0,0,0,0,12,NA,NA,NA,NA
 Samuel Jackman MS,2021-11-29T07:59:59Z,2021-11-29,NA,"Water is clear, pump functioning well",0,0,0,0,0,12,NA,NA,NA,NA
 Edward Harris Jr. MS,2021-11-30T16:20:00Z,2021-11-30,NA,"Water is clear, pump functioning well",1,0,0,0,2,13,NA,NA,One egg was covered in fuzz when we returned from Thanksgiving break.  Another egg has ruptured,NA
@@ -18,14 +17,14 @@ Samuel Jackman MS,2021-12-10T07:59:59Z,2021-12-10,NA,"Water is clear, pump funct
 Samuel Jackman MS,2021-12-13T07:59:59Z,2021-12-13,NA,"Water is clear, pump functioning well",30,0,0,0,5,12,NA,NA,NA,NA
 King High School,2021-12-14T10:34:59Z,2021-12-14,NA,"Water is clear, pump functioning well",35,0,0,0,0,11,NA,NA,NA,NA
 Edward Harris Jr. MS,2021-12-14T11:15:00Z,2021-12-14,NA,"Water is clear, pump functioning well",29,29,0,0,4,13,NA,NA,NA,NA
-Samuel Jackman MS,2021-12-17T07:59:59Z,2021-12-17,NA,"Water is clear, pump functioning well",30,0,0,0,6,12,2021-12-17T00:00:00Z,NA,The salmon were released before they had reached fry stage due to time constraints (winter break starting).  One of the alevin was deformed and had to be culled before release - I counted this in my total deaths.,NA
+Samuel Jackman MS,2021-12-17T07:59:59Z,2021-12-17,NA,"Water is clear, pump functioning well",30,0,0,0,6,12,2021-12-17T00:00:00Z,29,The salmon were released before they had reached fry stage due to time constraints (winter break starting).  One of the alevin was deformed and had to be culled before release - I counted this in my total deaths.,NA
 Edward Harris Jr. MS,2021-12-17T10:59:59Z,2021-12-17,NA,"Water is clear, pump functioning well",30,30,1,0,5,13,NA,NA,all 5 of the dead were eggs that didn't hatch,NA
 King High School,2021-12-17T23:30:00Z,2021-12-17,NA,"Water is clear, pump functioning well",35,0,0,0,0,10,NA,NA,NA,NA
 Edward Harris Jr. MS,2021-12-22T09:30:00Z,2021-12-22,NA,"Water is clear, pump functioning well",30,30,8,0,5,13,NA,NA,"Because my school is closed for winter break, and the fish haven't buttoned up yet, I had to bring the tank home.  The water temp is higher because I heat my home at night, where the classroom is only heated during the day.",NA
 Edward Harris Jr. MS,2021-12-25T16:59:59Z,2021-12-25,NA,"Water is clear, pump functioning well",30,14,6,0,5,13,NA,NA,"Water temp is actually 64.  Today is the first day that the 14 are actually swimming.  Previously, they had just been hanging out in the gravel.  But those 14 are full swimmers at this point.  The 6 on their sides are just laying there and breathing.  The remaining 10 are hanging out in the gravel, belly down and normal looking.",NA
 Edward Harris Jr. MS,2021-12-29T15:00:00Z,2021-12-29,NA,"Water is clear, pump functioning well",30,22,1,0,7,13,NA,NA,"Actual water temp is 62.  As they become more active, I'm beginning to question the way I was previously reporting my data.  Of the 28 fish that are still alive, 1 is laying on it's side in the gravel.  5 are sitting upright in the gravel, but not swimming, and the remaining 22 are actively swimming around the tank.  
 Should there be a question in the form that says something like, ""how many fish have hatched, and sitting on the gravel but not actively swimming?"", as a way to differentiate between those two stages?  Or do I only report the ones ""swimming up"" as the ones who have moved out of the gravel?  If that's the case, my data needs to be revised.","The surviving fish are not fully buttoned up yet.  If new eggs are being delivered next week, I will need to let these fish go in the next couple days.  Is that ok?  Or should I hold on to them until they are a little larger, and pass on the new eggs?"
-Edward Harris Jr. MS,2022-01-01T10:00:00Z,2022-01-01,NA,"Water is clear, pump functioning well",30,27,0,0,8,13,2022-01-01T00:00:00Z,NA,NA,NA
+Edward Harris Jr. MS,2022-01-01T10:00:00Z,2022-01-01,NA,"Water is clear, pump functioning well",30,27,0,0,8,13,2022-01-01T00:00:00Z,27,NA,NA
 Red Bluff High School,2022-01-03T12:44:00Z,2022-01-03,NA,NA,1,0,0,0,0,1,NA,NA,NA,NA
 Red Bluff High School,2022-01-03T12:44:00Z,2022-01-03,NA,NA,30,0,0,0,0,2,NA,NA,NA,NA
 Orland High School,2022-01-03T12:44:00Z,2022-01-03,NA,NA,1,0,0,0,0,3,NA,NA,NA,NA
@@ -73,7 +72,7 @@ Red Bluff High School,2022-01-14T09:00:00Z,2022-01-14,NA,"Water is clear, pump f
 Red Bluff High School,2022-01-14T09:00:00Z,2022-01-14,NA,"Water is clear, pump functioning well",41,0,0,0,0,2,NA,NA,NA,NA
 Edward Harris Jr. MS,2022-01-14T12:29:59Z,2022-01-14,NA,"Water is clear, pump functioning well",48,0,0,0,2,18,NA,NA,NA,NA
 Pierce High School,2022-01-14T15:15:00Z,2022-01-14,NA,"Water is clear, pump functioning well",44,0,0,0,0,5,NA,NA,NA,NA
-King High School,2022-01-17T09:00:00Z,2022-01-17,NA,"Water is clear, pump functioning well",35,0,0,0,1,11,2022-01-17T00:00:00Z,NA,NA,NA
+King High School,2022-01-17T09:00:00Z,2022-01-17,NA,"Water is clear, pump functioning well",35,0,0,0,1,11,2022-01-17T00:00:00Z,34,NA,NA
 Orland High School,2022-01-18T07:59:00Z,2022-01-18,NA,"Water is clear, pump functioning well",50,0,0,0,1,3,NA,NA,NA,NA
 Pierce High School,2022-01-18T07:59:59Z,2022-01-18,NA,"Water is clear, pump functioning well",47,7,0,0,0,5,NA,NA,NA,NA
 Orland High School,2022-01-18T08:01:00Z,2022-01-18,NA,"Water is clear, pump functioning well",47,0,0,0,0,4,NA,NA,NA,NA
@@ -136,24 +135,24 @@ Pierce High School,2022-02-02T08:16:00Z,2022-02-02,NA,"Water is clear, pump func
 Pierce High School,2022-02-04T08:18:00Z,2022-02-04,NA,"Water is clear, pump functioning well",44,43,1,0,0,5,NA,NA,NA,NA
 Pierce High School,2022-02-02T08:14:00Z,2022-02-02,NA,"Water is clear, pump functioning well",47,32,4,0,0,6,NA,NA,NA,NA
 Pierce High School,2022-02-04T08:10:00Z,2022-02-04,NA,"Water is clear, pump functioning well",47,25,6,0,0,6,NA,NA,NA,NA
-Willows High School,2022-02-07T09:10:00Z,2022-02-07,NA,"Water is clear, pump functioning well",44,40,0,0,4,7,2022-02-10T00:00:00Z,NA,NA,Is there a particular way that you would like us to release the fish into the river?
+Willows High School,2022-02-07T09:10:00Z,2022-02-07,NA,"Water is clear, pump functioning well",44,40,0,0,4,7,2022-02-10T00:00:00Z,40,NA,Is there a particular way that you would like us to release the fish into the river?
 Edward Harris Jr. MS,2022-02-09T14:44:59Z,2022-02-09,NA,"Water is clear, pump functioning well",48,14,0,0,32,18,NA,NA,"My numbers don't seem to add up.  I only count 14 fish swimming around the tank, but my number of dead indicates there should be16.  So I either didn't write down 2 dead at some point, or there's 2 hiding under the gravel in the corner of the tank.",NA
 Red Bluff High School,2022-02-07T08:15:00Z,2022-02-07,NA,"Water is clear, pump functioning well",50,49,0,0,1,1,NA,NA,NA,NA
 Red Bluff High School,2022-02-07T08:15:00Z,2022-02-07,NA,"Water is clear, pump functioning well",41,41,0,0,0,2,NA,NA,NA,NA
-Red Bluff High School,2022-02-16T12:00:00Z,2022-02-16,NA,"Water is clear, pump functioning well",50,49,0,0,1,1,2022-02-09T00:00:00Z,NA,NA,NA
-Red Bluff High School,2022-02-09T12:00:00Z,2022-02-09,NA,"Water is clear, pump functioning well",41,41,0,0,0,2,2022-02-09T00:00:00Z,NA,NA,NA
+Red Bluff High School,2022-02-16T12:00:00Z,2022-02-16,NA,"Water is clear, pump functioning well",50,49,0,0,1,1,2022-02-09T00:00:00Z,49,NA,NA
+Red Bluff High School,2022-02-09T12:00:00Z,2022-02-09,NA,"Water is clear, pump functioning well",41,41,0,0,0,2,2022-02-09T00:00:00Z,41,NA,NA
 Edward Harris Jr. MS,2022-02-11T08:44:59Z,2022-02-11,NA,"Water is clear, pump functioning well",48,16,0,0,32,18,NA,NA,"the 2 that we couldn't find at the last counting, have been found.  They must have been hiding under the rocks.",NA
-Willows High School,2022-02-14T15:00:00Z,2022-02-14,NA,"Water is clear, pump functioning well",45,44,1,0,0,8,2022-02-14T00:00:00Z,NA,NA,NA
+Willows High School,2022-02-14T15:00:00Z,2022-02-14,NA,"Water is clear, pump functioning well",45,44,1,0,0,8,2022-02-14T00:00:00Z,45,NA,NA
 Pierce High School,2022-02-11T10:14:59Z,2022-02-11,NA,"Water is clear, pump functioning well",44,43,1,0,0,5,NA,NA,NA,NA
 Pierce High School,2022-02-10T10:05:00Z,2022-02-10,NA,"Water is clear, pump functioning well",47,43,0,0,0,6,NA,NA,NA,NA
 Pierce High School,2022-02-09T09:44:00Z,2022-02-09,NA,"Water is clear, pump functioning well",47,21,0,0,0,6,NA,NA,NA,NA
 Pierce High School,2022-02-09T09:44:00Z,2022-02-09,NA,"Water is clear, pump functioning well",44,7,0,0,0,5,NA,NA,NA,NA
 Pierce High School,2022-02-14T08:10:00Z,2022-02-14,NA,"Water is clear, pump functioning well",44,43,0,0,0,5,NA,NA,NA,NA
 Pierce High School,2022-02-14T08:16:00Z,2022-02-14,NA,"Water is clear, pump functioning well",47,47,0,0,0,6,NA,NA,NA,NA
-Orland High School,2022-02-07T16:16:00Z,2022-02-07,NA,"Water is clear, pump functioning well",50,49,0,0,1,3,2022-02-07T00:00:00Z,NA,In transferring the fish from the tank in the classroom to the bucket one was killed. Otherwise the rest (48) successfully made it to the river.,NA
-Orland High School,2022-02-07T16:16:00Z,2022-02-07,NA,"Water is clear, pump functioning well",47,47,0,0,0,4,2022-02-07T00:00:00Z,NA,NA,NA
-Pierce High School,2022-02-17T07:43:00Z,2022-02-17,NA,"Water is clear, pump functioning well",44,43,0,0,0,5,2022-02-17T00:00:00Z,NA,NA,NA
-Pierce High School,2022-02-17T08:05:00Z,2022-02-17,NA,"Water is clear, pump functioning well",47,47,0,0,0,6,2022-02-17T00:00:00Z,NA,NA,NA
-Edward Harris Jr. MS,2022-02-25T16:00:00Z,2022-02-25,NA,"Water is clear, pump functioning well",48,11,0,0,38,18,2022-02-25T00:00:00Z,NA,"I ended up being out of school from the 15th through the 25th.  The 11 survivors didn't get any food and were pretty scrawny when they were released, but they were swimming around fine.",NA
-King High School,2022-02-22T10:30:00Z,2022-02-22,NA,"Water is clear, pump functioning well",35,25,0,0,10,16,2022-02-27T00:00:00Z,NA,Had 8 die overnight for a total of 10 decesased.,NA
-Samuel Jackman MS,2022-02-15T10:00:00Z,2022-02-15,NA,"Water is clear, pump functioning well",35,35,0,0,0,17,2015-02-22T00:00:00Z,NA,NA,NA
+Orland High School,2022-02-07T16:16:00Z,2022-02-07,NA,"Water is clear, pump functioning well",50,49,0,0,1,3,2022-02-07T00:00:00Z,48,In transferring the fish from the tank in the classroom to the bucket one was killed. Otherwise the rest (48) successfully made it to the river.,NA
+Orland High School,2022-02-07T16:16:00Z,2022-02-07,NA,"Water is clear, pump functioning well",47,47,0,0,0,4,2022-02-07T00:00:00Z,47,NA,NA
+Pierce High School,2022-02-17T07:43:00Z,2022-02-17,NA,"Water is clear, pump functioning well",44,43,0,0,0,5,2022-02-17T00:00:00Z,44,NA,NA
+Pierce High School,2022-02-17T08:05:00Z,2022-02-17,NA,"Water is clear, pump functioning well",47,47,0,0,0,6,2022-02-17T00:00:00Z,47,NA,NA
+Edward Harris Jr. MS,2022-02-25T16:00:00Z,2022-02-25,NA,"Water is clear, pump functioning well",48,11,0,0,38,18,2022-02-25T00:00:00Z,11,"I ended up being out of school from the 15th through the 25th.  The 11 survivors didn't get any food and were pretty scrawny when they were released, but they were swimming around fine.",NA
+King High School,2022-02-22T10:30:00Z,2022-02-22,NA,"Water is clear, pump functioning well",35,25,0,0,10,16,2022-02-27T00:00:00Z,25,Had 8 die overnight for a total of 10 decesased.,NA
+Samuel Jackman MS,2022-02-15T10:00:00Z,2022-02-15,NA,"Water is clear, pump functioning well",35,35,0,0,0,17,2015-02-22T00:00:00Z,35,NA,NA
