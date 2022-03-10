@@ -41,6 +41,9 @@ tot_surv <- df_all %>% filter(!is.na(number_of_salmon_released)) %>%
     grepl("Edward Harris Jr.", school) ~ "Edward Harris Jr.",
     TRUE ~ school))
 
+# fix order
+tot_surv$status <- factor(tot_surv$status, levels = c("Low", "Intermediate", "High"))
+levels(tot_surv$status)
 
 # Boxplot of Classroom Status ---------------------------------------------
 
