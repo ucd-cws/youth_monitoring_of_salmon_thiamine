@@ -5,6 +5,9 @@ library(ggthemes)
 library(scales)
 library(glue)
 library(cowplot)
+library(fishualize)
+library(ggtext)
+
 
 # Data --------------------------------------------------------------------
 
@@ -24,245 +27,42 @@ df_all <- left_join(dat, th_df) %>%
 
 rm(dat)
 
-# Make Egg Status Summary By Class -----------------------------------
-
-df_status_prop <- df_all %>%
-  mutate(unhatched = total_egg_count - eggs_hatched, .after=eggs_hatched) %>%
-  # select cols of interest
-  select(site, date, tank_number, total_egg_count, eggs_hatched:dead) %>%
-  # group by date and site
-  group_by(site, tank_number) %>%
-  # now add proportions for comparisons and plots
-  mutate(across(unhatched:dead, .fns = ~(.x/total_egg_count))) %>%
-  # now make the data longer for plotting purposes
-  tidyr::pivot_longer(c(total_egg_count, unhatched, eggs_hatched:dead),
-                      names_to = "status",
-                      values_to = "prop") %>%
-  ungroup() %>%
-  mutate(status2 = case_when(
-    status == "eggs_hatched" ~ "Hatched",
-    status == "unhatched" ~ "Unhatched",
-    status == "total_egg_count" ~ "Total",
-    status == "dead" ~ "Dead",
-    status == "laying_on_side" ~ "Laying on side",
-    status == "spinning" ~ "Spinning",
-    status == "swimming_up" ~ "Swimming up",
-    TRUE ~ status)) %>%
-
-  # re-add thiamine status
-  left_join(., th_df %>% select(tank_number, th_avg=avg_th, th_status=status),
-            by="tank_number")
-
-# Prelim Plots ------------------------------------------------------------
-
-th_status <- df_status_prop %>%
-  filter(!is.na(th_avg)) %>%
-  filter(!status2 %in% c("Hatched", "Unhatched", "Total"))
+# get total survived
+tot_surv <- df_all %>% filter(!is.na(number_of_salmon_released)) %>%
+  select(-c(water_temp_f, water_clarity, comments:questions)) %>%
+  mutate(survival = number_of_salmon_released/ total_egg_count) %>%
+  # label for plots
+  mutate(class_label = case_when(
+    grepl("Willows High",school) ~ "Willows",
+    grepl("Orland", school) ~ "Orland",
+    grepl("Pierce", school) ~ "Pierce",
+    grepl("Samuel Jackman", school) ~ "Samuel Jackman",
+    grepl("Red Bluff", school) ~ "Red Bluff",
+    grepl("Edward Harris Jr.", school) ~ "Edward Harris Jr.",
+    TRUE ~ school))
 
 
-# EGG STATUS BY DATE ------------------------------------------------------
-
-# now plot ALL
-ggplot() +
-  geom_point(data=th_status,
-             aes(x=date, y=prop, color=th_status, shape=status2),
-             alpha=0.8, show.legend=TRUE, size=4) +
-  geom_smooth(data=th_status,
-              aes(x=date, y=prop, color=th_status, group=th_status),
-              method = "glm",
-              se = FALSE) +
-  scale_y_continuous(labels = scales::percent_format(scale = 100)) +
-  #facet_wrap(status2~th_status) +
-  theme_cowplot(font_family = "Roboto Condensed") +
-  cowplot::background_grid("y") +
-  scale_x_date(date_labels = "%m-%d-%y") +
-  scale_shape_discrete("Status") +
-  scale_color_colorblind("Thiamine") +
-  labs(subtitle = "Eggs status by site for all hatched eggs",
-       y="Hatched Egg Status", x="")+
-  theme(plot.background = element_rect(fill="white"))
-
-#ggsave(filename = "figures/thiamine_vs_status_prelim.png",
-#       width = 11, height = 8.5, dpi=300)
-
-
-# PLOT BY SPECIFIC STATUS -------------------------------------------------
-
-# split out by status (status2)
-stat_dead <- filter(th_status, status2=="Dead")
-stat_side <- filter(th_status, status2=="Laying on side")
-stat_swim <- filter(th_status, status2=="Swimming up")
-stat_spin <- filter(th_status, status2=="Spinning")
-
-
-# EGG STATUS BY DATE: SIDE --------------------------------------------
-
-# on side
-ggplot() +
-  geom_point(data=stat_side,
-             aes(x=date, y=prop, color=th_status, shape=status2),
-             alpha=0.8, show.legend=TRUE, size=4) +
-  geom_smooth(data=stat_side,
-              aes(x=date, y=prop, color=th_status, group=th_status),
-              #method = "gam", #formula=(y~x)),
-              se = FALSE) +
-  scale_y_continuous(labels = scales::percent_format(scale = 100)) +
-  facet_wrap(status2~th_status) +
-  theme_cowplot(font_family = "Roboto Condensed") +
-  cowplot::background_grid("y") +
-  scale_x_date(date_labels = "%m-%d-%y") +
-  scale_shape_discrete("Status") +
-  scale_color_colorblind("Thiamine") +
-  labs(subtitle = "Eggs status by site for all hatched eggs",
-       y="Hatched Egg Status", x="")+
-  theme(plot.background = element_rect(fill="white"))
-
-
-# EGG STATUS BY DATE: DEAD ------------------------------------------------
-
-# dead
-ggplot() +
-  geom_point(data=stat_dead,
-             aes(x=date, y=prop, color=th_status, shape=status2),
-             alpha=0.8, show.legend=TRUE, size=4) +
-  geom_smooth(data=stat_dead,
-              aes(x=date, y=prop, color=th_status, group=th_status),
-              #method = "glm", #formula=(y~x)),
-              se = FALSE) +
-  scale_y_continuous(labels = scales::percent_format(scale = 100)) +
-  facet_wrap(status2~th_status) +
-  theme_cowplot(font_family = "Roboto Condensed") +
-  cowplot::background_grid("y") +
-  scale_x_date(date_labels = "%m-%d-%y") +
-  scale_shape_discrete("Status") +
-  scale_color_colorblind("Thiamine") +
-  labs(subtitle = "Eggs status by site for all hatched eggs",
-       y="Hatched Egg Status", x="")+
-  theme(plot.background = element_rect(fill="white"))
-
-
-
-# EGG STATUS BY DATE: SPINNING --------------------------------------------
-
-# spinning
-ggplot() +
-  geom_point(data=stat_spin,
-             aes(x=date, y=prop, color=th_status, shape=status2),
-             alpha=0.8, show.legend=TRUE, size=4) +
-  geom_smooth(data=stat_spin,
-              aes(x=date, y=prop, color=th_status, group=th_status),
-              method = "glm", #formula=(y~x)),
-              se = FALSE) +
-  scale_y_continuous(labels = scales::percent_format(scale = 100)) +
-  facet_wrap(status2~th_status) +
-  theme_cowplot(font_family = "Roboto Condensed") +
-  cowplot::background_grid("y") +
-  scale_x_date(date_labels = "%m-%d-%y") +
-  scale_shape_discrete("Status") +
-  scale_color_colorblind("Thiamine") +
-  labs(subtitle = "Eggs status by site for all hatched eggs",
-       y="Hatched Egg Status", x="")+
-  theme(plot.background = element_rect(fill="white"))
-
-# EGG STATUS BY DATE: SWMMING UP --------------------------------------------
-
-# swimming
-ggplot() +
-  geom_point(data=stat_swim,
-             aes(x=date, y=prop, color=th_status, shape=status2),
-             alpha=0.8, show.legend=TRUE, size=4) +
-  geom_smooth(data=stat_swim,
-              aes(x=date, y=prop, color=th_status, group=th_status),
-              method = "gam", #formula=(y~x)),
-              se = FALSE) +
-  scale_y_continuous(labels = scales::percent_format(scale = 100)) +
-  facet_wrap(status2~th_status) +
-  theme_cowplot(font_family = "Roboto Condensed") +
-  cowplot::background_grid("y") +
-  scale_x_date(date_labels = "%m-%d-%y") +
-  scale_shape_discrete("Status") +
-  scale_color_colorblind("Thiamine") +
-  labs(subtitle = "Eggs status by site for all hatched eggs",
-       y="Hatched Egg Status", x="")+
-  theme(plot.background = element_rect(fill="white"))
-
-# now plot just each status against actual thiamine
-ggplot() +
-  # low
-  geom_rect(aes(xmin=0, xmax=5, ymin=0, ymax=1 ), fill="red2", alpha=0.2) +
-  geom_text(label="Low", aes(x=2, y=0.4), color="maroon", size=10, family="Bebas Neue", alpha=0.5)+
-  # med
-  geom_rect(aes(xmin=5, xmax=8, ymin=0, ymax=1 ), fill="orange2", alpha=0.2) +
-  geom_text(label="MED", aes(x=6.5, y=0.63), color="darkorange", size=10, family="Bebas Neue", alpha=0.5)+
-  # high/good
-  geom_rect(aes(xmin=8, xmax=Inf, ymin=0, ymax=1 ), fill="seagreen", alpha=0.2) +
-  geom_text(label="HIGH", aes(x=11, y=0.86), color="forestgreen", size=10, family="Bebas Neue", alpha=0.5)+
-
-  geom_jitter(data=th_status,
-             aes(x=th_avg, y=prop, color=status2, shape=status2),
-             alpha=0.8, show.legend=TRUE, size=4) +
-  geom_smooth(data=th_status, aes(x=th_avg, y=prop, group=status2, color=status2), show.legend = FALSE,
-              method="lm", se = FALSE, formula = y ~ poly(x, 2)) +
-
-  scale_y_continuous(labels = scales::percent_format(scale = 100)) +
-  #facet_grid(.~status2,scales = "free_y") +
-  theme_cowplot(font_family = "Roboto Condensed") +
-  cowplot::background_grid("y") +
-  #scale_x_date(date_labels = "%m-%d-%y") +
-  scale_shape_discrete("Status", breaks=c("Dead"=21, "Laying on Side"=22, "Spinning"=23, "Swimming up"=25)) +
-  scale_color_brewer("Status", palette = "Set1") +
-  labs(subtitle = "Eggs status by site for all hatched eggs",
-       y="Hatched Egg Status", x="Thiamine")+
-  theme(plot.background = element_rect(fill="white"))
-
-#ggsave(filename = "figures/thiamine_vs_status_all.png",
-#       width = 11, height = 8.5, dpi=300)
-
-# now plot just each status against actual thiamine
-ggplot() +
-  geom_point(data=th_status,# %>% filter(status2!="Dead"),
-             aes(y=th_avg, x=prop, color=th_avg),
-             alpha=0.8, show.legend=TRUE, size=4) +
-  geom_smooth(data=th_status,# %>% filter(status2!="Dead"),
-              aes(y=th_avg, x=prop), col="gray40",
-              method="lm", formula = y ~ poly(x, 3), se = FALSE) +
-  theme_cowplot(font_family = "Roboto Condensed") +
-  cowplot::background_grid("y") +
-  scale_color_viridis_c("Thiamine") +
-  labs(subtitle = "Eggs status by site for all hatched eggs",
-       x="Proportion (Spinning/Swimming Up/On Side/Dead)", y="Thiamine")+
-  theme(plot.background = element_rect(fill="white"))
-
-#ggsave(filename = "figures/thiamine_vs_status_all.png",
-#       width = 11, height = 8.5, dpi=300)
+# Boxplot of Classroom Status ---------------------------------------------
 
 # now boxplots
 ggplot() +
-  geom_col(data=th_status,
-             aes(x=th_status, y=prop, fill=th_status, group=th_status),
-             alpha=0.8, show.legend=TRUE) +
+  geom_bar(data=tot_surv,
+           aes(x=status, fill=status),
+           alpha=0.8, show.legend=FALSE) +
   theme_cowplot(font_family = "Roboto Condensed") +
   cowplot::background_grid("y") +
-  #scale_color_viridis_c("Thiamine") +
-  labs(subtitle = "Eggs status by site for all hatched eggs",
-       x="Proportion (Spinning/Swimming Up/On Side/Dead)", y="Thiamine")+
-  theme(plot.background = element_rect(fill="white"))
+  scale_fill_manual("Classrooms", values = c("Low"="red2", "Intermediate"="darkorange", "High"="seagreen")) +
+  labs(subtitle = "Thiamine Concentrations by Classroom",
+       x="", y="Number of Classrooms")+ #coord_flip() +
+  theme(plot.background = element_rect(fill="white")) +
+  ggtext::geom_textbox(data=tot_surv, x="Intermediate", y=5, label="The majority of classroom tanks had **Intermediate** thiamine levels. What level do you think your tank was?", family="Roboto")
 
+ggsave(filename = "figures/thiamine_by_classroom_barplot.png", dpi=300, width = 10, height = 8)
 
-# thresholds
-# < 5 nmoles/gram (LOW)
-# 5-8 nmoles/gram (MED)
-# > 8 GOOD
+# Plot By Thiamine Value WITHOUT CLASS --------------------------------------------------
 
-
-
-# Fancy Fish Plot ---------------------------------------------------------
-
-#devtools::install_github("nschiett/fishualize", force = TRUE)
-library(fishualize)
-
-# Fancy
-# remove "swimming up"
+# by thiamine value (without classroom ID)
+set.seed(111)
 ggplot() +
   # low
   geom_rect(aes(xmin=0, xmax=5, ymin=0, ymax=Inf ), fill="red2", alpha=0.2) +
@@ -273,52 +73,56 @@ ggplot() +
   # high/good
   geom_rect(aes(xmin=8, xmax=Inf, ymin=0, ymax=Inf ), fill="seagreen", alpha=0.2) +
   geom_text(label="HIGH", aes(x=11, y=0.86), color="forestgreen", size=10, family="Bebas Neue", alpha=0.5)+
-
-  # points
-  geom_jitter(data=th_status %>% filter(status2!="Swimming up"),
-             aes(x=th_avg, y=prop, fill=status2, shape=status2),
-             alpha=0.8, color="gray30", size=4) +
-  # line poly
-  geom_smooth(data=th_status %>% filter(status2!="Swimming up"),
-              aes(x=th_avg, y=prop, group=status2, color=status2, fill=status2),
-              show.legend = FALSE,
-              method="lm", se = FALSE, formula = y ~ poly(x, 2)) +
-  # line logistic
-  # stat_smooth(data=th_status, aes(x=th_avg, y=prop, group=status2, color=status2),
-  #            show.legend = FALSE, method="glm", se=FALSE,
-  #            method.args = list(family = "binomial")) +
-
-  # # smooth just points?
-  # stat_summary_bin(data=th_status, aes(x=th_avg, y=prop, group=status2,
-  #                                      color=status2),
-  #                  geom = "point", fun = mean, size=3, pch=13) +
-  # add a fish:
   add_fishape(family = "Salmonidae",
               option = "Oncorhynchus_nerka",
               xmin = 10, xmax = 13, ymin = 0.55, ymax = 0.75,
               fill = "gray40",
               alpha = 0.8) +
-
-  # scales
-  # colors: RColorBrewer::brewer.pal(n = 4, name = "Set1")
-  scale_shape_manual("Status", values=c("Dead"=21, "Laying on side"=22, "Spinning"=23))+#, "Swimming up"=25)) +
-  scale_fill_brewer("Status", palette = "Set1") +
-  scale_color_brewer("Status", palette = "Set1") +
-  guides(fill=guide_legend(overide.aes=list(
-    fill=c("#E41A1C", "#377EB8", "#4DAF4A", "#984EA3"),
-    shape=c(21,22,23,25),
-    color=c("gray30")))) +
-  scale_y_continuous(labels = scales::percent_format(scale = 100)) +
-  labs(subtitle = "Eggs status by site for all hatched eggs",
-       y="Proportion of Total Hatched Eggs", x="Thiamine") +
+  geom_jitter(data=tot_surv, aes(y=survival, x=avg_th, fill=status), pch=21, size=4.5, show.legend = FALSE) +
+  ggtext::geom_textbox(data=tot_surv, x=12, y=0.25, label="Thiamine concentration groups (*LOW/MED/HIGH*) as shown here are generalized, they may be different for different populations, regions, or life-history strategies. There's much we don't know!", family="Roboto", color="gray40") +
+  labs(subtitle = "Survival vs. Thiamine Concentration",
+       y="Survival (Released / Total Eggs)", x="Thiamine (nmol/g)") +
+  scale_fill_manual("", values = c("Low"="red2", "Intermediate"="darkorange", "High"="seagreen")) +
   # themes
   theme_cowplot(font_family = "Roboto Condensed") +
   cowplot::background_grid("y") +
   theme(plot.background = element_rect(fill="white"))
 
+ggsave(filename = "figures/thiamine_by_survival_noclassid.png", width = 10, height = 8, dpi=300)
 
+# Plot By Thiamine Value WITH CLASS --------------------------------------------------
 
-ggsave(filename = "figures/thiamine_vs_status_all_rev.png",
-       width = 11, height = 8.5, dpi=300)
+# by thiamine value (with classroom ID)
+set.seed(111)
+ggplot() +
+  # low
+  geom_rect(aes(xmin=0, xmax=5, ymin=0, ymax=Inf ), fill="red2", alpha=0.2) +
+  geom_text(label="Low", aes(x=2, y=0.4), color="maroon", size=10, family="Bebas Neue", alpha=0.5)+
+  # med
+  geom_rect(aes(xmin=5, xmax=8, ymin=0, ymax=Inf ), fill="orange2", alpha=0.2) +
+  geom_text(label="MED", aes(x=6.5, y=0.63), color="darkorange", size=10, family="Bebas Neue", alpha=0.5)+
+  # high/good
+  geom_rect(aes(xmin=8, xmax=Inf, ymin=0, ymax=Inf ), fill="seagreen", alpha=0.2) +
+  geom_text(label="HIGH", aes(x=11, y=0.86), color="forestgreen", size=10, family="Bebas Neue", alpha=0.5)+
+  add_fishape(family = "Salmonidae",
+              option = "Oncorhynchus_nerka",
+              xmin = 10, xmax = 13, ymin = 0.55, ymax = 0.75,
+              fill = "gray40",
+              alpha = 0.8) +
+  ggrepel::geom_text_repel(data=tot_surv, aes(y=survival, x=avg_th, label=glue("{class_label}-{tank_number}")), color="gray40",
+                           segment.color="gray50", segment.alpha=0.5,
+                           point.padding = 0.2, seed=111,
+                           min.segment.length = .1,force = 1.3,
+                           nudge_y = -0.1, nudge_x = -0.1
+  ) +
+  geom_jitter(data=tot_surv, aes(y=survival, x=avg_th, fill=status), pch=21, size=4.5, show.legend = FALSE) +
 
+  labs(subtitle = "Survival vs. Thiamine Concentration",
+       y="Survival (Released / Total Eggs)", x="Thiamine (nmol/g)") +
+  scale_fill_manual("", values = c("Low"="red2", "Intermediate"="darkorange", "High"="seagreen")) +
+  # themes
+  theme_cowplot(font_family = "Roboto Condensed") +
+  cowplot::background_grid("y") +
+  theme(plot.background = element_rect(fill="white"))
 
+ggsave(filename = "figures/thiamine_by_survival_wclassid.png", width = 10, height = 8, dpi=300)
