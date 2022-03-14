@@ -30,11 +30,11 @@ __*updated 2021-03-07*__
 
 Stay tuned for a summary/reveal!
 
-![](figures/summary_2022_eggs_hatched_updated_2022-03-07.png)
+![](figures/summary_2022_eggs_hatched_updated_2022-03-14.png)
 
-![](figures/summary_2022_egg_status_hatched_updated_2022-03-07.png)
+![](figures/summary_2022_egg_status_hatched_updated_2022-03-14.png)
 
-![](figures/summary_2022_eggs_hatched_over_time_updated_2022-03-07.png)
+![](figures/summary_2022_eggs_hatched_over_time_updated_2022-03-14.png)
 
 ### Open Source and Accessible
 
