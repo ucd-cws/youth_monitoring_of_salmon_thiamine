@@ -119,7 +119,7 @@ ggplot() +
                            nudge_y = -0.1, nudge_x = -0.1
   ) +
   geom_jitter(data=tot_surv, aes(y=survival, x=avg_th, fill=status), pch=21, size=4.5, show.legend = FALSE) +
-
+  scale_x_continuous(breaks = c(seq(0,60,3))) +
   labs(subtitle = "Survival vs. Thiamine Concentration",
        y="Survival (Released / Total Eggs)", x="Thiamine (nmol/g)") +
   scale_fill_manual("", values = c("Low"="red2", "Intermediate"="darkorange", "High"="seagreen")) +
@@ -129,3 +129,49 @@ ggplot() +
   theme(plot.background = element_rect(fill="white"))
 
 ggsave(filename = "figures/thiamine_by_survival_wclassid.png", width = 10, height = 8, dpi=300)
+
+# Plot By Thiamine Value WITH DATA --------------------------------------------------
+
+thidat<-read_csv("data_raw/WRCS_Survival_Data_HBell.csv") %>%
+  janitor::clean_names()
+
+# by thiamine value (with classroom ID)
+set.seed(111)
+ggplot() +
+  # low
+  geom_rect(aes(xmin=0, xmax=5, ymin=0, ymax=Inf ), fill="red2", alpha=0.2) +
+  geom_text(label="Low", aes(x=2, y=0.4), color="maroon", size=10, family="Bebas Neue", alpha=0.5)+
+  # med
+  geom_rect(aes(xmin=5, xmax=8, ymin=0, ymax=Inf ), fill="orange2", alpha=0.2) +
+  geom_text(label="MED", aes(x=6.5, y=0.63), color="darkorange", size=10, family="Bebas Neue", alpha=0.5)+
+  # high/good
+  geom_rect(aes(xmin=8, xmax=Inf, ymin=0, ymax=Inf ), fill="seagreen", alpha=0.2) +
+  geom_text(label="HIGH", aes(x=11, y=0.86), color="forestgreen", size=10, family="Bebas Neue", alpha=0.5)+
+  # now add exp data underneath!
+  stat_smooth(data=thidat, aes(y=survival_proportion, x=total_thiamine_nmol_g), method="glm", se=FALSE, method.args = list(family="binomial"), color="gray40", lwd=0.5) +
+  geom_point(data=thidat, aes(y=survival_proportion, x=total_thiamine_nmol_g), pch=21, size=2.5, fill="gray10", alpha=0.7) +
+
+  add_fishape(family = "Salmonidae",
+              option = "Oncorhynchus_nerka",
+              xmin = 10, xmax = 13, ymin = 0.55, ymax = 0.75,
+              fill = "gray40",
+              alpha = 0.8) +
+  ggrepel::geom_text_repel(data=tot_surv, aes(y=survival, x=avg_th, label=glue("{class_label}-{tank_number}")), color="gray40",
+                           segment.color="gray50", segment.alpha=0.5,
+                           point.padding = 0.2, seed=111,
+                           min.segment.length = .1,force = 1.3,
+                           nudge_y = -0.1, nudge_x = -0.1
+  ) +
+  geom_jitter(data=tot_surv, aes(y=survival, x=avg_th, fill=status), pch=21, size=4.5, show.legend = FALSE) +
+  scale_x_continuous(breaks = c(seq(0,60,3))) +
+  labs(subtitle = "Survival vs. Thiamine Concentration",
+       y="Proportion Survived", x="Thiamine (nmol/g)") +
+  scale_fill_manual("", values = c("Low"="red2", "Intermediate"="darkorange", "High"="seagreen")) +
+  # themes
+  theme_cowplot(font_family = "Roboto Condensed") +
+  cowplot::background_grid("y") +
+  theme(plot.background = element_rect(fill="white"))
+
+
+#save
+ggsave(filename = "figures/thiamine_by_survival_wdata_class_w_curve.png", width = 10, height = 8, dpi=300)
