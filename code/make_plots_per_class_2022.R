@@ -56,7 +56,8 @@ table(df$dead_qa) # should all be OK
 # Join the Original Number of Eggs Provided -------------------------------
 
 # add initial timestamp
-df <- left_join(df, eggs_lookup)
+df <- left_join(df, eggs_lookup) %>%
+  mutate(date_of_release = as.Date(date_of_release))
 
 # Make Egg Status Summary By Class -----------------------------------
 
@@ -141,7 +142,7 @@ g1b <- ggplot() +
             show.legend=FALSE, alpha=0.9, lwd=1.3, lty=1) +
   scale_y_continuous(labels = scales::percent_format(scale = 100)) +
   theme_cowplot() +
-  scale_x_date(date_labels = "%m-%d") +
+  #scale_x_date(date_labels = "%m-%d") +
   cowplot::background_grid("y") +
   scale_fill_manual("Status", values = c("Hatched"="#0072B2",
                                           "Unhatched" = "#E69F00",
@@ -152,7 +153,7 @@ g1b <- ggplot() +
   #scale_fill_few("Medium", "Status") +
   labs(subtitle = "Eggs status by school and site",
        y="Proportion Eggs Hatched", x="")+
-  facet_wrap(site~tank_number, scales = "free_x") +
+  facet_wrap(site~tank_number)+ #scales = "free_x") +
   theme(axis.text.x = element_text(angle=90, vjust = 0.5),
         plot.background = element_rect(fill="white"),
         # adjust legend position
@@ -167,7 +168,13 @@ g1b
 # now by only hatched eggs:
 # eggs hatched by status type
 df_filt <- df_status_prop %>%
-  filter(!status2 %in% c("Total", "Dead"))
+  filter(!status2 %in% c("Total", "Dead")) %>%
+  filter(prop>0)
+
+# get df with just release dates by tank
+df_release <- df %>% select(site, tank_number, date_of_release, number_of_salmon_released) %>%
+  filter(!is.na(date_of_release))
+
 
 # now plot
 g2 <- ggplot() +
@@ -185,17 +192,18 @@ g2 <- ggplot() +
   geom_point(data=df_filt %>% filter(!status2 %in% c("Hatched", "Unhatched")),
              aes(x=date, y=prop, color=status2, shape=status2),
              alpha=0.8, show.legend=TRUE, size=4) +
+  geom_vline(data=df_release, aes(xintercept=date_of_release), color="gray30", lwd=2, alpha=0.5) +
   scale_y_continuous(labels = scales::percent_format(scale = 100)) +
   facet_wrap(site~tank_number) +
   theme_cowplot(font_family = "Roboto Condensed") +
   cowplot::background_grid("y") +
-  scale_x_date(date_labels = "%m-%d-%y") +
-  scale_shape_discrete("Status") +
-  scale_color_colorblind("Status") +
+  #scale_x_date(date_labels = "%m-%d-%y") +
+  scale_shape_discrete("Behavior") +
+  scale_color_colorblind("Behavior") +
   scale_fill_manual(NULL, values=c("gray40", "gray90")) +
-  labs(subtitle = "Eggs status by site for all hatched eggs",
-       y="Hatched Egg Status", x="",
-       caption = "No effect observed if status is only = 'Hatched'")+
+  labs(subtitle = "Fish behavior by site for all hatched eggs (release date = vertical grey line)",
+       y="Proportion Obs. with Behavior", x="",
+       caption = "No effect observed if status is only = 'Hatched',\n Grey line denotes date salmon released")+
   theme(axis.text.x = element_text(angle=90, vjust = 0.5),
         plot.background = element_rect(fill="white")) +
   guides(fill=guide_legend(override.aes =
@@ -203,28 +211,8 @@ g2 <- ggplot() +
                                   shape=c(21,21), size=c(4,4))))
 g2
 
-# eggs hatched by status type: Laying on Side
-# g2b <- df_status_prop %>%
-#   filter(status2 %in% c("Laying on side")) %>%
-#   ggplot() +
-#   geom_line(aes(x=date, y=prop, group=tank_number), show.legend=FALSE, color="gray70")+
-#   geom_point(aes(x=date, y=prop,fill=site, group=tank_number), pch=21, size=4, show.legend=TRUE) +
-#   facet_grid(tank_number~., scales = "free_y") +
-#   scale_y_continuous(labels = scales::percent_format(scale = 100)) +
-#   #facet_wrap(site~tank_number) +
-#   theme_cowplot() +
-#   cowplot::background_grid("y") +
-#   scale_x_date(date_labels = "%m-%d-%y") +
-#   scale_fill_viridis_d("Site") +
-#   labs(subtitle = "Status: Proportion laying on side",
-#        y="Proportion of Total Hatched Eggs Laying on Side", x="")+
-#   theme(axis.text.x = element_text(angle=90, vjust = 0.5),
-#         plot.background = element_rect(fill="white"))
-#
-# g2b
-
-
 # Eggs Hatched over time by HS ---------------------------
+
 
 # eggs hatched
 g3 <- ggplot() +
@@ -239,9 +227,12 @@ g3 <- ggplot() +
   geom_point(data=df, aes(x=date, y=eggs_hatched, fill="Hatched"),
              show.legend=TRUE, pch=21, size=2.7) +
   #geom_point(data=df %>% group_by(site, tank_number) %>% filter(date==max(date)), aes(x=date, y=eggs_hatched), pch=21, size=4, fill="maroon") +
-  scale_fill_manual("Status", breaks=c("Dead", "Hatched"),
+  # add release date
+  # add release date bar
+  geom_vline(data=df_release, aes(xintercept=date_of_release), color="gray30", lwd=2, alpha=0.5) +
+  scale_fill_manual("Fish Status", breaks=c("Dead", "Hatched"),
                      values=c("Dead"="black", "Hatched"="forestgreen"))+
-  scale_color_manual("Status", breaks=c("Dead", "Hatched"),
+  scale_color_manual("Fish Status", breaks=c("Dead", "Hatched"),
                     values=c("Dead"="black", "Hatched"="forestgreen"))+
   guides(color="none", shape="") +
   facet_wrap(tank_number + site ~.) +
@@ -249,12 +240,13 @@ g3 <- ggplot() +
   cowplot::background_grid("y") +
   #scale_x_date(date_labels = "%m-%d-%y") +
   #scale_x_date(date_breaks = "1 week", date_labels = "%m-%d-%y") +
-  labs(subtitle = "Eggs hatched through time",
-       y="Eggs Hatched", x="",
-       caption = "Purple line = total eggs provided in tank") +
+  labs(subtitle = "Salmon egg status through time (release date = vertical grey line)",
+       y="Count", x="",
+       caption = "Purple line = total eggs provided in tank\n Grey line denotes date salmon released") +
   theme(axis.text.x = element_text(angle=90, vjust = 0.5),
         plot.background = element_rect(fill="white"),
         legend.position = c(0.9,0.1))
+
 g3
 
 # Patchwork -----------------------------------------------------------
