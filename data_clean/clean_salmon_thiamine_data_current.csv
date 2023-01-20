@@ -1,158 +1,139 @@
-site,datetime,date,water_temp_f,water_clarity,eggs_hatched,swimming_up,laying_on_side,spinning,dead,tank_number,date_of_release,number_of_salmon_released,comments,questions
-Samuel Jackman MS,2021-11-17T07:59:59Z,2021-11-17,NA,"Water is clear, pump functioning well",0,0,0,0,0,12,NA,NA,NA,NA
-Samuel Jackman MS,2021-11-29T07:59:59Z,2021-11-29,NA,"Water is clear, pump functioning well",0,0,0,0,0,12,NA,NA,NA,NA
-Edward Harris Jr. MS,2021-11-30T16:20:00Z,2021-11-30,NA,"Water is clear, pump functioning well",1,0,0,0,2,13,NA,NA,One egg was covered in fuzz when we returned from Thanksgiving break.  Another egg has ruptured,NA
-Samuel Jackman MS,2021-12-01T07:59:59Z,2021-12-01,NA,"Water is clear, pump functioning well",3,0,0,0,0,12,NA,NA,NA,NA
-Samuel Jackman MS,2021-12-02T07:59:59Z,2021-12-02,NA,"Water is clear, pump functioning well",20,0,0,0,5,12,NA,NA,the 5 dead were nonviable eggs that were removed because they had turned opaque white/pink,NA
-Edward Harris Jr. MS,2021-12-02T15:45:00Z,2021-12-02,NA,"Water is clear, pump functioning well",9,9,1,0,4,13,NA,NA,"the 2 dead were both eggs that became fuzzy and were discarded
-On the swimming question, I wasn't sure how to answer for this stage of their life.   8 are sitting upright on the gravel, and another is on it's side.  It's probably dead, but I'll check in the morning to verify.",NA
-Samuel Jackman MS,2021-12-03T07:59:59Z,2021-12-03,NA,"Water is clear, pump functioning well",30,0,0,0,5,12,NA,NA,NA,NA
-Samuel Jackman MS,2021-12-06T07:59:59Z,2021-12-06,NA,"Water is clear, pump functioning well",30,0,0,0,5,12,NA,NA,NA,NA
-King High School,2021-12-07T10:34:59Z,2021-12-07,NA,"Water is clear, pump functioning well",35,0,0,0,0,11,NA,NA,Fish hatched 12/3/2021; all are currently alevin,NA
-Edward Harris Jr. MS,2021-12-07T22:05:00Z,2021-12-07,NA,"Water is clear, pump functioning well",29,29,0,0,4,13,NA,NA,NA,NA
-Samuel Jackman MS,2021-12-08T07:59:59Z,2021-12-08,NA,"Water is clear, pump functioning well",30,0,0,0,5,12,NA,NA,NA,NA
-King High School,2021-12-09T10:34:59Z,2021-12-09,NA,"Water is clear, pump functioning well",35,0,0,0,0,11,NA,NA,NA,NA
-Edward Harris Jr. MS,2021-12-09T15:29:59Z,2021-12-09,NA,"Water is clear, pump functioning well",29,29,2,0,4,13,NA,NA,"the 2 alevin that are on their sides attempt to right themselves, but slowly fall back onto their sides",NA
-Samuel Jackman MS,2021-12-10T07:59:59Z,2021-12-10,NA,"Water is clear, pump functioning well",30,0,0,0,5,12,NA,NA,NA,NA
-Samuel Jackman MS,2021-12-13T07:59:59Z,2021-12-13,NA,"Water is clear, pump functioning well",30,0,0,0,5,12,NA,NA,NA,NA
-King High School,2021-12-14T10:34:59Z,2021-12-14,NA,"Water is clear, pump functioning well",35,0,0,0,0,11,NA,NA,NA,NA
-Edward Harris Jr. MS,2021-12-14T11:15:00Z,2021-12-14,NA,"Water is clear, pump functioning well",29,29,0,0,4,13,NA,NA,NA,NA
-Samuel Jackman MS,2021-12-17T07:59:59Z,2021-12-17,NA,"Water is clear, pump functioning well",30,0,0,0,6,12,2021-12-17T00:00:00Z,29,The salmon were released before they had reached fry stage due to time constraints (winter break starting).  One of the alevin was deformed and had to be culled before release - I counted this in my total deaths.,NA
-Edward Harris Jr. MS,2021-12-17T10:59:59Z,2021-12-17,NA,"Water is clear, pump functioning well",30,30,1,0,5,13,NA,NA,all 5 of the dead were eggs that didn't hatch,NA
-King High School,2021-12-17T23:30:00Z,2021-12-17,NA,"Water is clear, pump functioning well",35,0,0,0,0,10,NA,NA,NA,NA
-Edward Harris Jr. MS,2021-12-22T09:30:00Z,2021-12-22,NA,"Water is clear, pump functioning well",30,30,8,0,5,13,NA,NA,"Because my school is closed for winter break, and the fish haven't buttoned up yet, I had to bring the tank home.  The water temp is higher because I heat my home at night, where the classroom is only heated during the day.",NA
-Edward Harris Jr. MS,2021-12-25T16:59:59Z,2021-12-25,NA,"Water is clear, pump functioning well",30,14,6,0,5,13,NA,NA,"Water temp is actually 64.  Today is the first day that the 14 are actually swimming.  Previously, they had just been hanging out in the gravel.  But those 14 are full swimmers at this point.  The 6 on their sides are just laying there and breathing.  The remaining 10 are hanging out in the gravel, belly down and normal looking.",NA
-Edward Harris Jr. MS,2021-12-29T15:00:00Z,2021-12-29,NA,"Water is clear, pump functioning well",30,22,1,0,7,13,NA,NA,"Actual water temp is 62.  As they become more active, I'm beginning to question the way I was previously reporting my data.  Of the 28 fish that are still alive, 1 is laying on it's side in the gravel.  5 are sitting upright in the gravel, but not swimming, and the remaining 22 are actively swimming around the tank.  
-Should there be a question in the form that says something like, ""how many fish have hatched, and sitting on the gravel but not actively swimming?"", as a way to differentiate between those two stages?  Or do I only report the ones ""swimming up"" as the ones who have moved out of the gravel?  If that's the case, my data needs to be revised.","The surviving fish are not fully buttoned up yet.  If new eggs are being delivered next week, I will need to let these fish go in the next couple days.  Is that ok?  Or should I hold on to them until they are a little larger, and pass on the new eggs?"
-Edward Harris Jr. MS,2022-01-01T10:00:00Z,2022-01-01,NA,"Water is clear, pump functioning well",30,27,0,0,8,13,2022-01-01T00:00:00Z,27,NA,NA
-Red Bluff High School,2022-01-03T12:44:00Z,2022-01-03,NA,NA,1,0,0,0,0,1,NA,NA,NA,NA
-Red Bluff High School,2022-01-03T12:44:00Z,2022-01-03,NA,NA,30,0,0,0,0,2,NA,NA,NA,NA
-Orland High School,2022-01-03T12:44:00Z,2022-01-03,NA,NA,1,0,0,0,0,3,NA,NA,NA,NA
-Orland High School,2022-01-03T12:44:00Z,2022-01-03,NA,NA,22,0,0,0,0,4,NA,NA,NA,NA
-Pierce High School,2022-01-03T12:44:00Z,2022-01-03,NA,NA,28,0,0,0,0,5,NA,NA,NA,NA
-Pierce High School,2022-01-03T12:44:00Z,2022-01-03,NA,NA,17,0,0,0,0,6,NA,NA,NA,NA
-Willows High School,2022-01-03T12:44:00Z,2022-01-03,NA,NA,33,0,0,0,0,7,NA,NA,NA,NA
-Willows High School,2022-01-03T12:44:00Z,2022-01-03,NA,NA,28,0,0,0,0,8,NA,NA,NA,NA
-Orland High School,2022-01-04T08:44:59Z,2022-01-04,NA,"Water is clear, pump functioning well",24,0,0,0,0,3,NA,NA,NA,NA
-Orland High School,2022-01-04T08:47:00Z,2022-01-04,NA,"Water is clear, pump functioning well",38,0,0,0,0,4,NA,NA,NA,NA
-King High School,2022-01-04T12:44:00Z,2022-01-04,NA,NA,35,0,0,0,0,16,NA,NA,NA,NA
-Samuel Jackman MS,2022-01-04T12:44:00Z,2022-01-04,NA,NA,35,0,0,0,0,17,NA,NA,NA,NA
-Edward Harris Jr. MS,2022-01-04T12:44:00Z,2022-01-04,NA,NA,35,0,0,0,0,18,NA,NA,NA,NA
-Edward Harris Jr. MS,2022-01-04T13:59:59Z,2022-01-04,NA,"Water is clear, pump functioning well",35,0,0,0,0,18,NA,NA,"My permit says I received 35 eggs, but I'm counting 50 in the tank.  
-39 have hatched so far, but I can't put a number larger than 30 for the question about how many have hatched",NA
-Willows High School,2022-01-04T14:06:59Z,2022-01-04,NA,"Water is clear, pump functioning well",41,0,0,0,0,7,NA,NA,NA,NA
-Pierce High School,2022-01-04T17:46:00Z,2022-01-04,NA,"Water is clear, pump functioning well",41,0,0,0,0,5,NA,NA,NA,NA
-Pierce High School,2022-01-04T17:50:00Z,2022-01-04,NA,"Water is clear, pump functioning well",43,0,0,0,0,6,NA,NA,NA,NA
-Red Bluff High School,2022-01-05T13:36:00Z,2022-01-05,NA,"Water is clear, pump functioning well",36,0,1,0,0,2,NA,NA,NA,NA
-Red Bluff High School,2022-01-05T13:40:00Z,2022-01-05,NA,"Water is clear, pump functioning well",50,0,0,0,0,1,NA,NA,NA,NA
-Willows High School,2022-01-05T15:10:59Z,2022-01-05,NA,"Water is clear, pump functioning well",45,0,0,0,0,8,NA,NA,The fish are gathering in one location of the tank: the bottom left & right corners in a huge clump.,What do we feed the fish and when do we start feeding them?
-Orland High School,2022-01-06T08:40:00Z,2022-01-06,NA,"Water is clear, pump functioning well",50,0,0,0,1,3,NA,NA,NA,NA
-Orland High School,2022-01-06T08:40:00Z,2022-01-06,NA,"Water is clear, pump functioning well",47,0,0,0,0,4,NA,NA,NA,NA
-Samuel Jackman MS,2022-01-06T10:50:00Z,2022-01-06,NA,"Water is clear, pump functioning well",35,0,0,0,0,17,NA,NA,NA,NA
-Willows High School,2022-01-07T02:56:00Z,2022-01-07,NA,"Water is clear, pump functioning well",45,0,0,0,0,8,NA,NA,NA,NA
-Willows High School,2022-01-07T10:14:59Z,2022-01-07,NA,"Water is clear, pump functioning well",44,1,2,1,0,7,NA,NA,NA,NA
-Edward Harris Jr. MS,2022-01-07T13:30:00Z,2022-01-07,NA,"Water is clear, pump functioning well",48,0,0,0,1,18,NA,NA,"I initially thought there were 50 eggs, but I think there were only 49.  One ruptured, and I have only been able to count 48 alevin",NA
-Red Bluff High School,2022-01-07T14:35:00Z,2022-01-07,NA,"Water is clear, pump functioning well",39,0,0,0,0,2,NA,NA,NA,NA
-Red Bluff High School,2022-01-07T14:40:00Z,2022-01-07,NA,"Water is clear, pump functioning well",50,0,0,0,0,1,NA,NA,NA,NA
-Orland High School,2022-01-10T08:05:00Z,2022-01-10,NA,Water is clouding,50,0,0,0,1,3,NA,NA,We removed the one dead fish today.,I just want to verify that we are waiting for the yolk to reduce prior to feeding. And if we do need to feed what will we feed?
-Orland High School,2022-01-10T08:05:00Z,2022-01-10,NA,"Water is clear, pump functioning well",47,0,0,0,0,4,NA,NA,NA,NA
-Red Bluff High School,2022-01-11T10:00:00Z,2022-01-11,NA,"Water is clear, pump functioning well",50,0,0,0,0,1,NA,NA,Most alevins are clumped together and are down on the rocks. A few alevins are spaced farther away from the group. Not much movement of the fish.,NA
-Red Bluff High School,2022-01-11T10:00:00Z,2022-01-11,NA,"Water is clear, pump functioning well",41,0,0,0,0,2,NA,NA,Most alevins are clumped together and are down on the rocks. A few alevins are spaced farther away from the group. Not much movement of the fish.,NA
-Willows High School,2022-01-11T12:29:59Z,2022-01-11,NA,"Water is clear, pump functioning well",44,0,5,0,0,7,NA,NA,no,no
-Edward Harris Jr. MS,2022-01-11T13:10:00Z,2022-01-11,NA,"Water is clear, pump functioning well",48,0,0,0,1,18,NA,NA,NA,NA
-Samuel Jackman MS,2022-01-11T13:59:59Z,2022-01-11,NA,"Water is clear, pump functioning well",35,0,0,0,0,17,NA,NA,NA,NA
-Willows High School,2022-01-11T15:27:00Z,2022-01-11,NA,"Water is clear, pump functioning well",45,1,0,0,0,8,NA,NA,NA,NA
-Orland High School,2022-01-12T08:02:00Z,2022-01-12,NA,"Water is clear, pump functioning well",50,0,0,0,1,3,NA,NA,NA,NA
-Orland High School,2022-01-12T08:03:00Z,2022-01-12,NA,"Water is clear, pump functioning well",47,0,0,0,0,4,NA,NA,NA,NA
-Willows High School,2022-01-12T09:29:59Z,2022-01-12,NA,"Water is clear, pump functioning well",44,0,2,3,0,7,NA,NA,no,no
-King High School,2022-01-12T10:40:00Z,2022-01-12,NA,"Water is clear, pump functioning well",35,0,0,0,1,16,NA,NA,NA,NA
-Pierce High School,2022-01-12T15:25:00Z,2022-01-12,NA,"Water is clear, pump functioning well",47,0,0,0,0,6,NA,NA,"For the chillers, I have had to set the temperature on the chillers to 46 or 47 degrees (on tank 5 and 6) to keep the total temperature of the tanks down at 48 degrees.",NA
-Pierce High School,2022-01-12T15:45:00Z,2022-01-12,NA,"Water is clear, pump functioning well",44,0,0,0,0,5,NA,NA,"For the chillers, I have had to set the temperature on the chillers to 46 or 47 degrees (on tank 5 and 6) to keep the total temperature of the tanks down at 48 degrees.",Not at the moment!
-Red Bluff High School,2022-01-14T09:00:00Z,2022-01-14,NA,"Water is clear, pump functioning well",50,0,0,0,0,1,NA,NA,NA,NA
-Red Bluff High School,2022-01-14T09:00:00Z,2022-01-14,NA,"Water is clear, pump functioning well",41,0,0,0,0,2,NA,NA,NA,NA
-Edward Harris Jr. MS,2022-01-14T12:29:59Z,2022-01-14,NA,"Water is clear, pump functioning well",48,0,0,0,2,18,NA,NA,NA,NA
-Pierce High School,2022-01-14T15:15:00Z,2022-01-14,NA,"Water is clear, pump functioning well",44,0,0,0,0,5,NA,NA,NA,NA
-King High School,2022-01-17T09:00:00Z,2022-01-17,NA,"Water is clear, pump functioning well",35,0,0,0,1,11,2022-01-17T00:00:00Z,34,NA,NA
-Orland High School,2022-01-18T07:59:00Z,2022-01-18,NA,"Water is clear, pump functioning well",50,0,0,0,1,3,NA,NA,NA,NA
-Pierce High School,2022-01-18T07:59:59Z,2022-01-18,NA,"Water is clear, pump functioning well",47,7,0,0,0,5,NA,NA,NA,NA
-Orland High School,2022-01-18T08:01:00Z,2022-01-18,NA,"Water is clear, pump functioning well",47,0,0,0,0,4,NA,NA,NA,NA
-Pierce High School,2022-01-18T08:14:00Z,2022-01-18,NA,"Water is clear, pump functioning well",47,0,0,0,0,6,NA,NA,NA,NA
-Willows High School,2022-01-18T09:15:00Z,2022-01-18,NA,"Water is clear, pump functioning well",44,7,4,3,0,7,NA,NA,NA,NA
-Red Bluff High School,2022-01-18T10:00:00Z,2022-01-18,NA,"Water is clear, pump functioning well",50,15,0,0,0,1,NA,NA,NA,NA
-Red Bluff High School,2022-01-18T10:00:00Z,2022-01-18,NA,"Water is clear, pump functioning well",41,10,0,0,0,2,NA,NA,NA,NA
-King High School,2022-01-18T10:30:00Z,2022-01-18,NA,"Water is clear, pump functioning well",34,0,0,0,1,16,NA,NA,NA,NA
-Edward Harris Jr. MS,2022-01-18T16:00:00Z,2022-01-18,NA,"Water is clear, pump functioning well",48,4,10,0,2,18,NA,NA,4 fish are attempting to swim up.  those 4 are fine.  10 of the alevin sitting in the gravel are laying on their sides.,NA
-Orland High School,2022-01-20T08:05:00Z,2022-01-20,NA,"Water is clear, pump functioning well",47,0,0,0,0,4,NA,NA,NA,NA
-Orland High School,2022-01-20T08:10:00Z,2022-01-20,NA,"Water is clear, pump functioning well",50,0,0,0,1,3,NA,NA,NA,NA
-King High School,2022-01-20T10:34:59Z,2022-01-20,NA,"Water is clear, pump functioning well",34,0,0,0,1,16,NA,NA,NA,NA
-Willows High School,2022-01-20T10:37:00Z,2022-01-20,NA,"Water is clear, pump functioning well",45,1,6,0,0,8,NA,NA,NA,NA
-Edward Harris Jr. MS,2022-01-20T13:59:59Z,2022-01-20,NA,"Water is clear, but unsure of pump functioning",48,4,20,0,7,18,NA,NA,"5 fish died in the last day.  twice as many are laying on their side today, as there were 2 days ago.  The ones on their sides are breathing really hard; like they're panting.  The pump is working fine, but maybe the charcoal in the upper part is clogged?  There's not a ton of bubbles making it out of the unit.  I pulled the charcoal filter off the end to try to get them as much oxygen as possible, and I'll take it home and try to get it cleaned out.  Can I refill it with charcoal that I have for my goldfish tank?",NA
-Pierce High School,2022-01-21T08:12:00Z,2022-01-21,NA,"Water is clear, pump functioning well",47,0,2,0,0,6,NA,NA,NA,NA
-Pierce High School,2022-01-21T08:12:59Z,2022-01-21,NA,"Water is clear, pump functioning well",44,4,5,0,0,5,NA,NA,NA,NA
-Samuel Jackman MS,2022-01-24T07:30:00Z,2022-01-24,NA,"Water is clear, pump functioning well",35,0,0,0,0,17,NA,NA,NA,NA
-Orland High School,2022-01-24T08:06:00Z,2022-01-24,NA,"Water is clear, pump functioning well",47,0,0,0,0,4,NA,NA,NA,NA
-Orland High School,2022-01-24T08:10:00Z,2022-01-24,NA,"Water is clear, pump functioning well",50,0,0,0,1,3,NA,NA,NA,NA
-Willows High School,2022-01-24T08:15:00Z,2022-01-24,NA,"Water is clear, pump functioning well",44,5,3,1,1,7,NA,NA,NA,NA
-Pierce High School,2022-01-24T08:15:00Z,2022-01-24,NA,"Water is clear, pump functioning well",47,0,6,0,0,6,NA,NA,NA,NA
-Pierce High School,2022-01-24T08:16:00Z,2022-01-24,NA,"Water is clear, pump functioning well",44,6,8,0,0,5,NA,NA,NA,NA
-Willows High School,2022-01-24T10:11:00Z,2022-01-24,NA,"Water is clear, pump functioning well",45,17,6,1,0,8,NA,NA,NA,NA
-Willows High School,2022-01-24T10:37:00Z,2022-01-24,NA,"Water is clear, pump functioning well",45,17,6,1,0,8,NA,NA,NA,NA
-Red Bluff High School,2022-01-25T07:59:59Z,2022-01-25,NA,"Water is clear, pump functioning well",50,4,0,0,0,1,NA,NA,Fish seem to move towards bottom of tank when the cover is removed.,NA
-Red Bluff High School,2022-01-25T07:59:59Z,2022-01-25,NA,"Water is clear, pump functioning well",41,5,0,0,0,2,NA,NA,We see two alevin that are sharing one egg sac. Both are alive but very small compared to the others.,NA
-King High School,2022-01-25T10:34:59Z,2022-01-25,NA,"Water is clear, pump functioning well",35,0,0,0,1,16,NA,NA,NA,NA
-Willows High School,2022-01-25T12:15:00Z,2022-01-25,NA,"Water is clear, pump functioning well",44,38,4,1,1,7,NA,NA,NA,NA
-Edward Harris Jr. MS,2022-01-26T10:59:59Z,2022-01-26,NA,"Water is clear, pump functioning well",48,10,9,0,16,18,NA,NA,NA,NA
-Samuel Jackman MS,2022-01-26T13:00:00Z,2022-01-26,NA,Water is clouding,35,3,0,0,0,17,NA,NA,NA,NA
-Pierce High School,2022-01-27T09:12:00Z,2022-01-27,NA,"Water is clear, pump functioning well",44,0,2,0,0,5,NA,NA,NA,NA
-Pierce High School,2022-01-27T09:14:00Z,2022-01-27,NA,"Water is clear, pump functioning well",47,0,1,0,0,6,NA,NA,The fish in this tank had some issue that were fixed during this observation. About half of the fish wedged themselves behind the tube that lead to the chiller because of a shallow dip in the pebbles there. Fish were gently moved and the hole was filled in. It was noticed that the fish in tank 6 seem to have more yolk still than those from tank 5 and this may be due to them piling up in the corner with each other for an extended period of time.,NA
-Samuel Jackman MS,2022-01-27T15:00:00Z,2022-01-27,NA,"Water is clear, pump functioning well",35,2,0,0,0,17,NA,NA,"Water was clouding and smelly, so I did a 5 gallon change.  I also had large river rocks in the tank, but I removed them to make observations more effective and easy.  We were worried that we had lost several fish, but after removing the large rocks we could see the rest of alevin living and borrowed in the gravel under the large rocks.  The fish are too hidden in the gravel to count, but I do not see any dead fish.",NA
-Orland High School,2022-01-28T08:05:00Z,2022-01-28,NA,"Water is clear, pump functioning well",50,16,0,0,1,3,NA,NA,NA,NA
-Orland High School,2022-01-28T08:06:00Z,2022-01-28,NA,"Water is clear, pump functioning well",47,5,0,0,0,4,NA,NA,They are starting to school and all swim in the same spot on the gravel.,NA
-Red Bluff High School,2022-01-28T08:15:00Z,2022-01-28,NA,"Water is clear, pump functioning well",41,14,0,0,0,2,NA,NA,Fish are clumped together in one corner. The fish that are swimming are staying directly above the other group of fish in the gravel.,NA
-Red Bluff High School,2022-01-28T08:30:00Z,2022-01-28,NA,"Water is clear, pump functioning well",50,12,0,0,0,1,NA,NA,"The fish are a lot more consistently active and swimming. Before, the fish would swim and then settle back down on the bottom. Now they stay swimming",NA
-King High School,2022-01-28T10:34:59Z,2022-01-28,NA,"Water is clear, pump functioning well",34,34,0,0,1,16,NA,NA,NA,NA
-Samuel Jackman MS,2022-01-28T11:30:00Z,2022-01-28,NA,"Water is clear, pump functioning well",35,17,0,0,0,17,NA,NA,NA,NA
-Edward Harris Jr. MS,2022-01-28T13:40:00Z,2022-01-28,NA,"Water is clear, pump functioning well",48,14,4,0,18,18,NA,NA,NA,NA
-Willows High School,2022-01-28T15:00:00Z,2022-01-28,NA,"Water is clear, pump functioning well",45,20,0,0,0,8,NA,NA,Most of the finish seem way more active than before! Our students love it!,NA
-Orland High School,2022-01-31T08:47:00Z,2022-01-31,NA,"Water is clear, pump functioning well",50,46,0,0,1,3,NA,NA,"The fish are swimming in the current fairly parallel to the tank floor, not necessarily swimming up. But that was our best choice.",NA
-Orland High School,2022-01-31T08:48:00Z,2022-01-31,NA,"Water is clear, pump functioning well",47,12,0,0,0,4,NA,NA,They are no longer schooling and are all swimming in random directions. This tank has different behaviors than the other tank (3).,NA
-Willows High School,2022-01-31T10:08:00Z,2022-01-31,NA,"Water is clear, pump functioning well",44,33,9,0,2,7,NA,NA,NA,NA
-King High School,2022-02-01T10:34:59Z,2022-02-01,NA,"Water is clear, pump functioning well",34,34,0,0,1,16,NA,NA,NA,NA
-Edward Harris Jr. MS,2022-02-01T16:00:00Z,2022-02-01,NA,"Water is clear, pump functioning well",48,15,2,0,28,18,NA,NA,NA,NA
-Samuel Jackman MS,2022-02-02T07:30:00Z,2022-02-02,NA,"Water is clear, pump functioning well",35,35,0,0,0,17,NA,NA,NA,NA
-Willows High School,2022-02-02T07:45:00Z,2022-02-02,NA,"Water is clear, pump functioning well",45,43,0,0,0,8,NA,NA,This morning six fish were on the left side of the tank and the rest were on the right side of the tank. Both groups were staring at each other. There’s one fish that is laying on its side; it looks like it’s still alive but might not make it. I’m rooting for it to live!,NA
-Red Bluff High School,2022-02-02T09:00:00Z,2022-02-02,NA,"Water is clear, pump functioning well",50,49,0,0,0,1,NA,NA,NA,NA
-Red Bluff High School,2022-02-02T09:00:00Z,2022-02-02,NA,"Water is clear, pump functioning well",41,38,3,0,0,2,NA,NA,NA,NA
-Orland High School,2022-02-02T09:16:59Z,2022-02-02,NA,"Water is clear, pump functioning well",47,47,0,0,0,4,NA,NA,The are more schooling and swimming in the current than swimming up.,NA
-Orland High School,2022-02-02T09:19:00Z,2022-02-02,NA,"Water is clear, pump functioning well",50,49,0,0,1,3,NA,NA,The are more schooling and swimming in the current than swimming up.,NA
-Willows High School,2022-02-02T12:16:59Z,2022-02-02,NA,"Water is clear, pump functioning well",44,39,3,0,2,7,NA,NA,NA,NA
-King High School,2022-02-03T10:34:59Z,2022-02-03,NA,"Water is clear, pump functioning well",35,33,0,0,2,16,NA,NA,NA,NA
-Red Bluff High School,2022-02-04T13:00:00Z,2022-02-04,NA,"Water is clear, pump functioning well",50,50,0,0,0,1,NA,NA,NA,NA
-Red Bluff High School,2022-02-04T13:59:59Z,2022-02-04,NA,"Water is clear, pump functioning well",41,39,0,0,0,2,NA,NA,Conjoined fish are still alive but unable to swim.,NA
-Edward Harris Jr. MS,2022-02-04T14:30:00Z,2022-02-04,NA,"Water is clear, pump functioning well",48,16,0,0,31,18,NA,NA,NA,NA
-Samuel Jackman MS,2022-02-04T15:35:00Z,2022-02-04,NA,"Water is clear, pump functioning well",35,35,0,0,0,17,NA,NA,NA,NA
-Pierce High School,2022-02-02T08:16:00Z,2022-02-02,NA,"Water is clear, pump functioning well",44,40,4,0,0,5,NA,NA,"This tank has a salmon that has a was born with a deformity. Said salmon has a curled body and tail. Salmon is still alive, but growth is stunted and fish is sitting on the bottom of the tank unable to swim.",NA
-Pierce High School,2022-02-04T08:18:00Z,2022-02-04,NA,"Water is clear, pump functioning well",44,43,1,0,0,5,NA,NA,NA,NA
-Pierce High School,2022-02-02T08:14:00Z,2022-02-02,NA,"Water is clear, pump functioning well",47,32,4,0,0,6,NA,NA,NA,NA
-Pierce High School,2022-02-04T08:10:00Z,2022-02-04,NA,"Water is clear, pump functioning well",47,25,6,0,0,6,NA,NA,NA,NA
-Willows High School,2022-02-07T09:10:00Z,2022-02-07,NA,"Water is clear, pump functioning well",44,40,0,0,4,7,2022-02-10T00:00:00Z,40,NA,Is there a particular way that you would like us to release the fish into the river?
-Edward Harris Jr. MS,2022-02-09T14:44:59Z,2022-02-09,NA,"Water is clear, pump functioning well",48,14,0,0,32,18,NA,NA,"My numbers don't seem to add up.  I only count 14 fish swimming around the tank, but my number of dead indicates there should be16.  So I either didn't write down 2 dead at some point, or there's 2 hiding under the gravel in the corner of the tank.",NA
-Red Bluff High School,2022-02-07T08:15:00Z,2022-02-07,NA,"Water is clear, pump functioning well",50,49,0,0,1,1,NA,NA,NA,NA
-Red Bluff High School,2022-02-07T08:15:00Z,2022-02-07,NA,"Water is clear, pump functioning well",41,41,0,0,0,2,NA,NA,NA,NA
-Red Bluff High School,2022-02-16T12:00:00Z,2022-02-16,NA,"Water is clear, pump functioning well",50,49,0,0,1,1,2022-02-09T00:00:00Z,49,NA,NA
-Red Bluff High School,2022-02-09T12:00:00Z,2022-02-09,NA,"Water is clear, pump functioning well",41,41,0,0,0,2,2022-02-09T00:00:00Z,41,NA,NA
-Edward Harris Jr. MS,2022-02-11T08:44:59Z,2022-02-11,NA,"Water is clear, pump functioning well",48,16,0,0,32,18,NA,NA,"the 2 that we couldn't find at the last counting, have been found.  They must have been hiding under the rocks.",NA
-Willows High School,2022-02-14T15:00:00Z,2022-02-14,NA,"Water is clear, pump functioning well",45,44,1,0,0,8,2022-02-14T00:00:00Z,45,NA,NA
-Pierce High School,2022-02-11T10:14:59Z,2022-02-11,NA,"Water is clear, pump functioning well",44,43,1,0,0,5,NA,NA,NA,NA
-Pierce High School,2022-02-10T10:05:00Z,2022-02-10,NA,"Water is clear, pump functioning well",47,43,0,0,0,6,NA,NA,NA,NA
-Pierce High School,2022-02-09T09:44:00Z,2022-02-09,NA,"Water is clear, pump functioning well",47,21,0,0,0,6,NA,NA,NA,NA
-Pierce High School,2022-02-09T09:44:00Z,2022-02-09,NA,"Water is clear, pump functioning well",44,7,0,0,0,5,NA,NA,NA,NA
-Pierce High School,2022-02-14T08:10:00Z,2022-02-14,NA,"Water is clear, pump functioning well",44,43,0,0,0,5,NA,NA,NA,NA
-Pierce High School,2022-02-14T08:16:00Z,2022-02-14,NA,"Water is clear, pump functioning well",47,47,0,0,0,6,NA,NA,NA,NA
-Orland High School,2022-02-07T16:16:00Z,2022-02-07,NA,"Water is clear, pump functioning well",50,49,0,0,1,3,2022-02-07T00:00:00Z,48,In transferring the fish from the tank in the classroom to the bucket one was killed. Otherwise the rest (48) successfully made it to the river.,NA
-Orland High School,2022-02-07T16:16:00Z,2022-02-07,NA,"Water is clear, pump functioning well",47,47,0,0,0,4,2022-02-07T00:00:00Z,47,NA,NA
-Pierce High School,2022-02-17T07:43:00Z,2022-02-17,NA,"Water is clear, pump functioning well",44,43,0,0,0,5,2022-02-17T00:00:00Z,44,NA,NA
-Pierce High School,2022-02-17T08:05:00Z,2022-02-17,NA,"Water is clear, pump functioning well",47,47,0,0,0,6,2022-02-17T00:00:00Z,47,NA,NA
-Edward Harris Jr. MS,2022-02-25T16:00:00Z,2022-02-25,NA,"Water is clear, pump functioning well",48,11,0,0,38,18,2022-02-25T00:00:00Z,11,"I ended up being out of school from the 15th through the 25th.  The 11 survivors didn't get any food and were pretty scrawny when they were released, but they were swimming around fine.",NA
-King High School,2022-02-22T10:30:00Z,2022-02-22,NA,"Water is clear, pump functioning well",35,25,0,0,10,16,2022-02-27T00:00:00Z,25,Had 8 die overnight for a total of 10 decesased.,NA
-Samuel Jackman MS,2022-02-15T10:00:00Z,2022-02-15,NA,"Water is clear, pump functioning well",35,35,0,0,0,17,2022-02-22T00:00:00Z,35,NA,NA
+site,quality_assurance_student_reporting_first_name_only,quality_control_student_checking_submission,tank_number,datetime,date,water_temp_f,water_clarity,eggs_unhatched,eggs_hatched,dead,date_of_release,number_of_salmon_released,comments,questions
+Fairfield High School,jairo,NA,10,2022-12-19T13:40:00Z,2022-12-19,48.7,Water is clouding,4,31,0,NA,NA,NA,when will the bubbles in the tank be gone
+Fairfield High School,Jordan,NA,10,2022-12-19T09:55:59Z,2022-12-19,48.4,"Water is clear, pump functioning well",6,29,0,NA,NA,NA,Why do the eggs now have tails and haven't fully broken out of the egg?
+Fairfield High School,Jacob,NA,10,2022-12-15T15:01:00Z,2022-12-15,49.1,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,Will the Salmon need any assistance hatching? Does the environment the salmon grow in effect anything?
+Fairfield High School,Perla,NA,10,2022-12-13T13:58:00Z,2022-12-13,49.1,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,How do the salmon develop in the egg? Are the black dots on the eggs the salmons eyes? Can the salmon eggs actually move or is it just the flow from the pump moving them?
+Fairfield High School,Aaron Levy,NA,10,2022-12-13T03:07:00Z,2022-12-13,49.8,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,none
+Fairfield High School,Jordan,NA,10,2023-01-11T10:10:00Z,2023-01-11,49,"Water is clear, pump functioning well",0,35,0,0001-01-01T00:00:00Z,NA,NA,Why is the salmon curling?
+Fairfield High School,Alexa,NA,10,2023-01-11T13:17:00Z,2023-01-11,48.7,"Water is clear, pump functioning well",0,35,0,NA,NA,NA,Why is one of the fish curled up?
+Golden Hills Community School,Cache,NA,9,2023-01-10T09:00:00Z,2023-01-10,49.5,"Water is clear, pump functioning well",0,33,2,NA,NA,NA,N/A
+Golden Hills Community School,Cache,NA,9,2022-12-19T13:16:00Z,2022-12-19,47,Water is clouding,0,33,2,NA,NA,NA,"If the eggs are hatching prior to our winter break, do they need additional care over the break?"
+Golden Hills Community School,Cache,NA,9,2022-12-15T13:23:00Z,2022-12-15,49,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,None
+Golden Hills Community School,Cache,NA,9,2022-12-12T08:30:00Z,2022-12-12,47.8,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,N/A
+Golden Hills Community School,Cache,NA,9,2022-12-09T10:50:00Z,2022-12-09,48.7,Water is clouding,35,0,0,NA,NA,NA,N/A
+Hamilton High School,Evan,NA,12,2023-01-10T11:30:00Z,2023-01-10,51.1,"Water is clear, pump functioning well",0,31,4,NA,NA,NA,N/A
+Hamilton High School,Kevin,NA,12,2022-12-13T13:30:00Z,2022-12-13,51,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,N/A
+Hamilton High School,Ivan,NA,12,2022-12-08T12:52:00Z,2022-12-08,51,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,None at the moment
+Hamilton High School,Xiomara,NA,12,2022-12-06T09:49:59Z,2022-12-06,51,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,None at the moment.
+Hamilton High School,Kevin,NA,12,2022-12-15T11:50:00Z,2022-12-15,50,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,N/A
+Hamilton High School,Caden,NA,12,2023-01-12T10:50:00Z,2023-01-12,51.4,"Water is clear, pump functioning well",0,31,4,NA,NA,NA,N/A
+John Finney High School,Teacher,NA,6,2022-12-16T12:58:00Z,2022-12-16,48.4,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,na
+John Finney High School,Teacher,NA,5,2022-12-16T12:57:00Z,2022-12-16,48.7,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,na
+John Finney High School,Teacher,NA,6,2022-12-13T09:29:59Z,2022-12-13,48.7,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,na
+John Finney High School,Teacher,NA,5,2022-12-13T09:29:00Z,2022-12-13,49.5,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,na
+John Finney High School,Teacher,NA,6,2022-12-09T13:30:00Z,2022-12-09,49.5,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,na
+John Finney High School,Teacher,NA,5,2022-12-09T12:00:00Z,2022-12-09,47.8,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,na
+John Finney High School,Teacher,NA,5,2022-12-07T12:00:00Z,2022-12-07,49.1,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,na
+John Finney High School,Teacher,NA,6,2022-12-07T12:00:00Z,2022-12-07,49,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,na
+Liberty High School,Michael,NA,4,2023-01-10T12:55:00Z,2023-01-10,49,"Water is clear, pump functioning well",0,29,6,NA,NA,NA,Should the alevin be grouped closely together? Most are in this tank but some are on their own.
+Liberty High School,Milla,NA,3,2022-12-21T12:29:59Z,2022-12-21,49,"Water is clear, pump functioning well",32,3,0,NA,NA,NA,Should we remove the whiteish/clear things from the eggs that are floating in the tank after they hatch?
+Liberty High School,Milla,NA,4,2022-12-21T12:23:59Z,2022-12-21,49,"Water is clear, pump functioning well",3,32,0,NA,NA,NA,Why have so many eggs hatched in tank 4 and so few in tank 3?
+Liberty High School,Milla,NA,3,2022-12-19T08:49:00Z,2022-12-19,50,"Water is clear, pump functioning well",34,1,0,NA,NA,NA,none
+Liberty High School,Milla,NA,4,2022-12-19T08:44:59Z,2022-12-19,49,"Water is clear, pump functioning well",32,3,0,NA,NA,NA,none
+Liberty High School,Grace,NA,3,2022-12-16T09:20:00Z,2022-12-16,49,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,none
+Liberty High School,Elijah,NA,4,2022-12-16T09:20:00Z,2022-12-16,50,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,none
+Liberty High School,Neveah,NA,3,2022-12-13T12:15:00Z,2022-12-13,49,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,How low can the water in the tank get before we need to add water?
+Liberty High School,Grace,NA,3,2022-12-13T08:44:59Z,2022-12-13,49,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,What will the eggs look like if they die?
+Liberty High School,Milla Abono,NA,4,2022-12-09T09:28:00Z,2022-12-09,50,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,none
+Liberty High School,Milla Abono,NA,3,2022-12-09T09:23:59Z,2022-12-09,49,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,None
+Liberty High School,Natalia,NA,3,2022-12-07T12:40:00Z,2022-12-07,49,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,What water temperature range is acceptable at this point? The tanks are  usually always at 49 to 50 but I think it dropped to 48 briefly.
+Liberty High School,Nicolas,NA,4,2022-12-06T12:29:59Z,2022-12-06,50,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,None
+Liberty High School,Aiden,NA,3,2023-01-09T11:45:00Z,2023-01-09,49,"Water is clear, pump functioning well",0,12,23,NA,NA,NA,How much should the alevin be moving around?
+Maine Prairie High School,María,NA,7,2023-01-09T11:48:00Z,2023-01-09,49,Water is clouding,0,35,0,NA,NA,NA,Why are they so small
+Maine Prairie High School,Kairee,NA,7,2023-01-09T11:46:00Z,2023-01-09,49,"Water is clear, pump functioning well",0,35,0,NA,NA,NA,None
+Maine Prairie High School,Leilani,NA,7,2023-01-09T10:59:00Z,2023-01-09,49,Water is clouding,0,35,0,NA,NA,NA,When will all fish hatch fully?
+Maine Prairie High School,Dina Flamik,NA,7,2022-12-31T09:10:59Z,2022-12-31,50,"Water is clear, pump functioning well",0,35,0,NA,NA,NA,How do I know is the fish is dead or alive if none of them are swimming?
+Maine Prairie High School,Sarah,NA,7,2022-12-15T09:10:59Z,2022-12-15,50,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,n/a
+Maine Prairie High School,Alicia,NA,7,2022-12-13T08:46:00Z,2022-12-13,49,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,Why 35 eggs?  Why no more or less than that?
+Maine Prairie High School,Dina Flamik,NA,7,2022-12-09T10:00:00Z,2022-12-09,49,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,n/a
+Maine Prairie High School,Dina Flamik,NA,7,2022-12-07T14:06:00Z,2022-12-07,50,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,n/a
+Maine Prairie High School,Teacher-Alicia,NA,8,2022-12-12T15:00:00Z,2022-12-12,49.3,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,None
+Maine Prairie High School,Teacher-Alicia,NA,8,2022-12-09T12:00:00Z,2022-12-09,49.3,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,None.
+Maine Prairie High School,Eric novoa,NA,7,2023-01-09T11:48:00Z,2023-01-09,49,Water is clouding,0,35,0,0022-01-09T00:00:00Z,NA,NA,None
+McCaffrey Middle School,Rustin,NA,11,2023-01-10T12:38:00Z,2023-01-10,48.7,"Water is clear, pump functioning well",0,35,0,NA,NA,NA,None
+McCaffrey Middle School,Maritza,NA,11,2023-01-05T12:42:00Z,2023-01-05,48.7,"Water is clear, pump functioning well",0,35,0,NA,NA,NA,"We have 1 Alevin that is curled up (alive) and spins occasionally. We marked this as a '1' under ""of the fish attempting to swim"", but it is not swimming up yet.  That Alevin mostly lays in the gravel in a curled up position. Even though it is not a fish that is 'swimming up', do we still mark it as one showing TDC symptoms?"
+McCaffrey Middle School,Quincy,NA,11,2023-01-03T12:38:00Z,2023-01-03,47.1,"Water is clear, pump functioning well",0,35,0,NA,NA,NA,(See observations) Can a fish show TDC symptoms even when not swimming up?
+McCaffrey Middle School,Maritza,NA,11,2022-12-15T12:38:00Z,2022-12-15,48.2,"Water is clear, pump functioning well",0,0,0,NA,NA,NA,None
+McCaffrey Middle School,Aiden,NA,11,2022-12-13T12:58:00Z,2022-12-13,48.2,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,None
+McCaffrey Middle School,Lisa,NA,11,2022-12-09T08:56:00Z,2022-12-09,46.9,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,None
+McCaffrey Middle School,Lisa,NA,11,2022-12-08T09:04:00Z,2022-12-08,48.9,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,None
+Orland High School,Ashlynn,NA,15,2022-12-23T13:16:00Z,2022-12-23,50.5,"Water is clear, pump functioning well",0,34,1,NA,NA,NA,NA
+Orland High School,Ashlynn,NA,16,2022-12-23T11:51:00Z,2022-12-23,49,"Water is clear, pump functioning well",0,35,0,NA,NA,NA,NA
+Orland High School,Alyssa,NA,16,2022-12-22T12:41:00Z,2022-12-22,47.7,"Water is clear, pump functioning well",3,32,0,NA,NA,NA,Why are the fish's still attached to the egg?
+Orland High School,Gracie,NA,15,2022-12-22T00:42:00Z,2022-12-22,50,"Water is clear, pump functioning well",0,35,1,NA,NA,NA,none
+Orland High School,Luke,NA,15,2022-12-21T09:31:00Z,2022-12-21,49.6,"Water is clear, pump functioning well",0,35,0,NA,NA,NA,None
+Orland High School,Anna,NA,16,2022-12-19T13:56:00Z,2022-12-19,46.8,"Water is clear, pump functioning well",27,8,0,NA,NA,NA,None
+Orland High School,Lauren,NA,15,2022-12-19T13:55:00Z,2022-12-19,50.3,"Water is clear, pump functioning well",1,34,0,NA,NA,NA,None
+Orland High School,Autumn,NA,16,2022-12-16T10:53:00Z,2022-12-16,48,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,None
+Orland High School,Sidnee,NA,15,2022-12-16T10:46:59Z,2022-12-16,50.4,"Water is clear, pump functioning well",33,2,0,NA,NA,NA,None
+Orland High School,Autumn,NA,15,2022-12-15T09:10:00Z,2022-12-15,49.8,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,None
+Orland High School,Hunter,NA,16,2022-12-15T09:10:00Z,2022-12-15,49,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,None
+Orland High School,Autumn,NA,15,2022-12-10T17:25:00Z,2022-12-10,49.7,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,None
+Orland High School,Autumn,NA,16,2022-12-10T17:25:00Z,2022-12-10,47.7,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,None
+Orland High School,Autumn,NA,15,2022-12-08T14:00:00Z,2022-12-08,51.3,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,None
+Orland High School,Eden,NA,16,2022-12-21T09:32:00Z,2022-12-21,49,"Water is clear, pump functioning well",2,33,0,NA,NA,NA,None
+Orland High School,Dottie,NA,15,2023-01-11T00:14:00Z,2023-01-11,49.5,"Water is clear, pump functioning well",0,34,1,NA,NA,NA,None
+Orland High School,Rubi Parra,NA,16,2023-01-11T12:15:00Z,2023-01-11,49,"Water is clear, pump functioning well",0,35,0,NA,NA,NA,Why do the salmon spin in a circle?
+Pierce High School,Cody,NA,17,2023-01-09T09:42:59Z,2023-01-09,50,"Water is clear, pump functioning well",0,35,0,NA,NA,NA,"This may have already been asked, but why are the salmon getting a curved spine straight out of the egg?"
+Pierce High School,Cody,NA,17,2022-12-16T02:09:00Z,2022-12-16,50.3,"Water is clear, pump functioning well",25,10,0,NA,NA,NA,None
+Pierce High School,Cody,NA,17,2022-12-13T08:15:00Z,2022-12-13,49.5,"Water is clear, pump functioning well",26,9,0,NA,NA,NA,Our fish have started hatching early due to the warm temperatures over the weekend. Is there anything I should do or be aware of or looking out for?
+Pierce High School,Cody,NA,17,2022-12-12T06:42:00Z,2022-12-12,60,"Water is clear, but unsure of pump functioning",35,0,0,NA,NA,NA,How should we proceed after the temperature spike?
+Pierce High School,Cody,NA,17,2022-12-09T08:02:00Z,2022-12-09,50.2,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,No questions at this time.
+Red Bluff High School,Geoff Barrow,NA,13,2023-01-06T13:10:00Z,2023-01-06,50,"Water is clear, pump functioning well",0,33,2,NA,NA,NA,None
+Red Bluff High School,Geoff Barrow/teacher,NA,14,2023-01-06T12:49:59Z,2023-01-06,50.2,"Water is clear, pump functioning well",0,26,9,NA,NA,NA,None at this time.
+Red Bluff High School,Geoff/teacher,NA,14,2023-01-03T10:31:00Z,2023-01-03,49.6,"Water is clear, pump functioning well",0,26,9,NA,NA,NA,None at this time.
+Red Bluff High School,Kaitlyn Miller,NA,13,2023-01-02T10:23:00Z,2023-01-02,50,"Water is clear, pump functioning well",0,33,2,NA,NA,NA,None
+Red Bluff High School,Bailey,NA,13,2022-12-21T12:22:00Z,2022-12-21,49.8,"Water is clear, pump functioning well",1,33,1,NA,NA,NA,Why is it taking so long for the one fish to hatch compared to all the others?
+Red Bluff High School,Mercy,NA,14,2022-12-21T10:21:00Z,2022-12-21,50,"Water is clear, pump functioning well",0,27,8,NA,NA,NA,Normal to lose so many eggs?
+Red Bluff High School,Milan,NA,13,2022-12-19T11:14:00Z,2022-12-19,50.2,"Water is clear, pump functioning well",1,33,1,NA,NA,NA,When are they going to start swimming ?
+Red Bluff High School,Mercy,NA,14,2022-12-19T10:34:59Z,2022-12-19,50,"Water is clear, pump functioning well",9,26,0,NA,NA,NA,"We wanted to double check what ""swimming up"" looks like..."
+Red Bluff High School,Brice,NA,14,2022-12-15T14:10:00Z,2022-12-15,50,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,One egg has a bright pink middle. Is it still Alive.
+Red Bluff High School,Ethan,NA,13,2022-12-14T12:35:00Z,2022-12-14,50,"Water is clear, pump functioning well",34,0,1,NA,NA,NA,how long does it take for them to swim...?
+Red Bluff High School,Mercy,NA,14,2022-12-14T10:45:00Z,2022-12-14,50,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,No questions yet.
+Red Bluff High School,Gage,NA,13,2022-12-12T10:01:59Z,2022-12-12,50.4,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,Does the brighter orange indicate that the salmon egg is dead?
+Red Bluff High School,Mercy,NA,14,2022-12-09T13:34:59Z,2022-12-09,50,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,None.
+Red Bluff High School,Kelsey,NA,13,2022-12-09T10:02:59Z,2022-12-09,50.4,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,Why are the eggs moving so much?
+Red Bluff High School,Sophia Drugovich,NA,13,2022-12-08T10:13:00Z,2022-12-08,50.2,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,None.
+Red Bluff High School,Mercy,NA,14,2022-12-07T11:19:59Z,2022-12-07,50,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,None
+Red Bluff High School,Mercy,NA,14,2023-01-11T13:27:00Z,2023-01-11,50,"Water is clear, pump functioning well",0,26,9,NA,NA,NA,None at this time.
+Travis Education Center,Garrett,NA,1,2023-01-09T14:15:00Z,2023-01-09,50.3,"Water is clear, pump functioning well",0,35,0,NA,NA,NA,Should the cover be in the front be open all the time or just when we are checking the tank?
+Travis Education Center,Jesse,NA,2,2022-12-22T10:23:00Z,2022-12-22,49,"Water is clear, pump functioning well",1,33,1,NA,NA,NA,Still curious about the dead egg in the tank. Please advise
+Travis Education Center,Mia,NA,2,2022-12-20T10:37:00Z,2022-12-20,49,"Water is clear, pump functioning well",2,33,0,NA,NA,NA,We have one egg that is not hatched that is white. It appears to be a mortality. should I remove the egg?
+Travis Education Center,Garrett,NA,1,2022-12-20T09:54:00Z,2022-12-20,50.2,"Water is clear, pump functioning well",1,34,0,NA,NA,NA,Since the eggs hatched is there  a new release date or are we in the same time frame (March).
+Travis Education Center,Garrett,NA,1,2022-12-19T13:53:59Z,2022-12-19,48.7,"Water is clear, pump functioning well",6,29,0,NA,NA,NA,Not at this time
+Travis Education Center,Elizabeth,NA,2,2022-12-15T10:24:00Z,2022-12-15,49,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,None
+Travis Education Center,Garrett,NA,1,2022-12-15T08:51:59Z,2022-12-15,48.7,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,None at this time
+Travis Education Center,Hadrian,NA,2,2022-12-13T10:30:00Z,2022-12-13,49,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,None
+Travis Education Center,Maddy,NA,2,2022-12-09T10:00:00Z,2022-12-09,50,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,None
+Travis Education Center,Jesse,NA,2,2022-12-08T11:19:59Z,2022-12-08,50,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,None at this time
+Travis Education Center,Garrett,NA,1,2022-12-08T09:40:00Z,2022-12-08,48.5,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,None currently
+Travis Education Center,Ellie,NA,2,2022-12-30T13:27:00Z,2022-12-30,49,"Water is clear, pump functioning well",0,33,2,NA,NA,NA,None
+Travis Education Center,Audrey,NA,2,2023-01-10T10:47:59Z,2023-01-10,49,"Water is clear, pump functioning well",0,33,2,NA,NA,NA,None
+Williams High School,Emily,NA,20,2023-01-10T13:34:00Z,2023-01-10,49,"Water is clear, pump functioning well",0,35,0,NA,NA,NA,How long were they in the eggs?
+Williams High School,Scotty,NA,20,2023-01-02T10:00:00Z,2023-01-02,49,"Water is clear, pump functioning well",0,35,0,NA,NA,NA,"None at this time, thanks"
+Williams High School,Scotty,NA,20,2022-12-30T10:00:00Z,2022-12-30,49,"Water is clear, pump functioning well",0,35,0,NA,NA,NA,"None at this time, thanks"
+Williams High School,Scotty,NA,20,2022-12-27T10:00:00Z,2022-12-27,49,"Water is clear, pump functioning well",0,35,0,NA,NA,NA,"None at this time, thanks"
+Williams High School,Scotty,NA,20,2022-12-22T10:00:00Z,2022-12-22,49,"Water is clear, pump functioning well",0,35,0,NA,NA,NA,"None at this time, thanks"
+Williams High School,Scotty,NA,20,2022-12-20T01:38:00Z,2022-12-20,49,"Water is clear, pump functioning well",0,35,0,NA,NA,NA,None at this time
+Williams High School,Brayden,NA,21,2022-12-15T08:30:00Z,2022-12-15,50,"Water is clear, pump functioning well",33,0,0,NA,NA,NA,"Can you send this form in a seperate email, all by itself? Its in a thread of 11 e-mails and hard to locate."
+Williams High School,Uriel,NA,21,2022-12-13T08:12:59Z,2022-12-13,49.3,"Water is clear, pump functioning well",33,0,2,NA,NA,NA,"There are two thermometers, why do you only want one temp?  Do you want an average?  I only counted 33 eggs in the tank, even with another person checking.  I started the numbers then with 33 unhatched eggs...so the other two died?  I do not know if the person who placed them last Friday removed two or not.  Not super accurate inrofmation for me."
+Williams High School,Valeria,NA,21,2022-12-12T11:15:00Z,2022-12-12,49.8,"Water is clear, pump functioning well",0,0,0,NA,NA,NA,None
+Williams High School,Jocelynn,NA,20,2022-12-09T08:22:00Z,2022-12-09,49.7,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,"None at this time
+.  Thank you"
+Williams High School,Cynthis,NA,20,2022-12-06T09:20:00Z,2022-12-06,49.3,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,How Long will it take for eggs to hatch?
+Willows High School,Ryan,NA,19,2023-01-09T09:00:00Z,2023-01-09,50,"Water is clear, pump functioning well",0,34,1,NA,NA,NA,No questions
+Willows High School,McKenzie,NA,18,2023-01-05T14:36:00Z,2023-01-05,50,"Water is clear, pump functioning well",0,35,0,NA,NA,NA,None.
+Willows High School,Ryan,NA,19,2023-01-05T13:00:00Z,2023-01-05,50,"Water is clear, pump functioning well",0,34,1,NA,NA,NA,No questions this time
+Willows High School,Daniel,NA,19,2023-01-03T13:10:00Z,2023-01-03,50,"Water is clear, pump functioning well",0,34,1,NA,NA,NA,What do I do with any salmon that have died?
+Willows High School,Kimberly,NA,18,2023-01-03T09:21:00Z,2023-01-03,50,"Water is clear, pump functioning well",0,35,0,NA,NA,NA,"What does ""Eyed Up"" mean on the Data Sheet?"
+Willows High School,McKenzie,NA,18,2022-12-16T11:38:59Z,2022-12-16,50,"Water is clear, pump functioning well",34,1,0,NA,NA,NA,No
+Willows High School,Daniel,NA,19,2022-12-16T10:14:59Z,2022-12-16,50,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,No
+Willows High School,Eloise,NA,18,2022-12-15T16:14:59Z,2022-12-15,50,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,None
+Willows High School,Kimberley,NA,18,2022-12-13T15:27:00Z,2022-12-13,50,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,None
+Willows High School,Daniel,NA,19,2022-12-13T07:50:00Z,2022-12-13,50,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,None
+Willows High School,Eloise,NA,18,2022-12-09T02:36:00Z,2022-12-09,50,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,"What does this mean ""Quality Control- Student checking submission""?"
+Willows High School,Eloise,NA,18,2022-12-08T10:59:59Z,2022-12-08,50,"Water is clear, pump functioning well",35,1,0,NA,NA,NA,NA
+Willows High School,Daniel,NA,19,2022-12-08T07:25:00Z,2022-12-08,50,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,None
+Willows High School,Daniel,NA,18,2022-12-06T10:40:00Z,2022-12-06,50,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,None
+Willows High School,Daniel,NA,19,2022-12-06T10:20:00Z,2022-12-06,50,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,none
+Willows High School,Ryan,NA,19,2023-01-11T11:30:00Z,2023-01-11,50,"Water is clear, pump functioning well",0,34,1,NA,NA,NA,None

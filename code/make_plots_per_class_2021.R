@@ -28,9 +28,9 @@ df_orig <- nrow(df)
 
 df <- df %>%
   filter(!grepl("Test|Testing|test", comments)) %>%
-  filter(ymd(date)<ymd("2022-01-02"))
+  filter(ymd(date)>ymd("2022-11-01"))
 
-glue("Full data had {df_orig} rows, {df_orig - nrow(df)} dropped, keeping 2021 only")
+glue("Full data had {df_orig} rows, {df_orig - nrow(df)} dropped, keeping 2023 only")
 
 # if dead in previous time they need to stay dead
 # need to fix dead that decreases...add check col
@@ -81,8 +81,7 @@ df_status_detail <- df %>%
   mutate(status2 = case_when(
     status == "eggs_hatched" ~ "Hatched",
     status == "dead" ~ "Dead",
-    status == "laying_on_side" ~ "Laying on side",
-    status == "spinning" ~ "Spinning",
+    status == "tdc_symptoms" ~ "TDC Symptoms",
     status == "swimming_up" ~ "Swimming up",
     TRUE ~ status))
 

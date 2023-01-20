@@ -10,6 +10,18 @@ library(glue)
 library(lubridate)
 library(here)
 library(cowplot)
+library(usethis)
+library(pkgdown)
+
+#set up git
+use_git_config(user.name = "cajeffres", user.email = "cajeffres@ucdavis.edu")
+
+git_sitrep()
+
+git_vaccinate()
+
+usethis::git_default_branch_configure()
+
 
 # Download Data ---------------------------------------------------------------
 
@@ -157,8 +169,9 @@ g1b <- ggplot() +
   theme(axis.text.x = element_text(angle=90, vjust = 0.5),
         plot.background = element_rect(fill="white"),
         # adjust legend position
-        legend.position = c(0.93, 0.02),
-        legend.justification = c(0.93, 0))
+        #legend.position = c(0.9, 0.00),
+        legend.key.size = unit(.5, 'cm'), #change legend key size
+        legend.justification = c(0.93, .5))
 
 g1b
 
@@ -251,11 +264,11 @@ g3
 
 # Patchwork -----------------------------------------------------------
 
-ggsave(g1b, filename = glue("figures/summary_2022_eggs_hatched_updated_{Sys.Date()}.png"), width = 11, height = 8, dpi=300)
+ggsave(g1b, filename = glue("figures/summary_2023_eggs_hatched_updated_{Sys.Date()}.png"), width = 11, height = 8, dpi=300)
 
-ggsave(g2, filename = glue("figures/summary_2022_egg_status_hatched_updated_{Sys.Date()}.png"), width = 11, height = 8, dpi=300)
+ggsave(g2, filename = glue("figures/summary_2023_egg_status_hatched_updated_{Sys.Date()}.png"), width = 11, height = 8, dpi=300)
 
-ggsave(g3, filename = glue("figures/summary_2022_eggs_hatched_over_time_updated_{Sys.Date()}.png"), width = 11, height = 7, dpi=300)
+ggsave(g3, filename = glue("figures/summary_2023_eggs_hatched_over_time_updated_{Sys.Date()}.png"), width = 11, height = 7, dpi=300)
 
 # library(patchwork)
 # (g1 + g2) / g3
