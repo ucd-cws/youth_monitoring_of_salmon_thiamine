@@ -24,7 +24,7 @@ f_download_eggs_allotted <- function(deauth=FALSE){
 
     # Authorize Googlesheets
     options(gargle_oauth_cache = here::here(".secrets"),
-            gargle_oauth_email = "rapeek@ucdavis.edu")
+            gargle_oauth_email = "cajeffres@ucdavis.edu")
 
     # auth for sheets for readonly
     gs4_auth(scopes = "https://www.googleapis.com/auth/spreadsheets.readonly")
@@ -35,7 +35,7 @@ f_download_eggs_allotted <- function(deauth=FALSE){
     # https://docs.google.com/spreadsheets/d/1bsMoqoydH4wnLbViV2T06eY8HvY7NIuy8iGUj2F9n3Q/edit#gid=0
 
     # set the ID of the sheet
-    gs_id <- "1bsMoqoydH4wnLbViV2T06eY8HvY7NIuy8iGUj2F9n3Q"
+    gs_id <- "1ZspSzl4kH51bDkJCZfqV0I5kI6QNK2vAXpx7pLCPnGY"
     wb_id <- gs4_get(gs_id) # here we load the id
 
     # now check names of worksheets (tabs):

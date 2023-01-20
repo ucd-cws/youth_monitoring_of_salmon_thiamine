@@ -24,7 +24,7 @@ f_download_data <- function(deauth=FALSE){
     options(gargle_oauth_cache = here::here(".secrets"))
 
     # auth for sheets for readonly
-    gs4_auth(email = Sys.getenv("MYEMAIL"), cache = here::here(".secrets"),
+    gs4_auth(email = Sys.getenv("cajeffres@ucdavis.edu"), cache = here::here(".secrets"),
              scopes = "https://www.googleapis.com/auth/spreadsheets.readonly")
 
     # Read in Data ----------------------------
@@ -35,7 +35,7 @@ f_download_data <- function(deauth=FALSE){
     # https://docs.google.com/spreadsheets/d/1sLqzWvos3etI74PW_V_uGDZ3QsCqM5nxB4gGK6JcZ3s/edit?resourcekey#gid=787935715
 
     # set the ID of the sheet
-    gs_id <- "1sLqzWvos3etI74PW_V_uGDZ3QsCqM5nxB4gGK6JcZ3s"
+    gs_id <- "136-hLImB2sbeFsd5w5hPnvHUJl9ChtRAwbFFGYYT5GE"
     wb_id <- gs4_get(gs_id) # here we load the id
 
     # now check names of worksheets (tabs):
