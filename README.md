@@ -26,7 +26,7 @@ Additionally, a few summary plots of the data will be updated each week, and sav
 
 For a current snapshot of what things look like, see below! Again, these can be found [here](figures/) and called `summary_plots_updated_YYYY-MM-DD.png`  if you want to download a copy. 
 
-__*updated 2021-03-14*__
+__*updated 2023-01-26*__
 
 Stay tuned for a summary/reveal!
 
