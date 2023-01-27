@@ -30,9 +30,9 @@ __*updated 2023-01-26*__
 
 Stay tuned for a summary/reveal!
 
-![](figures/summary_2022_eggs_hatched_updated_2023-01-26.png)
+![](figures/summary_2023_eggs_hatched_updated_2023-01-26.png)
 
-###![](figures/summary_2022_egg_status_hatched_updated_2022-03-14.png)
+
 
 ![](figures/summary_2023_eggs_hatched_over_time_updated_2023-01-26.png)
 
