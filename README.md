@@ -30,11 +30,11 @@ __*updated 2023-01-26*__
 
 Stay tuned for a summary/reveal!
 
-![](figures/summary_2023_eggs_hatched_updated_2023-01-26.png)
+![](figures/summary_2023_eggs_hatched_updated_2023-01-31.png)
 
 
 
-![](figures/summary_2023_eggs_hatched_over_time_updated_2023-01-26.png)
+![](figures/summary_2023_eggs_hatched_over_time_updated_2023-01-31.png)
 
 ### Open Source and Accessible
 
