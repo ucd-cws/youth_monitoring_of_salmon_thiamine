@@ -48,8 +48,8 @@ summary(eggs_lookup)
 df_orig <- nrow(df)
 
 df <- df %>%
-  filter(!grepl("Test|Testing|test", comments)) %>%
-  filter(tank_number %in% c(1:8, 16, 17, 18)) # filter to only tanks of current exp
+  filter(!grepl("Test|Testing|test", comments)) #%>%
+  #filter(tank_number %in% c(1:8, 16, 17, 18)) # filter to only tanks of current exp
 
 glue("Full data had {df_orig} rows, {df_orig - nrow(df)} dropped")
 
