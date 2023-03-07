@@ -11,7 +11,7 @@ library(ggtext)
 
 # Data --------------------------------------------------------------------
 
-th_df <- read_csv("data_raw/raw_eggs_allotted_downloaded_2022-03-07.csv") %>%
+th_df <- read_csv("data_raw/raw_eggs_allotted_downloaded_2023-01-10.csv") %>%
   select(school:total_egg_count)
 
 dat <- read_csv("data_clean/clean_salmon_thiamine_data_current.csv")
@@ -21,28 +21,28 @@ dat <- read_csv("data_clean/clean_salmon_thiamine_data_current.csv")
 # Join the Original Number of Eggs Provided -------------------------------
 
 # add initial timestamp
-df_all <- left_join(dat, th_df) %>%
-  filter(!tank_number %in% c(10:13),
-         !is.na(tank_number))
+df_all <- left_join(dat, th_df) #%>%
+  #filter(!tank_number %in% c(10:13),
+         #!is.na(tank_number))
 
 rm(dat)
 
 # get total survived
 tot_surv <- df_all %>% filter(!is.na(number_of_salmon_released)) %>%
   select(-c(water_temp_f, water_clarity, comments:questions)) %>%
-  mutate(survival = number_of_salmon_released/ total_egg_count) %>%
+  mutate(survival = number_of_salmon_released/ total_egg_count) #%>%
   # label for plots
-  mutate(class_label = case_when(
-    grepl("Willows High",school) ~ "Willows",
-    grepl("Orland", school) ~ "Orland",
-    grepl("Pierce", school) ~ "Pierce",
-    grepl("Samuel Jackman", school) ~ "Samuel Jackman",
-    grepl("Red Bluff", school) ~ "Red Bluff",
-    grepl("Edward Harris Jr.", school) ~ "Edward Harris Jr.",
-    TRUE ~ school))
+  #mutate(class_label = case_when(
+    #grepl("Willows High",school) ~ "Willows",
+    #grepl("Orland", school) ~ "Orland",
+    #grepl("Pierce", school) ~ "Pierce",
+    #grepl("Samuel Jackman", school) ~ "Samuel Jackman",
+    #grepl("Red Bluff", school) ~ "Red Bluff",
+    #grepl("Edward Harris Jr.", school) ~ "Edward Harris Jr.",
+    #TRUE ~ school))
 
 # fix order
-tot_surv$status <- factor(tot_surv$status, levels = c("Low", "Intermediate", "High"))
+tot_surv$status <- factor(tot_surv$status, levels = c("low", "intermediate", "high"))
 levels(tot_surv$status)
 
 # Boxplot of Classroom Status ---------------------------------------------
@@ -54,11 +54,11 @@ ggplot() +
            alpha=0.8, show.legend=FALSE) +
   theme_cowplot(font_family = "Roboto Condensed") +
   cowplot::background_grid("y") +
-  scale_fill_manual("Classrooms", values = c("Low"="red2", "Intermediate"="darkorange", "High"="seagreen")) +
-  labs(subtitle = "Thiamine Concentrations by Classroom",
+  scale_fill_manual("Classrooms", values = c("low"="red2", "intermediate"="darkorange", "high"="seagreen")) +
+  labs(subtitle = "2023 Thiamine Concentrations by Classroom",
        x="", y="Number of Classrooms")+ #coord_flip() +
   theme(plot.background = element_rect(fill="white")) +
-  ggtext::geom_textbox(data=tot_surv, x="Intermediate", y=5, label="The majority of classroom tanks had **Intermediate** thiamine levels. What level do you think your tank was?", family="Roboto")
+  ggtext::geom_textbox(data=tot_surv, x="intermediate", y=5, label="The majority of classroom tanks had **High** thiamine levels. What level do you think your tank was?", family="Roboto")
 
 ggsave(filename = "figures/thiamine_by_classroom_barplot.png", dpi=300, width = 10, height = 8)
 
@@ -82,8 +82,8 @@ ggplot() +
               fill = "gray40",
               alpha = 0.8) +
   geom_jitter(data=tot_surv, aes(y=survival, x=avg_th, fill=status), pch=21, size=4.5, show.legend = FALSE) +
-  ggtext::geom_textbox(data=tot_surv, x=12, y=0.25, label="Thiamine concentration groups (*LOW/MED/HIGH*) as shown here are generalized, they may be different for different populations, regions, or life-history strategies. There's much we don't know!", family="Roboto", color="gray40") +
-  labs(subtitle = "Survival vs. Thiamine Concentration",
+  #ggtext::geom_textbox(data=tot_surv, x=12, y=0.25, label="Thiamine concentration groups (*LOW/MED/HIGH*) as shown here are generalized, they may be different for different populations, regions, or life-history strategies. There's much we don't know!", family="Roboto", color="gray40") +
+  labs(subtitle = "2023 Survival vs. Thiamine Concentration",
        y="Survival (Released / Total Eggs)", x="Thiamine (nmol/g)") +
   scale_fill_manual("", values = c("Low"="red2", "Intermediate"="darkorange", "High"="seagreen")) +
   # themes
@@ -112,7 +112,7 @@ ggplot() +
               xmin = 10, xmax = 13, ymin = 0.55, ymax = 0.75,
               fill = "gray40",
               alpha = 0.8) +
-  ggrepel::geom_text_repel(data=tot_surv, aes(y=survival, x=avg_th, label=glue("{class_label}-{tank_number}")), color="gray40",
+  ggrepel::geom_text_repel(data=tot_surv, aes(y=survival, x=avg_th, label=glue("{school}-{tank_number}")), color="gray40",
                            segment.color="gray50", segment.alpha=0.5,
                            point.padding = 0.2, seed=111,
                            min.segment.length = .1,force = 1.3,
@@ -120,7 +120,7 @@ ggplot() +
   ) +
   geom_jitter(data=tot_surv, aes(y=survival, x=avg_th, fill=status), pch=21, size=4.5, show.legend = FALSE) +
   scale_x_continuous(breaks = c(seq(0,60,3))) +
-  labs(subtitle = "Survival vs. Thiamine Concentration",
+  labs(subtitle = "2023 Survival vs. Thiamine Concentration",
        y="Survival (Released / Total Eggs)", x="Thiamine (nmol/g)") +
   scale_fill_manual("", values = c("Low"="red2", "Intermediate"="darkorange", "High"="seagreen")) +
   # themes
