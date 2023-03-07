@@ -1,231 +1,371 @@
 site,quality_assurance_student_reporting_first_name_only,quality_control_student_checking_submission,tank_number,datetime,date,water_temp_f,water_clarity,eggs_unhatched,eggs_hatched,dead,date_of_release,number_of_salmon_released,comments,questions
-Orland High School,Morgan,NA,16,2023-01-27T14:05:00Z,2023-01-27,48,"Water is clear, pump functioning well",1,34,0,NA,NA,NA,Why is one curling up?
-Williams High School,Cynthis,NA,20,2022-12-06T09:20:00Z,2022-12-06,49.3,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,How Long will it take for eggs to hatch?
-Hamilton High School,Xiomara,NA,12,2022-12-06T09:49:59Z,2022-12-06,51,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,None at the moment.
-Willows High School,Daniel,NA,19,2022-12-06T10:20:00Z,2022-12-06,50,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,none
-Willows High School,Daniel,NA,18,2022-12-06T10:40:00Z,2022-12-06,50,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,None
-Liberty High School,Nicolas,NA,4,2022-12-06T12:29:59Z,2022-12-06,50,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,None
-Red Bluff High School,Mercy,NA,14,2022-12-07T11:19:59Z,2022-12-07,50,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,None
-John Finney High School,Teacher,NA,5,2022-12-07T12:00:00Z,2022-12-07,49.1,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,na
-John Finney High School,Teacher,NA,6,2022-12-07T12:00:00Z,2022-12-07,49,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,na
-Liberty High School,Natalia,NA,3,2022-12-07T12:40:00Z,2022-12-07,49,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,What water temperature range is acceptable at this point? The tanks are  usually always at 49 to 50 but I think it dropped to 48 briefly.
-Maine Prairie High School,Dina Flamik,NA,7,2022-12-07T14:06:00Z,2022-12-07,50,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,n/a
-Willows High School,Daniel,NA,19,2022-12-08T07:25:00Z,2022-12-08,50,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,None
-McCaffrey Middle School,Lisa,NA,11,2022-12-08T09:04:00Z,2022-12-08,48.9,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,None
-Travis Education Center,Garrett,NA,1,2022-12-08T09:40:00Z,2022-12-08,48.5,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,None currently
-Red Bluff High School,Sophia Drugovich,NA,13,2022-12-08T10:13:00Z,2022-12-08,50.2,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,None.
-Willows High School,Eloise,NA,18,2022-12-08T10:59:59Z,2022-12-08,50,"Water is clear, pump functioning well",35,1,0,NA,NA,NA,NA
-Travis Education Center,Jesse,NA,2,2022-12-08T11:19:59Z,2022-12-08,50,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,None at this time
-Hamilton High School,Ivan,NA,12,2022-12-08T12:52:00Z,2022-12-08,51,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,None at the moment
-Orland High School,Autumn,NA,15,2022-12-08T14:00:00Z,2022-12-08,51.3,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,None
-Willows High School,Eloise,NA,18,2022-12-09T02:36:00Z,2022-12-09,50,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,"What does this mean ""Quality Control- Student checking submission""?"
-Pierce High School,Cody,NA,17,2022-12-09T08:02:00Z,2022-12-09,50.2,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,No questions at this time.
-Williams High School,Jocelynn,NA,20,2022-12-09T08:22:00Z,2022-12-09,49.7,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,"None at this time
-.  Thank you"
-McCaffrey Middle School,Lisa,NA,11,2022-12-09T08:56:00Z,2022-12-09,46.9,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,None
-Liberty High School,Milla Abono,NA,3,2022-12-09T09:23:59Z,2022-12-09,49,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,None
-Liberty High School,Milla Abono,NA,4,2022-12-09T09:28:00Z,2022-12-09,50,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,none
-Maine Prairie High School,Dina Flamik,NA,7,2022-12-09T10:00:00Z,2022-12-09,49,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,n/a
-Travis Education Center,Maddy,NA,2,2022-12-09T10:00:00Z,2022-12-09,50,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,None
-Red Bluff High School,Kelsey,NA,13,2022-12-09T10:02:59Z,2022-12-09,50.4,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,Why are the eggs moving so much?
-Golden Hills Community School,Cache,NA,9,2022-12-09T10:50:00Z,2022-12-09,48.7,Water is clouding,35,0,0,NA,NA,NA,N/A
-John Finney High School,Teacher,NA,5,2022-12-09T12:00:00Z,2022-12-09,47.8,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,na
-Maine Prairie High School,Teacher-Alicia,NA,8,2022-12-09T12:00:00Z,2022-12-09,49.3,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,None.
-John Finney High School,Teacher,NA,6,2022-12-09T13:30:00Z,2022-12-09,49.5,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,na
-Red Bluff High School,Mercy,NA,14,2022-12-09T13:34:59Z,2022-12-09,50,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,None.
-Orland High School,Autumn,NA,15,2022-12-10T17:25:00Z,2022-12-10,49.7,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,None
-Orland High School,Autumn,NA,16,2022-12-10T17:25:00Z,2022-12-10,47.7,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,None
-Pierce High School,Cody,NA,17,2022-12-12T06:42:00Z,2022-12-12,60,"Water is clear, but unsure of pump functioning",35,0,0,NA,NA,NA,How should we proceed after the temperature spike?
-Golden Hills Community School,Cache,NA,9,2022-12-12T08:30:00Z,2022-12-12,47.8,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,N/A
-Red Bluff High School,Gage,NA,13,2022-12-12T10:01:59Z,2022-12-12,50.4,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,Does the brighter orange indicate that the salmon egg is dead?
-Williams High School,Valeria,NA,21,2022-12-12T11:15:00Z,2022-12-12,49.8,"Water is clear, pump functioning well",0,0,0,NA,NA,NA,None
-Maine Prairie High School,Teacher-Alicia,NA,8,2022-12-12T15:00:00Z,2022-12-12,49.3,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,None
-Fairfield High School,Aaron Levy,NA,10,2022-12-13T03:07:00Z,2022-12-13,49.8,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,none
-Willows High School,Daniel,NA,19,2022-12-13T07:50:00Z,2022-12-13,50,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,None
-Williams High School,Uriel,NA,21,2022-12-13T08:12:59Z,2022-12-13,49.3,"Water is clear, pump functioning well",33,0,2,NA,NA,NA,"There are two thermometers, why do you only want one temp?  Do you want an average?  I only counted 33 eggs in the tank, even with another person checking.  I started the numbers then with 33 unhatched eggs...so the other two died?  I do not know if the person who placed them last Friday removed two or not.  Not super accurate inrofmation for me."
-Pierce High School,Cody,NA,17,2022-12-13T08:15:00Z,2022-12-13,49.5,"Water is clear, pump functioning well",26,9,0,NA,NA,NA,Our fish have started hatching early due to the warm temperatures over the weekend. Is there anything I should do or be aware of or looking out for?
-Liberty High School,Grace,NA,3,2022-12-13T08:44:59Z,2022-12-13,49,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,What will the eggs look like if they die?
-Maine Prairie High School,Alicia,NA,7,2022-12-13T08:46:00Z,2022-12-13,49,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,Why 35 eggs?  Why no more or less than that?
-John Finney High School,Teacher,NA,5,2022-12-13T09:29:00Z,2022-12-13,49.5,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,na
-John Finney High School,Teacher,NA,6,2022-12-13T09:29:59Z,2022-12-13,48.7,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,na
-Travis Education Center,Hadrian,NA,2,2022-12-13T10:30:00Z,2022-12-13,49,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,None
-Liberty High School,Neveah,NA,3,2022-12-13T12:15:00Z,2022-12-13,49,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,How low can the water in the tank get before we need to add water?
-McCaffrey Middle School,Aiden,NA,11,2022-12-13T12:58:00Z,2022-12-13,48.2,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,None
-Hamilton High School,Kevin,NA,12,2022-12-13T13:30:00Z,2022-12-13,51,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,N/A
-Fairfield High School,Perla,NA,10,2022-12-13T13:58:00Z,2022-12-13,49.1,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,How do the salmon develop in the egg? Are the black dots on the eggs the salmons eyes? Can the salmon eggs actually move or is it just the flow from the pump moving them?
-Willows High School,Kimberley,NA,18,2022-12-13T15:27:00Z,2022-12-13,50,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,None
-Red Bluff High School,Mercy,NA,14,2022-12-14T10:45:00Z,2022-12-14,50,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,No questions yet.
-Red Bluff High School,Ethan,NA,13,2022-12-14T12:35:00Z,2022-12-14,50,"Water is clear, pump functioning well",34,0,1,NA,NA,NA,how long does it take for them to swim...?
-Williams High School,Brayden,NA,21,2022-12-15T08:30:00Z,2022-12-15,50,"Water is clear, pump functioning well",33,0,0,NA,NA,NA,"Can you send this form in a seperate email, all by itself? Its in a thread of 11 e-mails and hard to locate."
-Travis Education Center,Garrett,NA,1,2022-12-15T08:51:59Z,2022-12-15,48.7,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,None at this time
-Orland High School,Autumn,NA,15,2022-12-15T09:10:00Z,2022-12-15,49.8,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,None
-Orland High School,Hunter,NA,16,2022-12-15T09:10:00Z,2022-12-15,49,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,None
-Maine Prairie High School,Sarah,NA,7,2022-12-15T09:10:59Z,2022-12-15,50,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,n/a
-Travis Education Center,Elizabeth,NA,2,2022-12-15T10:24:00Z,2022-12-15,49,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,None
-Hamilton High School,Kevin,NA,12,2022-12-15T11:50:00Z,2022-12-15,50,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,N/A
-McCaffrey Middle School,Maritza,NA,11,2022-12-15T12:38:00Z,2022-12-15,48.2,"Water is clear, pump functioning well",0,0,0,NA,NA,NA,None
-Golden Hills Community School,Cache,NA,9,2022-12-15T13:23:00Z,2022-12-15,49,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,None
-Red Bluff High School,Brice,NA,14,2022-12-15T14:10:00Z,2022-12-15,50,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,One egg has a bright pink middle. Is it still Alive.
-Fairfield High School,Jacob,NA,10,2022-12-15T15:01:00Z,2022-12-15,49.1,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,Will the Salmon need any assistance hatching? Does the environment the salmon grow in effect anything?
-Willows High School,Eloise,NA,18,2022-12-15T16:14:59Z,2022-12-15,50,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,None
-Pierce High School,Cody,NA,17,2022-12-16T02:09:00Z,2022-12-16,50.3,"Water is clear, pump functioning well",25,10,0,NA,NA,NA,None
-Liberty High School,Grace,NA,3,2022-12-16T09:20:00Z,2022-12-16,49,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,none
-Liberty High School,Elijah,NA,4,2022-12-16T09:20:00Z,2022-12-16,50,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,none
-Willows High School,Daniel,NA,19,2022-12-16T10:14:59Z,2022-12-16,50,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,No
-Orland High School,Sidnee,NA,15,2022-12-16T10:46:59Z,2022-12-16,50.4,"Water is clear, pump functioning well",33,2,0,NA,NA,NA,None
-Orland High School,Autumn,NA,16,2022-12-16T10:53:00Z,2022-12-16,48,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,None
-Willows High School,McKenzie,NA,18,2022-12-16T11:38:59Z,2022-12-16,50,"Water is clear, pump functioning well",34,1,0,NA,NA,NA,No
-John Finney High School,Teacher,NA,5,2022-12-16T12:57:00Z,2022-12-16,48.7,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,na
-John Finney High School,Teacher,NA,6,2022-12-16T12:58:00Z,2022-12-16,48.4,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,na
-Liberty High School,Milla,NA,4,2022-12-19T08:44:59Z,2022-12-19,49,"Water is clear, pump functioning well",32,3,0,NA,NA,NA,none
-Liberty High School,Milla,NA,3,2022-12-19T08:49:00Z,2022-12-19,50,"Water is clear, pump functioning well",34,1,0,NA,NA,NA,none
-Fairfield High School,Jordan,NA,10,2022-12-19T09:55:59Z,2022-12-19,48.4,"Water is clear, pump functioning well",6,29,0,NA,NA,NA,Why do the eggs now have tails and haven't fully broken out of the egg?
-Red Bluff High School,Mercy,NA,14,2022-12-19T10:34:59Z,2022-12-19,50,"Water is clear, pump functioning well",9,26,0,NA,NA,NA,"We wanted to double check what ""swimming up"" looks like..."
-Red Bluff High School,Milan,NA,13,2022-12-19T11:14:00Z,2022-12-19,50.2,"Water is clear, pump functioning well",1,33,1,NA,NA,NA,When are they going to start swimming ?
-Golden Hills Community School,Cache,NA,9,2022-12-19T13:16:00Z,2022-12-19,47,Water is clouding,0,33,2,NA,NA,NA,"If the eggs are hatching prior to our winter break, do they need additional care over the break?"
-Fairfield High School,jairo,NA,10,2022-12-19T13:40:00Z,2022-12-19,48.7,Water is clouding,4,31,0,NA,NA,NA,when will the bubbles in the tank be gone
-Travis Education Center,Garrett,NA,1,2022-12-19T13:53:59Z,2022-12-19,48.7,"Water is clear, pump functioning well",6,29,0,NA,NA,NA,Not at this time
-Orland High School,Lauren,NA,15,2022-12-19T13:55:00Z,2022-12-19,50.3,"Water is clear, pump functioning well",1,34,0,NA,NA,NA,None
-Orland High School,Anna,NA,16,2022-12-19T13:56:00Z,2022-12-19,46.8,"Water is clear, pump functioning well",27,8,0,NA,NA,NA,None
-Williams High School,Scotty,NA,20,2022-12-20T01:38:00Z,2022-12-20,49,"Water is clear, pump functioning well",0,35,0,NA,NA,NA,None at this time
-Travis Education Center,Garrett,NA,1,2022-12-20T09:54:00Z,2022-12-20,50.2,"Water is clear, pump functioning well",1,34,0,NA,NA,NA,Since the eggs hatched is there  a new release date or are we in the same time frame (March).
-Travis Education Center,Mia,NA,2,2022-12-20T10:37:00Z,2022-12-20,49,"Water is clear, pump functioning well",2,33,0,NA,NA,NA,We have one egg that is not hatched that is white. It appears to be a mortality. should I remove the egg?
-Orland High School,Luke,NA,15,2022-12-21T09:31:00Z,2022-12-21,49.6,"Water is clear, pump functioning well",0,35,0,NA,NA,NA,None
-Orland High School,Eden,NA,16,2022-12-21T09:32:00Z,2022-12-21,49,"Water is clear, pump functioning well",2,33,0,NA,NA,NA,None
-Red Bluff High School,Mercy,NA,14,2022-12-21T10:21:00Z,2022-12-21,50,"Water is clear, pump functioning well",0,27,8,NA,NA,NA,Normal to lose so many eggs?
-Red Bluff High School,Bailey,NA,13,2022-12-21T12:22:00Z,2022-12-21,49.8,"Water is clear, pump functioning well",1,33,1,NA,NA,NA,Why is it taking so long for the one fish to hatch compared to all the others?
-Liberty High School,Milla,NA,4,2022-12-21T12:23:59Z,2022-12-21,49,"Water is clear, pump functioning well",3,32,0,NA,NA,NA,Why have so many eggs hatched in tank 4 and so few in tank 3?
-Liberty High School,Milla,NA,3,2022-12-21T12:29:59Z,2022-12-21,49,"Water is clear, pump functioning well",32,3,0,NA,NA,NA,Should we remove the whiteish/clear things from the eggs that are floating in the tank after they hatch?
-Orland High School,Gracie,NA,15,2022-12-22T00:42:00Z,2022-12-22,50,"Water is clear, pump functioning well",0,35,1,NA,NA,NA,none
-Williams High School,Scotty,NA,20,2022-12-22T10:00:00Z,2022-12-22,49,"Water is clear, pump functioning well",0,35,0,NA,NA,NA,"None at this time, thanks"
-Travis Education Center,Jesse,NA,2,2022-12-22T10:23:00Z,2022-12-22,49,"Water is clear, pump functioning well",1,33,1,NA,NA,NA,Still curious about the dead egg in the tank. Please advise
-Orland High School,Alyssa,NA,16,2022-12-22T12:41:00Z,2022-12-22,47.7,"Water is clear, pump functioning well",3,32,0,NA,NA,NA,Why are the fish's still attached to the egg?
-Orland High School,Ashlynn,NA,16,2022-12-23T11:51:00Z,2022-12-23,49,"Water is clear, pump functioning well",0,35,0,NA,NA,NA,NA
+Fairfield High School,Perla,NA,10,2023-02-01T01:12:00Z,2023-02-01,46.9,"Water is clear, pump functioning well",0,35,1,NA,NA,NA,NA
+Fairfield High School,Jordan,NA,10,2023-01-23T10:21:59Z,2023-01-23,49.5,"Water is clear, pump functioning well",0,35,0,NA,NA,NA,NA
+Fairfield High School,Viridiana,NA,10,2023-01-19T11:22:00Z,2023-01-19,47.7,"Water is clear, pump functioning well",0,35,0,NA,NA,NA,NA
+Fairfield High School,Omar,NA,10,2023-01-17T10:05:00Z,2023-01-17,48.7,"Water is clear, pump functioning well",0,35,0,NA,NA,NA,NA
+Fairfield High School,Guile,NA,10,2023-01-13T02:04:00Z,2023-01-13,49.5,"Water is clear, pump functioning well",0,35,0,NA,NA,NA,NA
+Fairfield High School,Alexa,NA,10,2023-01-11T13:17:00Z,2023-01-11,48.7,"Water is clear, pump functioning well",0,35,0,NA,NA,NA,NA
+Fairfield High School,Jordan,NA,10,2023-01-11T10:10:00Z,2023-01-11,49,"Water is clear, pump functioning well",0,35,0,NA,NA,NA,NA
+Fairfield High School,jairo,NA,10,2022-12-19T13:40:00Z,2022-12-19,48.7,Water is clouding,4,31,0,NA,NA,NA,NA
+Fairfield High School,Jordan,NA,10,2022-12-19T09:55:59Z,2022-12-19,48.4,"Water is clear, pump functioning well",6,29,0,NA,NA,NA,NA
+Fairfield High School,Jacob,NA,10,2022-12-15T15:01:00Z,2022-12-15,49.1,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,NA
+Fairfield High School,Perla,NA,10,2022-12-13T13:58:00Z,2022-12-13,49.1,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,NA
+Fairfield High School,Aaron Levy,NA,10,2022-12-13T03:07:00Z,2022-12-13,49.8,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,NA
+Golden Hills Community School,Cache,NA,9,2023-02-08T09:40:00Z,2023-02-08,49.8,"Water is clear, pump functioning well",2,32,1,NA,NA,NA,NA
+Golden Hills Community School,Jessahna,NA,9,2023-02-06T09:40:00Z,2023-02-06,49.8,"Water is clear, pump functioning well",2,33,3,NA,NA,NA,NA
+Golden Hills Community School,Cache,NA,9,2023-01-31T09:29:59Z,2023-01-31,49.8,"Water is clear, pump functioning well",2,33,2,NA,NA,NA,NA
+Golden Hills Community School,Cache,NA,9,2023-01-26T09:29:59Z,2023-01-26,49.8,"Water is clear, pump functioning well",2,33,2,NA,NA,NA,NA
+Golden Hills Community School,Cache,NA,9,2023-01-24T09:00:00Z,2023-01-24,49.3,"Water is clear, pump functioning well",0,33,2,NA,NA,NA,NA
+Golden Hills Community School,Cache,NA,9,2023-01-17T09:29:59Z,2023-01-17,48.2,"Water is clear, pump functioning well",0,33,2,NA,NA,NA,NA
+Golden Hills Community School,Cache,NA,9,2023-01-12T09:29:59Z,2023-01-12,48.9,"Water is clear, pump functioning well",2,33,2,NA,NA,NA,NA
+Golden Hills Community School,Cache,NA,9,2023-01-10T09:00:00Z,2023-01-10,49.5,"Water is clear, pump functioning well",0,33,2,NA,NA,NA,NA
+Golden Hills Community School,Cache,NA,9,2022-12-19T13:16:00Z,2022-12-19,47,Water is clouding,0,33,2,NA,NA,NA,NA
+Golden Hills Community School,Cache,NA,9,2022-12-15T13:23:00Z,2022-12-15,49,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,NA
+Golden Hills Community School,Cache,NA,9,2022-12-12T08:30:00Z,2022-12-12,47.8,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,NA
+Golden Hills Community School,Cache,NA,9,2022-12-09T10:50:00Z,2022-12-09,48.7,Water is clouding,35,0,0,NA,NA,NA,NA
+Hamilton High School,Teacher,NA,12,2023-02-06T10:30:00Z,2023-02-06,49.5,"Water is clear, pump functioning well",0,26,9,NA,NA,NA,NA
+Hamilton High School,Mr. Kamm,NA,12,2023-02-06T07:59:59Z,2023-02-06,51.6,"Water is clear, pump functioning well",0,26,9,NA,NA,NA,NA
+Hamilton High School,Jesus,NA,12,2023-02-02T11:15:00Z,2023-02-02,50.4,"Water is clear, pump functioning well",0,31,4,NA,NA,NA,NA
+Hamilton High School,Evan,NA,12,2023-01-31T11:15:00Z,2023-01-31,51.1,"Water is clear, pump functioning well",0,31,4,NA,NA,NA,NA
+Hamilton High School,Maximo,NA,12,2023-01-26T23:19:59Z,2023-01-26,50.9,"Water is clear, pump functioning well",0,31,4,NA,NA,NA,NA
+Hamilton High School,Maximo,NA,12,2023-01-23T14:10:00Z,2023-01-23,51.6,"Water is clear, pump functioning well",0,31,4,NA,NA,NA,NA
+Hamilton High School,Ivan,NA,12,2023-01-20T11:19:59Z,2023-01-20,51.4,"Water is clear, pump functioning well",0,31,4,NA,NA,NA,NA
+Hamilton High School,Maximo,NA,12,2023-01-17T13:50:00Z,2023-01-17,60,"Water is clear, but unsure of pump functioning",0,35,4,NA,NA,NA,NA
+Hamilton High School,Caden,NA,12,2023-01-12T10:50:00Z,2023-01-12,51.4,"Water is clear, pump functioning well",0,31,4,NA,NA,NA,NA
+Hamilton High School,Evan,NA,12,2023-01-10T11:30:00Z,2023-01-10,51.1,"Water is clear, pump functioning well",0,31,4,NA,NA,NA,NA
+Hamilton High School,Kevin,NA,12,2022-12-15T11:50:00Z,2022-12-15,50,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,NA
+Hamilton High School,Kevin,NA,12,2022-12-13T13:30:00Z,2022-12-13,51,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,NA
+Hamilton High School,Ivan,NA,12,2022-12-08T12:52:00Z,2022-12-08,51,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,NA
+Hamilton High School,Xiomara,NA,12,2022-12-06T09:49:59Z,2022-12-06,51,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,NA
+John Finney High School,Daniel,NA,5,2023-02-08T13:30:00Z,2023-02-08,49.2,Water is clouding,0,35,26,NA,NA,NA,NA
+John Finney High School,Daniel,NA,5,2023-02-07T13:10:00Z,2023-02-07,48.6,Water is clouding,0,35,25,NA,NA,NA,NA
+John Finney High School,Daniel,NA,5,2023-02-03T08:22:00Z,2023-02-03,48.6,"Water is clear, pump functioning well",0,35,25,NA,NA,NA,NA
+John Finney High School,Daniel,NA,5,2023-01-31T09:42:00Z,2023-01-31,50.2,"Water is clear, pump functioning well",0,35,25,NA,NA,NA,NA
+John Finney High School,Daniel,NA,5,2023-01-27T12:03:00Z,2023-01-27,49.5,"Water is clear, pump functioning well",0,11,24,NA,NA,NA,NA
+John Finney High School,Daniel,NA,5,2023-01-24T08:48:00Z,2023-01-24,48.7,"Water is clear, pump functioning well",0,35,24,NA,NA,NA,NA
+John Finney High School,Teacher,NA,5,2023-01-20T13:04:00Z,2023-01-20,48.9,"Water is clear, pump functioning well",0,35,24,NA,NA,NA,NA
+John Finney High School,Teacher,NA,5,2023-01-17T14:30:00Z,2023-01-17,48.5,"Water is clear, pump functioning well",0,11,24,NA,NA,NA,NA
+John Finney High School,Teacher,NA,5,2023-01-17T14:30:00Z,2023-01-17,49,"Water is clear, pump functioning well",0,11,24,NA,NA,NA,NA
+John Finney High School,Teacher,NA,5,2023-01-13T12:04:59Z,2023-01-13,48.8,"Water is clear, pump functioning well",0,11,24,NA,NA,NA,NA
+John Finney High School,Teacher,NA,5,2023-01-10T12:02:00Z,2023-01-10,49,"Water is clear, pump functioning well",0,11,24,NA,NA,NA,NA
+John Finney High School,Teacher,NA,6,2023-01-10T00:01:00Z,2023-01-10,49.2,Water is clouding,0,0,35,NA,NA,NA,NA
+John Finney High School,Teacher,NA,6,2022-12-16T12:58:00Z,2022-12-16,48.4,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,NA
+John Finney High School,Teacher,NA,5,2022-12-16T12:57:00Z,2022-12-16,48.7,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,NA
+John Finney High School,Teacher,NA,6,2022-12-13T09:29:59Z,2022-12-13,48.7,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,NA
+John Finney High School,Teacher,NA,5,2022-12-13T09:29:00Z,2022-12-13,49.5,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,NA
+John Finney High School,Teacher,NA,6,2022-12-09T13:30:00Z,2022-12-09,49.5,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,NA
+John Finney High School,Teacher,NA,5,2022-12-09T12:00:00Z,2022-12-09,47.8,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,NA
+John Finney High School,Teacher,NA,5,2022-12-07T12:00:00Z,2022-12-07,49.1,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,NA
+John Finney High School,Teacher,NA,6,2022-12-07T12:00:00Z,2022-12-07,49,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,NA
+Liberty High School,Aidan,NA,4,2023-02-07T12:35:00Z,2023-02-07,50,"Water is clear, pump functioning well",0,29,6,NA,NA,NA,NA
+Liberty High School,Michael,NA,3,2023-02-07T12:29:59Z,2023-02-07,49,"Water is clear, pump functioning well",0,8,26,NA,NA,NA,NA
+Liberty High School,Onyx,NA,3,2023-02-03T11:10:00Z,2023-02-03,49,"Water is clear, pump functioning well",0,9,26,NA,NA,NA,NA
+Liberty High School,Michael,NA,4,2023-02-03T11:10:00Z,2023-02-03,50,"Water is clear, pump functioning well",0,29,6,NA,NA,NA,NA
+Liberty High School,Mark,NA,3,2023-02-01T12:15:00Z,2023-02-01,49,"Water is clear, pump functioning well",0,29,6,NA,NA,NA,NA
+Liberty High School,Onyx,NA,4,2023-02-01T12:15:00Z,2023-02-01,49,"Water is clear, pump functioning well",0,29,6,NA,NA,NA,NA
+Liberty High School,Mark,NA,3,2023-01-27T10:55:00Z,2023-01-27,49,"Water is clear, pump functioning well",0,9,26,NA,NA,NA,NA
+Liberty High School,Melissa,NA,4,2023-01-27T10:50:00Z,2023-01-27,50,"Water is clear, pump functioning well",0,29,6,NA,NA,NA,NA
+Liberty High School,Ricardo,NA,4,2023-01-25T12:40:00Z,2023-01-25,49,"Water is clear, pump functioning well",0,29,6,NA,NA,NA,NA
+Liberty High School,Jade,NA,3,2023-01-25T12:29:59Z,2023-01-25,49,"Water is clear, pump functioning well",0,11,24,NA,NA,NA,NA
+Liberty High School,Michael,NA,3,2023-01-20T13:10:00Z,2023-01-20,50,"Water is clear, pump functioning well",0,8,27,NA,NA,NA,NA
+Liberty High School,Michael,NA,4,2023-01-20T13:05:00Z,2023-01-20,50,"Water is clear, pump functioning well",0,29,6,NA,NA,NA,NA
+Liberty High School,Michael,NA,4,2023-01-13T00:49:59Z,2023-01-13,50,"Water is clear, pump functioning well",0,29,6,NA,NA,NA,NA
+Liberty High School,Ethan,NA,3,2023-01-13T00:45:00Z,2023-01-13,49,"Water is clear, pump functioning well",0,12,23,NA,NA,NA,NA
+Liberty High School,Michael,NA,4,2023-01-10T12:55:00Z,2023-01-10,49,"Water is clear, pump functioning well",0,29,6,NA,NA,NA,NA
+Liberty High School,Aiden,NA,3,2023-01-09T11:45:00Z,2023-01-09,49,"Water is clear, pump functioning well",0,12,23,NA,NA,NA,NA
+Liberty High School,Milla,NA,3,2022-12-21T12:29:59Z,2022-12-21,49,"Water is clear, pump functioning well",32,3,0,NA,NA,NA,NA
+Liberty High School,Milla,NA,4,2022-12-21T12:23:59Z,2022-12-21,49,"Water is clear, pump functioning well",3,32,0,NA,NA,NA,NA
+Liberty High School,Milla,NA,3,2022-12-19T08:49:00Z,2022-12-19,50,"Water is clear, pump functioning well",34,1,0,NA,NA,NA,NA
+Liberty High School,Milla,NA,4,2022-12-19T08:44:59Z,2022-12-19,49,"Water is clear, pump functioning well",32,3,0,NA,NA,NA,NA
+Liberty High School,Grace,NA,3,2022-12-16T09:20:00Z,2022-12-16,49,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,NA
+Liberty High School,Elijah,NA,4,2022-12-16T09:20:00Z,2022-12-16,50,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,NA
+Liberty High School,Neveah,NA,3,2022-12-13T12:15:00Z,2022-12-13,49,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,NA
+Liberty High School,Grace,NA,3,2022-12-13T08:44:59Z,2022-12-13,49,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,NA
+Liberty High School,Milla Abono,NA,4,2022-12-09T09:28:00Z,2022-12-09,50,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,NA
+Liberty High School,Milla Abono,NA,3,2022-12-09T09:23:59Z,2022-12-09,49,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,NA
+Liberty High School,Natalia,NA,3,2022-12-07T12:40:00Z,2022-12-07,49,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,NA
+Liberty High School,Nicolas,NA,4,2022-12-06T12:29:59Z,2022-12-06,50,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,NA
+Liberty High School,Milla Abono,NA,3,2023-02-08T07:59:59Z,2023-02-08,50,"Water is clear, pump functioning well",0,8,27,NA,NA,NA,NA
+Liberty High School,Milla Abono,NA,4,2023-02-08T07:59:59Z,2023-02-08,50,"Water is clear, pump functioning well",0,29,6,NA,NA,NA,NA
+Maine Prairie High School,Nassir,NA,8,2023-02-16T09:42:00Z,2023-02-16,49,"Water is clear, pump functioning well",27,5,0,NA,NA,NA,NA
+Maine Prairie High School,Dina Flamik,NA,7,2023-02-02T14:15:00Z,2023-02-02,50,"Water is clear, pump functioning well",1,34,1,NA,NA,NA,NA
+Maine Prairie High School,Nassir,NA,8,2023-01-31T10:08:00Z,2023-01-31,48.4,"Water is clear, pump functioning well",16,7,0,NA,NA,NA,NA
+Maine Prairie High School,cienna,NA,8,2023-01-31T10:02:59Z,2023-01-31,48.4,"Water is clear, pump functioning well",23,0,0,NA,NA,NA,NA
+Maine Prairie High School,melissa,NA,8,2023-01-31T10:02:59Z,2023-01-31,48.4,Water is clouding,35,0,0,NA,NA,NA,NA
+Maine Prairie High School,Andrea,NA,8,2023-01-31T10:02:59Z,2023-01-31,48.4,"Water is clear, pump functioning well",23,7,0,NA,NA,NA,NA
+Maine Prairie High School,cody,NA,8,2023-01-31T10:02:59Z,2023-01-31,48,"Water is clear, pump functioning well",15,7,12,NA,NA,NA,NA
+Maine Prairie High School,Irvin,NA,8,2023-01-31T10:00:00Z,2023-01-31,48.4,"Water is clear, pump functioning well",35,0,9,NA,NA,NA,NA
+Maine Prairie High School,cienna,NA,8,2023-01-30T10:00:00Z,2023-01-30,48.4,"Water is clear, pump functioning well",23,0,0,NA,NA,NA,NA
+Maine Prairie High School,melissa,NA,8,2023-01-30T10:00:00Z,2023-01-30,48.4,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,NA
+Maine Prairie High School,Irvin,NA,8,2023-01-30T10:00:00Z,2023-01-30,48.4,"Water is clear, pump functioning well",35,0,9,NA,NA,NA,NA
+Maine Prairie High School,Andrea,NA,8,2023-01-30T10:00:00Z,2023-01-30,48.4,"Water is clear, pump functioning well",23,6,0,NA,NA,NA,NA
+Maine Prairie High School,nassir,NA,8,2023-01-30T10:00:00Z,2023-01-30,48.4,"Water is clear, pump functioning well",17,6,0,NA,NA,NA,NA
+Maine Prairie High School,joel,NA,8,2023-01-30T10:00:00Z,2023-01-30,48.4,"Water is clear, pump functioning well",12,6,12,NA,NA,NA,NA
+Maine Prairie High School,Dina Flamik,NA,7,2023-01-27T14:42:00Z,2023-01-27,50,"Water is clear, pump functioning well",1,34,1,NA,NA,NA,NA
+Maine Prairie High School,aubrey,NA,8,2023-01-27T10:10:00Z,2023-01-27,48.8,"Water is clear, pump functioning well",24,0,35,NA,NA,NA,NA
+Maine Prairie High School,cienna,NA,8,2023-01-27T10:06:00Z,2023-01-27,49,"Water is clear, pump functioning well",32,0,1,NA,NA,NA,NA
+Maine Prairie High School,Irvin,NA,8,2023-01-27T09:40:00Z,2023-01-27,48.8,"Water is clear, pump functioning well",35,0,9,NA,NA,NA,NA
+Maine Prairie High School,andrea,NA,8,2023-01-27T09:29:59Z,2023-01-27,45,"Water is clear, pump functioning well",24,0,11,NA,NA,NA,NA
+Maine Prairie High School,cienna,NA,8,2023-01-26T09:55:00Z,2023-01-26,48.4,"Water is clear, pump functioning well",23,0,1,NA,NA,NA,NA
+Maine Prairie High School,Irvin,NA,8,2023-01-26T09:55:00Z,2023-01-26,48.4,"Water is clear, pump functioning well",35,35,9,NA,NA,NA,NA
+Maine Prairie High School,maryann,NA,8,2023-01-26T09:55:00Z,2023-01-26,48.4,"Water is clear, but unsure of pump functioning",35,0,1,NA,NA,NA,NA
+Maine Prairie High School,Andrea,NA,8,2023-01-26T09:55:00Z,2023-01-26,48.4,"Water is clear, pump functioning well",23,2,1,NA,NA,NA,NA
+Maine Prairie High School,Brandon,NA,8,2023-01-26T09:55:00Z,2023-01-26,48.8,"Water is clear, pump functioning well",19,5,0,NA,NA,NA,NA
+Maine Prairie High School,brandon,NA,8,2023-01-26T09:55:00Z,2023-01-26,48.4,"Water is clear, pump functioning well",23,2,9,NA,NA,NA,NA
+Maine Prairie High School,Nassir,NA,8,2023-01-25T09:29:59Z,2023-01-25,49,"Water is clear, pump functioning well",19,5,8,NA,NA,NA,NA
+Maine Prairie High School,alexa,NA,8,2023-01-25T09:29:59Z,2023-01-25,45,"Water is clear, pump functioning well",24,0,11,NA,NA,NA,NA
+Maine Prairie High School,cienna,NA,8,2023-01-24T10:01:00Z,2023-01-24,48.8,"Water is clear, pump functioning well",24,0,8,NA,NA,NA,NA
+Maine Prairie High School,Andrea,NA,8,2023-01-24T10:00:00Z,2023-01-24,48.8,"Water is clear, pump functioning well",24,0,8,NA,NA,NA,NA
+Maine Prairie High School,Nassir,NA,8,2023-01-24T10:00:00Z,2023-01-24,48.8,"Water is clear, pump functioning well",19,5,8,NA,NA,NA,NA
+Maine Prairie High School,diego,NA,8,2023-01-24T10:00:00Z,2023-01-24,48,"Water is clear, pump functioning well",35,0,16,NA,NA,NA,NA
+Maine Prairie High School,aubrey,NA,8,2023-01-24T09:54:00Z,2023-01-24,48.8,"Water is clear, pump functioning well",24,0,8,NA,NA,NA,NA
+Maine Prairie High School,Irvin,NA,8,2023-01-24T09:53:00Z,2023-01-24,48.8,"Water is clear, pump functioning well",35,0,8,NA,NA,NA,NA
+Maine Prairie High School,Irvin,NA,8,2023-01-24T09:53:00Z,2023-01-24,48.8,"Water is clear, pump functioning well",35,0,8,NA,NA,NA,NA
+Maine Prairie High School,Irvin,NA,8,2023-01-23T10:00:00Z,2023-01-23,48.8,"Water is clear, pump functioning well",35,0,8,NA,NA,NA,NA
+Maine Prairie High School,cienna,NA,8,2023-01-23T10:00:00Z,2023-01-23,48.8,"Water is clear, pump functioning well",32,0,8,NA,NA,NA,NA
+Maine Prairie High School,Nassir,NA,8,2023-01-23T10:00:00Z,2023-01-23,48.8,"Water is clear, pump functioning well",19,5,0,NA,NA,NA,NA
+Maine Prairie High School,Andrea,NA,8,2023-01-23T10:00:00Z,2023-01-23,48.8,"Water is clear, pump functioning well",24,0,8,NA,NA,NA,NA
+Maine Prairie High School,maryann,NA,8,2023-01-23T10:00:00Z,2023-01-23,48.8,"Water is clear, pump functioning well",24,0,8,NA,NA,NA,NA
+Maine Prairie High School,Nas,NA,8,2023-01-23T10:00:00Z,2023-01-23,48,"Water is clear, pump functioning well",24,0,11,NA,NA,NA,NA
+Maine Prairie High School,Dina Flamik,NA,7,2023-01-23T08:53:00Z,2023-01-23,50,"Water is clear, pump functioning well",0,34,1,NA,NA,NA,NA
+Maine Prairie High School,Dina Flamik,NA,7,2023-01-20T10:13:00Z,2023-01-20,50,"Water is clear, pump functioning well",0,34,1,NA,NA,NA,NA
+Maine Prairie High School,cienna,NA,8,2023-01-18T09:42:00Z,2023-01-18,49,"Water is clear, pump functioning well",32,0,0,NA,NA,NA,NA
+Maine Prairie High School,Andrea Perez,NA,8,2023-01-18T09:42:00Z,2023-01-18,49,"Water is clear, pump functioning well",27,5,3,NA,NA,NA,NA
+Maine Prairie High School,Irvin,NA,8,2023-01-18T09:40:00Z,2023-01-18,49,"Water is clear, pump functioning well",35,0,35,NA,NA,NA,NA
+Maine Prairie High School,aubrey,NA,8,2023-01-18T09:40:00Z,2023-01-18,49,"Water is clear, pump functioning well",32,0,3,NA,NA,NA,NA
+Maine Prairie High School,Cody,NA,8,2023-01-18T09:39:00Z,2023-01-18,49,"Water is clear, pump functioning well",24,0,11,NA,NA,NA,NA
+Maine Prairie High School,aubrey,NA,8,2023-01-18T09:39:00Z,2023-01-18,49,"Water is clear, pump functioning well",20,5,7,NA,NA,NA,NA
+Maine Prairie High School,Gabriel,NA,7,2023-01-17T14:50:00Z,2023-01-17,50,"Water is clear, pump functioning well",1,34,0,NA,NA,NA,NA
+Maine Prairie High School,Diego,NA,8,2023-01-17T09:49:59Z,2023-01-17,48.9,"Water is clear, pump functioning well",32,0,3,NA,NA,NA,NA
+Maine Prairie High School,Marnie,NA,8,2023-01-17T09:40:00Z,2023-01-17,49,"Water is clear, pump functioning well",32,0,32,NA,NA,NA,NA
+Maine Prairie High School,Nassir,NA,8,2023-01-17T09:32:00Z,2023-01-17,49,"Water is clear, pump functioning well",27,5,3,NA,NA,NA,NA
+Maine Prairie High School,Cody,NA,8,2023-01-17T09:32:00Z,2023-01-17,49,"Water is clear, pump functioning well",24,0,11,NA,NA,NA,NA
+Maine Prairie High School,Cienna,NA,8,2023-01-17T09:29:59Z,2023-01-17,49,"Water is clear, pump functioning well",32,0,3,NA,NA,NA,NA
+Maine Prairie High School,Irvin,NA,8,2023-01-17T09:29:59Z,2023-01-17,49,"Water is clear, pump functioning well",35,0,3,NA,NA,NA,NA
+Maine Prairie High School,maryann,NA,8,2023-01-17T09:29:59Z,2023-01-17,49,"Water is clear, pump functioning well",32,0,3,NA,NA,NA,NA
+Maine Prairie High School,Andrea Perez,NA,8,2023-01-17T09:29:59Z,2023-01-17,45,"Water is clear, pump functioning well",32,0,3,NA,NA,NA,NA
+Maine Prairie High School,aleni,NA,8,2023-01-17T09:29:59Z,2023-01-17,45,"Water is clear, pump functioning well",26,5,6,NA,NA,NA,NA
+Maine Prairie High School,Cienna,NA,8,2023-01-13T09:46:00Z,2023-01-13,49,"Water is clear, pump functioning well",32,0,3,NA,NA,NA,NA
+Maine Prairie High School,Nassir Derosier,NA,8,2023-01-13T09:46:00Z,2023-01-13,49,"Water is clear, pump functioning well",29,3,3,NA,NA,NA,NA
+Maine Prairie High School,Andrea Perez,NA,8,2023-01-13T09:46:00Z,2023-01-13,49,"Water is clear, pump functioning well",0,0,3,NA,NA,NA,NA
+Maine Prairie High School,melissa,NA,8,2023-01-13T09:46:00Z,2023-01-13,49,"Water is clear, pump functioning well",26,3,6,NA,NA,NA,NA
+Maine Prairie High School,Alexa,NA,8,2023-01-13T09:46:00Z,2023-01-13,49,"Water is clear, pump functioning well",32,1,3,NA,NA,NA,NA
+Maine Prairie High School,Marnie,NA,8,2023-01-13T09:46:00Z,2023-01-13,49,"Water is clear, pump functioning well",35,0,3,NA,NA,NA,NA
+Maine Prairie High School,elijah,NA,8,2023-01-13T09:46:00Z,2023-01-13,49,"Water is clear, pump functioning well",32,0,33,NA,NA,NA,NA
+Maine Prairie High School,Aleni,NA,1,2023-01-13T09:46:00Z,2023-01-13,49,"Water is clear, pump functioning well",29,3,2,NA,NA,NA,NA
+Maine Prairie High School,Cody R.,NA,8,2023-01-13T09:45:00Z,2023-01-13,49,"Water is clear, pump functioning well",32,0,3,NA,NA,NA,NA
+Maine Prairie High School,Irvin,NA,8,2023-01-13T09:45:00Z,2023-01-13,49,"Water is clear, pump functioning well",35,0,3,NA,NA,NA,NA
+Maine Prairie High School,maryann,NA,8,2023-01-13T09:45:00Z,2023-01-13,49,"Water is clear, pump functioning well",32,0,3,NA,NA,NA,NA
+Maine Prairie High School,Soda,NA,7,2023-01-12T13:12:00Z,2023-01-12,50,"Water is clear, pump functioning well",1,34,0,NA,NA,NA,NA
+Maine Prairie High School,Cody,NA,8,2023-01-11T10:00:00Z,2023-01-11,49.3,"Water is clear, pump functioning well",32,0,3,NA,NA,NA,NA
+Maine Prairie High School,María,NA,7,2023-01-09T11:48:00Z,2023-01-09,49,Water is clouding,0,35,0,NA,NA,NA,NA
+Maine Prairie High School,Eric novoa,NA,7,2023-01-09T11:48:00Z,2023-01-09,49,Water is clouding,0,35,0,NA,NA,NA,NA
+Maine Prairie High School,Kairee,NA,7,2023-01-09T11:46:00Z,2023-01-09,49,"Water is clear, pump functioning well",0,35,0,NA,NA,NA,NA
+Maine Prairie High School,Leilani,NA,7,2023-01-09T10:59:00Z,2023-01-09,49,Water is clouding,0,35,0,NA,NA,NA,NA
+Maine Prairie High School,Melissa,NA,8,2023-01-09T09:29:59Z,2023-01-09,49.3,"Water is clear, pump functioning well",34,0,1,NA,NA,NA,NA
+Maine Prairie High School,Dina Flamik,NA,7,2022-12-31T09:10:59Z,2022-12-31,50,"Water is clear, pump functioning well",0,35,0,NA,NA,NA,NA
+Maine Prairie High School,"No others present, Winter break.",NA,8,2022-12-18T12:10:00Z,2022-12-18,49.2,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,NA
+Maine Prairie High School,Nas,NA,8,2022-12-16T10:10:00Z,2022-12-16,49.3,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,NA
+Maine Prairie High School,Sarah,NA,7,2022-12-15T09:10:59Z,2022-12-15,50,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,NA
+Maine Prairie High School,Cienna,NA,8,2022-12-14T09:42:00Z,2022-12-14,49.3,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,NA
+Maine Prairie High School,Alicia,NA,7,2022-12-13T08:46:00Z,2022-12-13,49,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,NA
+Maine Prairie High School,Teacher-Alicia,NA,8,2022-12-12T15:00:00Z,2022-12-12,49.3,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,NA
+Maine Prairie High School,Kymani,NA,8,2022-12-12T10:00:00Z,2022-12-12,49.3,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,NA
+Maine Prairie High School,Teacher-Alicia,NA,8,2022-12-09T12:00:00Z,2022-12-09,49.3,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,NA
+Maine Prairie High School,Dina Flamik,NA,7,2022-12-09T10:00:00Z,2022-12-09,49,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,NA
+Maine Prairie High School,Brandon,NA,8,2022-12-09T10:00:00Z,2022-12-09,49.3,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,NA
+Maine Prairie High School,Dina Flamik,NA,7,2022-12-07T14:06:00Z,2022-12-07,50,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,NA
+McCaffrey Middle School,Maritza,NA,11,2023-02-02T12:40:00Z,2023-02-02,48,"Water is clear, pump functioning well",0,35,0,NA,NA,NA,NA
+McCaffrey Middle School,Aiden,NA,11,2023-01-31T12:36:59Z,2023-01-31,47.6,"Water is clear, pump functioning well",0,35,0,NA,NA,NA,NA
+McCaffrey Middle School,Rustin,NA,11,2023-01-27T12:36:59Z,2023-01-27,48,"Water is clear, pump functioning well",0,35,0,NA,NA,NA,NA
+McCaffrey Middle School,Miley,NA,11,2023-01-26T12:38:00Z,2023-01-26,47.1,"Water is clear, pump functioning well",0,35,0,NA,NA,NA,NA
+McCaffrey Middle School,Emily,NA,11,2023-01-19T00:39:00Z,2023-01-19,47.1,"Water is clear, pump functioning well",0,35,0,NA,NA,NA,NA
+McCaffrey Middle School,Quincy,NA,11,2023-01-17T12:36:59Z,2023-01-17,47.8,"Water is clear, pump functioning well",0,35,0,NA,NA,NA,NA
+McCaffrey Middle School,Maritza,NA,11,2023-01-12T12:38:00Z,2023-01-12,48.7,"Water is clear, pump functioning well",0,35,0,NA,NA,NA,NA
+McCaffrey Middle School,Rustin,NA,11,2023-01-10T12:38:00Z,2023-01-10,48.7,"Water is clear, pump functioning well",0,35,0,NA,NA,NA,NA
+McCaffrey Middle School,Lisa,NA,11,2023-01-07T12:38:00Z,2023-01-07,48.2,"Water is clear, pump functioning well",0,35,0,NA,NA,NA,NA
+McCaffrey Middle School,Maritza,NA,11,2023-01-05T12:42:00Z,2023-01-05,48.7,"Water is clear, pump functioning well",0,35,0,NA,NA,NA,NA
+McCaffrey Middle School,Quincy,NA,11,2023-01-03T12:38:00Z,2023-01-03,47.1,"Water is clear, pump functioning well",0,35,0,NA,NA,NA,NA
+McCaffrey Middle School,Maritza,NA,11,2022-12-15T12:38:00Z,2022-12-15,48.2,"Water is clear, pump functioning well",0,0,0,NA,NA,NA,NA
+McCaffrey Middle School,Aiden,NA,11,2022-12-13T12:58:00Z,2022-12-13,48.2,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,NA
+McCaffrey Middle School,Lisa,NA,11,2022-12-09T08:56:00Z,2022-12-09,46.9,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,NA
+McCaffrey Middle School,Lisa,NA,11,2022-12-08T09:04:00Z,2022-12-08,48.9,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,NA
+Orland High School,Ashley,NA,16,2023-02-07T14:01:00Z,2023-02-07,49,"Water is clear, pump functioning well",1,34,1,NA,NA,NA,NA
+Orland High School,Dominic,NA,15,2023-02-07T13:59:00Z,2023-02-07,49.6,"Water is clear, pump functioning well",0,34,1,NA,NA,NA,NA
+Orland High School,Natalia,NA,16,2023-02-06T10:50:00Z,2023-02-06,46.6,"Water is clear, pump functioning well",0,34,1,NA,NA,NA,NA
+Orland High School,Sidnee,NA,15,2023-02-06T10:50:00Z,2023-02-06,50.4,"Water is clear, pump functioning well",0,34,1,NA,NA,NA,NA
+Orland High School,Anna,NA,15,2023-02-03T08:18:00Z,2023-02-03,50,"Water is clear, pump functioning well",0,34,1,NA,NA,NA,NA
+Orland High School,Chyna,NA,16,2023-02-03T08:17:00Z,2023-02-03,49,"Water is clear, pump functioning well",0,35,1,NA,NA,NA,NA
+Orland High School,Ashley,NA,15,2023-02-01T12:09:00Z,2023-02-01,51.3,"Water is clear, pump functioning well",0,34,1,NA,NA,NA,NA
+Orland High School,Johnny,NA,16,2023-02-01T12:06:00Z,2023-02-01,49,"Water is clear, pump functioning well",0,34,1,NA,NA,NA,NA
+Orland High School,Lauren,NA,15,2023-01-31T09:33:00Z,2023-01-31,50,"Water is clear, pump functioning well",0,35,0,NA,NA,NA,NA
+Orland High School,Morgan,NA,16,2023-01-27T14:05:00Z,2023-01-27,48,"Water is clear, pump functioning well",1,34,0,NA,NA,NA,NA
+Orland High School,Anna,NA,15,2023-01-27T14:04:00Z,2023-01-27,51.2,"Water is clear, pump functioning well",0,34,1,NA,NA,NA,NA
+Orland High School,Dominic,NA,15,2023-01-26T22:51:00Z,2023-01-26,49.3,"Water is clear, pump functioning well",0,34,1,NA,NA,NA,NA
+Orland High School,Hannah,NA,16,2023-01-26T10:51:00Z,2023-01-26,49,"Water is clear, pump functioning well",0,34,1,NA,NA,NA,NA
+Orland High School,Preston Carlson,NA,16,2023-01-25T08:18:00Z,2023-01-25,47.1,"Water is clear, pump functioning well",0,34,1,NA,NA,NA,NA
+Orland High School,Ashley,NA,16,2023-01-23T12:51:00Z,2023-01-23,49,"Water is clear, pump functioning well",0,35,1,NA,NA,NA,NA
+Orland High School,Chyna,NA,15,2023-01-23T00:48:00Z,2023-01-23,50.7,"Water is clear, pump functioning well",0,35,1,NA,NA,NA,NA
+Orland High School,Ella,NA,16,2023-01-20T09:33:00Z,2023-01-20,47.5,"Water is clear, pump functioning well",0,35,0,NA,NA,NA,NA
+Orland High School,Sidnee,NA,15,2023-01-20T09:32:00Z,2023-01-20,50.4,"Water is clear, pump functioning well",0,35,1,NA,NA,NA,NA
+Orland High School,Morgan,NA,16,2023-01-18T13:14:00Z,2023-01-18,46,"Water is clear, pump functioning well",0,35,0,NA,NA,NA,NA
+Orland High School,Lauren,NA,15,2023-01-18T13:14:00Z,2023-01-18,50,"Water is clear, pump functioning well",0,34,1,NA,NA,NA,NA
+Orland High School,Elliott,NA,15,2023-01-17T10:52:00Z,2023-01-17,49.8,"Water is clear, pump functioning well",0,35,1,NA,NA,NA,NA
+Orland High School,Autumn,NA,16,2023-01-17T10:51:00Z,2023-01-17,47.3,"Water is clear, pump functioning well",0,35,0,NA,NA,NA,NA
+Orland High School,Hunter,NA,16,2023-01-13T08:22:00Z,2023-01-13,49,"Water is clear, pump functioning well",0,35,0,NA,NA,NA,NA
+Orland High School,Ashley,NA,15,2023-01-13T08:22:00Z,2023-01-13,50.2,"Water is clear, pump functioning well",0,34,1,NA,NA,NA,NA
+Orland High School,Ashlynn,NA,15,2023-01-13T08:22:00Z,2023-01-13,50.2,"Water is clear, pump functioning well",0,34,1,NA,NA,NA,NA
+Orland High School,Rubi Parra,NA,16,2023-01-11T12:15:00Z,2023-01-11,49,"Water is clear, pump functioning well",0,35,0,NA,NA,NA,NA
+Orland High School,Dottie,NA,15,2023-01-11T00:14:00Z,2023-01-11,49.5,"Water is clear, pump functioning well",0,34,1,NA,NA,NA,NA
 Orland High School,Ashlynn,NA,15,2022-12-23T13:16:00Z,2022-12-23,50.5,"Water is clear, pump functioning well",0,34,1,NA,NA,NA,NA
-Williams High School,Scotty,NA,20,2022-12-27T10:00:00Z,2022-12-27,49,"Water is clear, pump functioning well",0,35,0,NA,NA,NA,"None at this time, thanks"
-Williams High School,Scotty,NA,20,2022-12-30T10:00:00Z,2022-12-30,49,"Water is clear, pump functioning well",0,35,0,NA,NA,NA,"None at this time, thanks"
-Travis Education Center,Ellie,NA,2,2022-12-30T13:27:00Z,2022-12-30,49,"Water is clear, pump functioning well",0,33,2,NA,NA,NA,None
-Maine Prairie High School,Dina Flamik,NA,7,2022-12-31T09:10:59Z,2022-12-31,50,"Water is clear, pump functioning well",0,35,0,NA,NA,NA,How do I know is the fish is dead or alive if none of them are swimming?
-Williams High School,Scotty,NA,20,2023-01-02T10:00:00Z,2023-01-02,49,"Water is clear, pump functioning well",0,35,0,NA,NA,NA,"None at this time, thanks"
-Red Bluff High School,Kaitlyn Miller,NA,13,2023-01-02T10:23:00Z,2023-01-02,50,"Water is clear, pump functioning well",0,33,2,NA,NA,NA,None
-Willows High School,Kimberly,NA,18,2023-01-03T09:21:00Z,2023-01-03,50,"Water is clear, pump functioning well",0,35,0,NA,NA,NA,"What does ""Eyed Up"" mean on the Data Sheet?"
-Red Bluff High School,Geoff/teacher,NA,14,2023-01-03T10:31:00Z,2023-01-03,49.6,"Water is clear, pump functioning well",0,26,9,NA,NA,NA,None at this time.
-McCaffrey Middle School,Quincy,NA,11,2023-01-03T12:38:00Z,2023-01-03,47.1,"Water is clear, pump functioning well",0,35,0,NA,NA,NA,(See observations) Can a fish show TDC symptoms even when not swimming up?
-Willows High School,Daniel,NA,19,2023-01-03T13:10:00Z,2023-01-03,50,"Water is clear, pump functioning well",0,34,1,NA,NA,NA,What do I do with any salmon that have died?
-McCaffrey Middle School,Maritza,NA,11,2023-01-05T12:42:00Z,2023-01-05,48.7,"Water is clear, pump functioning well",0,35,0,NA,NA,NA,"We have 1 Alevin that is curled up (alive) and spins occasionally. We marked this as a '1' under ""of the fish attempting to swim"", but it is not swimming up yet.  That Alevin mostly lays in the gravel in a curled up position. Even though it is not a fish that is 'swimming up', do we still mark it as one showing TDC symptoms?"
-Willows High School,Ryan,NA,19,2023-01-05T13:00:00Z,2023-01-05,50,"Water is clear, pump functioning well",0,34,1,NA,NA,NA,No questions this time
-Willows High School,McKenzie,NA,18,2023-01-05T14:36:00Z,2023-01-05,50,"Water is clear, pump functioning well",0,35,0,NA,NA,NA,None.
-Red Bluff High School,Geoff Barrow/teacher,NA,14,2023-01-06T12:49:59Z,2023-01-06,50.2,"Water is clear, pump functioning well",0,26,9,NA,NA,NA,None at this time.
-Red Bluff High School,Geoff Barrow,NA,13,2023-01-06T13:10:00Z,2023-01-06,50,"Water is clear, pump functioning well",0,33,2,NA,NA,NA,None
-Willows High School,Ryan,NA,19,2023-01-09T09:00:00Z,2023-01-09,50,"Water is clear, pump functioning well",0,34,1,NA,NA,NA,No questions
-Pierce High School,Cody,NA,17,2023-01-09T09:42:59Z,2023-01-09,50,"Water is clear, pump functioning well",0,35,0,NA,NA,NA,"This may have already been asked, but why are the salmon getting a curved spine straight out of the egg?"
-Maine Prairie High School,Leilani,NA,7,2023-01-09T10:59:00Z,2023-01-09,49,Water is clouding,0,35,0,NA,NA,NA,When will all fish hatch fully?
-Liberty High School,Aiden,NA,3,2023-01-09T11:45:00Z,2023-01-09,49,"Water is clear, pump functioning well",0,12,23,NA,NA,NA,How much should the alevin be moving around?
-Maine Prairie High School,Kairee,NA,7,2023-01-09T11:46:00Z,2023-01-09,49,"Water is clear, pump functioning well",0,35,0,NA,NA,NA,None
-Maine Prairie High School,María,NA,7,2023-01-09T11:48:00Z,2023-01-09,49,Water is clouding,0,35,0,NA,NA,NA,Why are they so small
-Maine Prairie High School,Eric novoa,NA,7,2023-01-09T11:48:00Z,2023-01-09,49,Water is clouding,0,35,0,0022-01-09T00:00:00Z,NA,NA,None
-Travis Education Center,Garrett,NA,1,2023-01-09T14:15:00Z,2023-01-09,50.3,"Water is clear, pump functioning well",0,35,0,NA,NA,NA,Should the cover be in the front be open all the time or just when we are checking the tank?
-John Finney High School,Teacher,NA,6,2023-01-10T00:01:00Z,2023-01-10,49.2,Water is clouding,0,0,35,NA,NA,NA,na
-Golden Hills Community School,Cache,NA,9,2023-01-10T09:00:00Z,2023-01-10,49.5,"Water is clear, pump functioning well",0,33,2,NA,NA,NA,N/A
-Williams High School,Miguel,NA,21,2023-01-10T10:05:00Z,2023-01-10,50,"Water is clear, pump functioning well",0,27,8,NA,NA,NA,None
-Travis Education Center,Audrey,NA,2,2023-01-10T10:47:59Z,2023-01-10,49,"Water is clear, pump functioning well",0,33,2,NA,NA,NA,None
-Hamilton High School,Evan,NA,12,2023-01-10T11:30:00Z,2023-01-10,51.1,"Water is clear, pump functioning well",0,31,4,NA,NA,NA,N/A
-John Finney High School,Teacher,NA,5,2023-01-10T12:02:00Z,2023-01-10,49,"Water is clear, pump functioning well",0,11,24,NA,NA,NA,na
-McCaffrey Middle School,Rustin,NA,11,2023-01-10T12:38:00Z,2023-01-10,48.7,"Water is clear, pump functioning well",0,35,0,NA,NA,NA,None
-Liberty High School,Michael,NA,4,2023-01-10T12:55:00Z,2023-01-10,49,"Water is clear, pump functioning well",0,29,6,NA,NA,NA,Should the alevin be grouped closely together? Most are in this tank but some are on their own.
-Williams High School,Emily,NA,20,2023-01-10T13:34:00Z,2023-01-10,49,"Water is clear, pump functioning well",0,35,0,NA,NA,NA,How long were they in the eggs?
-Orland High School,Dottie,NA,15,2023-01-11T00:14:00Z,2023-01-11,49.5,"Water is clear, pump functioning well",0,34,1,NA,NA,NA,None
-Willows High School,Giselle,NA,18,2023-01-11T08:05:00Z,2023-01-11,50.2,"Water is clear, pump functioning well",0,35,0,NA,NA,NA,None
-Fairfield High School,Jordan,NA,10,2023-01-11T10:10:00Z,2023-01-11,49,"Water is clear, pump functioning well",0,35,0,0001-01-01T00:00:00Z,NA,NA,Why is the salmon curling?
-Willows High School,Ryan,NA,19,2023-01-11T11:30:00Z,2023-01-11,50,"Water is clear, pump functioning well",0,34,1,NA,NA,NA,None
-Orland High School,Rubi Parra,NA,16,2023-01-11T12:15:00Z,2023-01-11,49,"Water is clear, pump functioning well",0,35,0,NA,NA,NA,Why do the salmon spin in a circle?
-Fairfield High School,Alexa,NA,10,2023-01-11T13:17:00Z,2023-01-11,48.7,"Water is clear, pump functioning well",0,35,0,NA,NA,NA,Why is one of the fish curled up?
-Red Bluff High School,Mercy,NA,14,2023-01-11T13:27:00Z,2023-01-11,50,"Water is clear, pump functioning well",0,26,9,NA,NA,NA,None at this time.
-Golden Hills Community School,Cache,NA,9,2023-01-12T09:29:59Z,2023-01-12,48.9,"Water is clear, pump functioning well",2,33,2,NA,NA,NA,N/A
-Hamilton High School,Caden,NA,12,2023-01-12T10:50:00Z,2023-01-12,51.4,"Water is clear, pump functioning well",0,31,4,NA,NA,NA,N/A
-McCaffrey Middle School,Maritza,NA,11,2023-01-12T12:38:00Z,2023-01-12,48.7,"Water is clear, pump functioning well",0,35,0,NA,NA,NA,"Our curled up fish as been lying at the bottom of the tank for a few days.  Its gills are moving and, when disturbed by the net, it moves. We're assuming we leave it in the tank until it actually passes."
-Maine Prairie High School,Soda,NA,7,2023-01-12T13:12:00Z,2023-01-12,50,"Water is clear, pump functioning well",1,34,0,NA,NA,NA,When will most fish start swimming? How many will survive?
-Travis Education Center,Garrett,NA,1,2023-01-12T14:15:00Z,2023-01-12,49.5,"Water is clear, pump functioning well",0,35,0,NA,NA,NA,No Question as of now
-Willows High School,Emily,NA,19,2023-01-13T00:00:00Z,2023-01-13,50,"Water is clear, pump functioning well",0,34,1,NA,NA,NA,The egg sacs on the ones that are curled up tend to look a lot bigger than the others. Is that do to inactivity and therefore less caloric intake? Or is that just the effect of them curling up and putting some pressure on the sac?
-Liberty High School,Ethan,NA,3,2023-01-13T00:45:00Z,2023-01-13,49,"Water is clear, pump functioning well",0,12,23,NA,NA,NA,na
-Liberty High School,Michael,NA,4,2023-01-13T00:49:59Z,2023-01-13,50,"Water is clear, pump functioning well",0,29,6,NA,NA,NA,no
-Fairfield High School,Guile,NA,10,2023-01-13T02:04:00Z,2023-01-13,49.5,"Water is clear, pump functioning well",0,35,0,NA,NA,NA,How long does it take for the salmons to fully develop?
-Willows High School,Carolina,NA,18,2023-01-13T08:11:00Z,2023-01-13,51.1,"Water is clear, pump functioning well",0,35,1,NA,NA,NA,None
-Orland High School,Hunter,NA,16,2023-01-13T08:22:00Z,2023-01-13,49,"Water is clear, pump functioning well",0,35,0,NA,NA,NA,none
-Orland High School,Ashley,NA,15,2023-01-13T08:22:00Z,2023-01-13,50.2,"Water is clear, pump functioning well",0,34,1,NA,NA,NA,Why are there so many laying down and not swimming.
-Orland High School,Ashlynn,NA,15,2023-01-13T08:22:00Z,2023-01-13,50.2,"Water is clear, pump functioning well",0,34,1,NA,NA,NA,Why are there so many laying down.
-Williams High School,Marthaelena,NA,20,2023-01-13T08:30:00Z,2023-01-13,49,"Water is clear, pump functioning well",0,35,0,NA,NA,NA,"None at this time, thanks"
-Travis Education Center,Maddy,NA,2,2023-01-13T09:58:00Z,2023-01-13,49,"Water is clear, pump functioning well",0,33,2,NA,NA,NA,None
-Red Bluff High School,Bailey,NA,13,2023-01-13T10:06:00Z,2023-01-13,50.5,"Water is clear, pump functioning well",0,33,2,NA,NA,NA,Why does one of the fish have a curled spine?
-John Finney High School,Teacher,NA,5,2023-01-13T12:04:59Z,2023-01-13,48.8,"Water is clear, pump functioning well",0,11,24,NA,NA,NA,"Can you please remind us what ""swimming up"" means. What is the difference between being hatched and alive and  swimming around vs. ""swimming up""? Can you direct us to a definition or video  in the resources that have been provided that we can refer to."
-Red Bluff High School,Brice,NA,14,2023-01-13T13:59:59Z,2023-01-13,50,"Water is clear, pump functioning well",0,26,9,NA,NA,NA,Not at this time.
-Williams High School,Brisaida,NA,20,2023-01-16T10:00:00Z,2023-01-16,49,"Water is clear, pump functioning well",0,35,0,NA,NA,NA,"None at this time, thanks"
-Willows High School,Aundrea,NA,18,2023-01-17T08:09:00Z,2023-01-17,60,"Water is clear, but unsure of pump functioning",0,35,2,NA,NA,NA,No.
-Golden Hills Community School,Cache,NA,9,2023-01-17T09:29:59Z,2023-01-17,48.2,"Water is clear, pump functioning well",0,33,2,NA,NA,NA,No
-Fairfield High School,Omar,NA,10,2023-01-17T10:05:00Z,2023-01-17,48.7,"Water is clear, pump functioning well",0,35,0,NA,NA,NA,"A fish was displaying what seems to be the effects of TDC. The spine is curved, the fish swims in circles due to it. We are wondering if it is possible to introduce a solution to correct this issue? can we add Thiamine?"
-Travis Education Center,Nico,NA,1,2023-01-17T10:30:00Z,2023-01-17,52,"Water is clear, pump functioning well",0,35,0,NA,NA,NA,"One on the bottom of the tank appears dead, it is laying on it side doesn't seem to be moving should we remove it from the tank?"
-Orland High School,Autumn,NA,16,2023-01-17T10:51:00Z,2023-01-17,47.3,"Water is clear, pump functioning well",0,35,0,NA,NA,NA,Why do some fish look kinked and not strait
-Travis Education Center,Lizzie,NA,2,2023-01-17T10:51:00Z,2023-01-17,50,"Water is clear, pump functioning well",0,33,2,NA,NA,NA,none
-Orland High School,Elliott,NA,15,2023-01-17T10:52:00Z,2023-01-17,49.8,"Water is clear, pump functioning well",0,35,1,NA,NA,NA,None
-Williams High School,Alonzo,NA,21,2023-01-17T11:24:00Z,2023-01-17,50,Water is clouding,0,25,8,NA,NA,NA,"The egg sack looks clear, smaller or missing."
-McCaffrey Middle School,Quincy,NA,11,2023-01-17T12:36:59Z,2023-01-17,47.8,"Water is clear, pump functioning well",0,35,0,NA,NA,NA,None
-Pierce High School,Fernando,NA,17,2023-01-17T13:31:00Z,2023-01-17,49.8,"Water is clear, pump functioning well",0,35,0,NA,NA,NA,none
-Hamilton High School,Maximo,NA,12,2023-01-17T13:50:00Z,2023-01-17,60,"Water is clear, but unsure of pump functioning",0,35,4,NA,NA,NA,N/A
-John Finney High School,Teacher,NA,5,2023-01-17T14:30:00Z,2023-01-17,48.5,"Water is clear, pump functioning well",0,11,24,NA,NA,NA,"Why can't an individual  be ""hatched"" and also ""swimming up""?"
-John Finney High School,Teacher,NA,5,2023-01-17T14:30:00Z,2023-01-17,49,"Water is clear, pump functioning well",0,11,24,NA,NA,NA,na
-Maine Prairie High School,Gabriel,NA,7,2023-01-17T14:50:00Z,2023-01-17,50,"Water is clear, pump functioning well",1,34,0,NA,NA,NA,How long until their activity increases? How do we know if their are dead?
-Red Bluff High School,"Adria, Abby",NA,13,2023-01-18T08:05:00Z,2023-01-18,50.2,"Water is clear, pump functioning well",0,33,2,NA,NA,NA,when will the fish that are exhibiting TDC experience full spinning and eventually death after they first experience the symptoms?
-Red Bluff High School,Marley,NA,14,2023-01-18T10:50:00Z,2023-01-18,50,"Water is clear, pump functioning well",0,26,9,NA,NA,NA,Not at this time.
-Willows High School,Kate,NA,19,2023-01-18T13:00:00Z,2023-01-18,50,"Water is clear, pump functioning well",0,34,1,NA,NA,NA,None this time
-Orland High School,Morgan,NA,16,2023-01-18T13:14:00Z,2023-01-18,46,"Water is clear, pump functioning well",0,35,0,NA,NA,NA,Why is one of them curled up in a ball?
-Orland High School,Lauren,NA,15,2023-01-18T13:14:00Z,2023-01-18,50,"Water is clear, pump functioning well",0,34,1,NA,NA,NA,None
-McCaffrey Middle School,Emily,NA,11,2023-01-19T00:39:00Z,2023-01-19,47.1,"Water is clear, pump functioning well",0,35,0,NA,NA,NA,None
-Travis Education Center,Jasmine,NA,1,2023-01-19T01:20:00Z,2023-01-19,49,"Water is clear, pump functioning well",0,35,0,NA,NA,NA,"Not today, you answered them when you came Thursday"
-Fairfield High School,Viridiana,NA,10,2023-01-19T11:22:00Z,2023-01-19,47.7,"Water is clear, pump functioning well",0,35,0,NA,NA,NA,How big are they going to get?
-Travis Education Center,Audrey,NA,2,2023-01-19T11:36:00Z,2023-01-19,50,"Water is clear, pump functioning well",0,33,2,NA,NA,NA,None
-Pierce High School,Fernando,NA,17,2023-01-19T13:31:00Z,2023-01-19,50.2,"Water is clear, pump functioning well",0,35,0,NA,NA,NA,None at the moment
-Williams High School,Guancarlo,NA,20,2023-01-20T08:30:00Z,2023-01-20,49,"Water is clear, pump functioning well",0,35,0,NA,NA,NA,"None at this time, thanks"
-Orland High School,Sidnee,NA,15,2023-01-20T09:32:00Z,2023-01-20,50.4,"Water is clear, pump functioning well",0,35,1,NA,NA,NA,None
-Orland High School,Ella,NA,16,2023-01-20T09:33:00Z,2023-01-20,47.5,"Water is clear, pump functioning well",0,35,0,NA,NA,NA,What do they look like when they are dead?
-Maine Prairie High School,Dina Flamik,NA,7,2023-01-20T10:13:00Z,2023-01-20,50,"Water is clear, pump functioning well",0,34,1,NA,NA,NA,n/a
-Red Bluff High School,Bailey,NA,13,2023-01-20T10:37:00Z,2023-01-20,50.5,"Water is clear, pump functioning well",0,35,2,NA,NA,NA,Why do they absorb the yolk sack.
-Hamilton High School,Ivan,NA,12,2023-01-20T11:19:59Z,2023-01-20,51.4,"Water is clear, pump functioning well",0,31,4,NA,NA,NA,N/A
-John Finney High School,Teacher,NA,5,2023-01-20T13:04:00Z,2023-01-20,48.9,"Water is clear, pump functioning well",0,35,24,NA,NA,NA,na
-Liberty High School,Michael,NA,4,2023-01-20T13:05:00Z,2023-01-20,50,"Water is clear, pump functioning well",0,29,6,NA,NA,NA,Can fish learn things?
-Liberty High School,Michael,NA,3,2023-01-20T13:10:00Z,2023-01-20,50,"Water is clear, pump functioning well",0,8,27,NA,NA,NA,Why don't these fish float when they die?
-Willows High School,Emily,NA,19,2023-01-20T13:20:00Z,2023-01-20,50.9,"Water is clear, pump functioning well",0,34,1,NA,NA,NA,None
-Willows High School,Jayden,NA,18,2023-01-20T14:50:00Z,2023-01-20,50,"Water is clear, pump functioning well",0,35,2,NA,NA,NA,None.
-Orland High School,Chyna,NA,15,2023-01-23T00:48:00Z,2023-01-23,50.7,"Water is clear, pump functioning well",0,35,1,NA,NA,NA,I don’t have any
-Willows High School,Abigail,NA,18,2023-01-23T08:03:00Z,2023-01-23,51.1,"Water is clear, pump functioning well",0,32,3,2023-02-09T00:00:00Z,NA,NA,Why do the fish get bloated when they die?
-Maine Prairie High School,Dina Flamik,NA,7,2023-01-23T08:53:00Z,2023-01-23,50,"Water is clear, pump functioning well",0,34,1,NA,NA,NA,n/a
-Fairfield High School,Jordan,NA,10,2023-01-23T10:21:59Z,2023-01-23,49.5,"Water is clear, pump functioning well",0,35,0,NA,NA,NA,Why is the curled salmon´s spine slowly uncurling?
-Pierce High School,Marely,NA,17,2023-01-23T11:06:00Z,2023-01-23,49.7,"Water is clear, pump functioning well",0,35,0,NA,NA,NA,None at this time.
-Orland High School,Ashley,NA,16,2023-01-23T12:51:00Z,2023-01-23,49,"Water is clear, pump functioning well",0,35,1,NA,NA,NA,Why is it curled up?
-Hamilton High School,Maximo,NA,12,2023-01-23T14:10:00Z,2023-01-23,51.6,"Water is clear, pump functioning well",0,31,4,NA,NA,NA,N/A
-John Finney High School,Daniel,NA,5,2023-01-24T08:48:00Z,2023-01-24,48.7,"Water is clear, pump functioning well",0,35,24,NA,NA,NA,na
-Golden Hills Community School,Cache,NA,9,2023-01-24T09:00:00Z,2023-01-24,49.3,"Water is clear, pump functioning well",0,33,2,NA,NA,NA,None
-Williams High School,Brayden,NA,21,2023-01-24T09:57:00Z,2023-01-24,50,"Water is clear, pump functioning well",0,25,8,NA,NA,NA,Why do the TDC alevins stay on one side of the tank all togther?  Why do only two TDC have egg sacks still?
-Travis Education Center,Averi,NA,2,2023-01-24T10:36:00Z,2023-01-24,48.6,"Water is clear, pump functioning well",0,33,2,NA,NA,NA,None
-Willows High School,Brandon,NA,19,2023-01-24T12:45:00Z,2023-01-24,50,"Water is clear, pump functioning well",0,34,1,NA,NA,NA,Will the fish with malformed spines and bloated egg sacs inevitably become mortalities or can come of them possibly survive to release?
-Orland High School,Preston Carlson,NA,16,2023-01-25T08:18:00Z,2023-01-25,47.1,"Water is clear, pump functioning well",0,34,1,NA,NA,NA,Why is there one that is curled up?
-Liberty High School,Jade,NA,3,2023-01-25T12:29:59Z,2023-01-25,49,"Water is clear, pump functioning well",0,11,24,NA,NA,NA,Why do they stay in the corner of the tank? Why might the fish swim perpendicular?
-Liberty High School,Ricardo,NA,4,2023-01-25T12:40:00Z,2023-01-25,49,"Water is clear, pump functioning well",0,29,6,NA,NA,NA,no
-Pierce High School,Myra,NA,17,2023-01-26T10:40:59Z,2023-01-26,50.4,"Water is clear, pump functioning well",0,35,0,NA,NA,NA,None
-Orland High School,Hannah,NA,16,2023-01-26T10:51:00Z,2023-01-26,49,"Water is clear, pump functioning well",0,31,0,NA,NA,NA,We had a unhatched egg with fuzz like material  on it.
-McCaffrey Middle School,Miley,NA,11,2023-01-26T12:38:00Z,2023-01-26,47.1,"Water is clear, pump functioning well",0,35,0,NA,NA,NA,None
-Willows High School,Emily,NA,19,2023-01-26T13:30:00Z,2023-01-26,50.4,Water is clouding,0,34,1,NA,NA,NA,Same as observation
-Williams High School,Alonzo,NA,21,2023-01-26T15:28:00Z,2023-01-26,48.7,"Water is clear, pump functioning well",0,25,8,NA,NA,NA,none
-Orland High School,Dominic,NA,15,2023-01-26T22:51:00Z,2023-01-26,49.3,"Water is clear, pump functioning well",0,34,1,NA,NA,NA,None
-Hamilton High School,Maximo,NA,12,2023-01-26T23:19:59Z,2023-01-26,50.9,"Water is clear, pump functioning well",0,31,4,NA,NA,NA,"Will any of the salmon release have a possibility of surviving? 
-Is the curled spine a sign of TDC or just a genetic abnormality?"
-Liberty High School,Melissa,NA,4,2023-01-27T10:50:00Z,2023-01-27,50,"Water is clear, pump functioning well",0,29,6,NA,NA,NA,How long can these salmon live?
-Liberty High School,Mark,NA,3,2023-01-27T10:55:00Z,2023-01-27,49,"Water is clear, pump functioning well",0,11,26,NA,NA,NA,"If they stayed in the tank instead of being released, how big could they get? Why are there more on their sides some days than others?"
-John Finney High School,Daniel,NA,5,2023-01-27T12:03:00Z,2023-01-27,49.5,"Water is clear, pump functioning well",0,35,24,NA,NA,NA,na
-McCaffrey Middle School,Rustin,NA,11,2023-01-27T12:36:59Z,2023-01-27,48,"Water is clear, pump functioning well",0,35,0,NA,NA,NA,None
-Willows High School,Aundrea,NA,18,2023-01-27T13:26:00Z,2023-01-27,51.1,"Water is clear, pump functioning well",0,32,3,2023-02-09T00:00:00Z,NA,NA,Why do the fry like to congregate behind the tube in the back of the tank?
-Orland High School,Anna,NA,15,2023-01-27T14:04:00Z,2023-01-27,51.2,"Water is clear, pump functioning well",0,35,1,NA,NA,NA,None
-Red Bluff High School,Kaitlyn,NA,13,2023-01-27T14:19:59Z,2023-01-27,50.4,"Water is clear, pump functioning well",0,33,2,NA,NA,NA,None
-Red Bluff High School,Brayden,NA,13,2023-01-30T09:53:00Z,2023-01-30,50.5,"Water is clear, pump functioning well",0,33,2,NA,NA,NA,N/a
-Willows High School,Daniel,NA,19,2023-01-31T07:59:59Z,2023-01-31,50,"Water is clear, pump functioning well",0,35,16,NA,NA,NA,We have lost 15 fish since Friday of last week. We lost 10 fish over the weekend and we found another 5 fish death  this morning. We are concerned with the high mortality rate. is this normal?
-Maine Prairie High School,Dina Flamik,NA,7,2023-01-27T14:42:00Z,2023-01-27,50,"Water is clear, pump functioning well",1,34,1,NA,NA,NA,n/a
-Orland High School,Lauren,NA,15,2023-01-31T09:33:00Z,2023-01-31,50,"Water is clear, pump functioning well",0,35,0,NA,NA,NA,None
+Orland High School,Ashlynn,NA,16,2022-12-23T11:51:00Z,2022-12-23,49,"Water is clear, pump functioning well",0,35,0,NA,NA,NA,NA
+Orland High School,Alyssa,NA,16,2022-12-22T12:41:00Z,2022-12-22,47.7,"Water is clear, pump functioning well",3,32,0,NA,NA,NA,NA
+Orland High School,Gracie,NA,15,2022-12-22T00:42:00Z,2022-12-22,50,"Water is clear, pump functioning well",0,35,1,NA,NA,NA,NA
+Orland High School,Eden,NA,16,2022-12-21T09:32:00Z,2022-12-21,49,"Water is clear, pump functioning well",2,33,0,NA,NA,NA,NA
+Orland High School,Luke,NA,15,2022-12-21T09:31:00Z,2022-12-21,49.6,"Water is clear, pump functioning well",0,35,0,NA,NA,NA,NA
+Orland High School,Anna,NA,16,2022-12-19T13:56:00Z,2022-12-19,46.8,"Water is clear, pump functioning well",27,8,0,NA,NA,NA,NA
+Orland High School,Lauren,NA,15,2022-12-19T13:55:00Z,2022-12-19,50.3,"Water is clear, pump functioning well",1,34,0,NA,NA,NA,NA
+Orland High School,Autumn,NA,16,2022-12-16T10:53:00Z,2022-12-16,48,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,NA
+Orland High School,Sidnee,NA,15,2022-12-16T10:46:59Z,2022-12-16,50.4,"Water is clear, pump functioning well",33,2,0,NA,NA,NA,NA
+Orland High School,Autumn,NA,15,2022-12-15T09:10:00Z,2022-12-15,49.8,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,NA
+Orland High School,Hunter,NA,16,2022-12-15T09:10:00Z,2022-12-15,49,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,NA
+Orland High School,Autumn,NA,15,2022-12-10T17:25:00Z,2022-12-10,49.7,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,NA
+Orland High School,Autumn,NA,16,2022-12-10T17:25:00Z,2022-12-10,47.7,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,NA
+Orland High School,Autumn,NA,15,2022-12-08T14:00:00Z,2022-12-08,51.3,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,NA
+Pierce High School,Cody,NA,17,2023-02-07T07:10:00Z,2023-02-07,51,"Water is clear, pump functioning well",0,35,0,NA,NA,NA,NA
+Pierce High School,Sofia,NA,17,2023-02-02T11:06:00Z,2023-02-02,50.2,"Water is clear, pump functioning well",0,35,0,NA,NA,NA,NA
+Pierce High School,Rogelio,NA,17,2023-01-30T11:02:00Z,2023-01-30,50.1,"Water is clear, pump functioning well",0,35,0,NA,NA,NA,NA
+Pierce High School,Myra,NA,17,2023-01-26T10:40:59Z,2023-01-26,50.4,"Water is clear, pump functioning well",0,35,0,NA,NA,NA,NA
+Pierce High School,Marely,NA,17,2023-01-23T11:06:00Z,2023-01-23,49.7,"Water is clear, pump functioning well",0,35,0,NA,NA,NA,NA
+Pierce High School,Fernando,NA,17,2023-01-19T13:31:00Z,2023-01-19,50.2,"Water is clear, pump functioning well",0,35,0,NA,NA,NA,NA
+Pierce High School,Fernando,NA,17,2023-01-17T13:31:00Z,2023-01-17,49.8,"Water is clear, pump functioning well",0,35,0,NA,NA,NA,NA
+Pierce High School,Cody,NA,17,2023-01-09T09:42:59Z,2023-01-09,50,"Water is clear, pump functioning well",0,35,0,NA,NA,NA,NA
+Pierce High School,Cody,NA,17,2022-12-16T02:09:00Z,2022-12-16,50.3,"Water is clear, pump functioning well",25,10,0,NA,NA,NA,NA
+Pierce High School,Cody,NA,17,2022-12-13T08:15:00Z,2022-12-13,49.5,"Water is clear, pump functioning well",26,9,0,NA,NA,NA,NA
+Pierce High School,Cody,NA,17,2022-12-12T06:42:00Z,2022-12-12,60,"Water is clear, but unsure of pump functioning",35,0,0,NA,NA,NA,NA
+Pierce High School,Cody,NA,17,2022-12-09T08:02:00Z,2022-12-09,50.2,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,NA
+Red Bluff High School,Mercy,NA,14,2023-02-08T11:03:00Z,2023-02-08,50,"Water is clear, pump functioning well",0,26,14,NA,NA,NA,NA
+Red Bluff High School,Brayden,NA,13,2023-02-08T08:59:00Z,2023-02-08,50.4,"Water is clear, pump functioning well",0,20,15,NA,NA,NA,NA
+Red Bluff High School,Kaitlyn,NA,13,2023-02-07T02:12:59Z,2023-02-07,50.4,"Water is clear, pump functioning well",2,31,4,NA,NA,NA,NA
+Red Bluff High School,Kaitlyn,NA,13,2023-02-03T14:30:00Z,2023-02-03,50.4,"Water is clear, pump functioning well",0,33,2,NA,NA,NA,NA
+Red Bluff High School,Mercy,NA,14,2023-02-03T13:24:00Z,2023-02-03,50,"Water is clear, pump functioning well",0,26,10,NA,NA,NA,NA
+Red Bluff High School,Mercy,NA,14,2023-02-01T11:04:00Z,2023-02-01,50,"Water is clear, pump functioning well",0,25,10,NA,NA,NA,NA
+Red Bluff High School,Brayden,NA,13,2023-01-30T09:53:00Z,2023-01-30,50.5,"Water is clear, pump functioning well",0,33,2,NA,NA,NA,NA
+Red Bluff High School,Kaitlyn,NA,13,2023-01-27T14:19:59Z,2023-01-27,50.4,"Water is clear, pump functioning well",0,33,2,NA,NA,NA,NA
+Red Bluff High School,Mercy,NA,14,2023-01-27T13:59:00Z,2023-01-27,50,"Water is clear, pump functioning well",0,25,10,NA,NA,NA,NA
+Red Bluff High School,Mercy,NA,14,2023-01-25T10:50:00Z,2023-01-25,50,"Water is clear, pump functioning well",0,25,10,NA,NA,NA,NA
+Red Bluff High School,Bailey,NA,13,2023-01-20T10:37:00Z,2023-01-20,50.5,"Water is clear, pump functioning well",0,35,2,NA,NA,NA,NA
+Red Bluff High School,Marley,NA,14,2023-01-18T10:50:00Z,2023-01-18,50,"Water is clear, pump functioning well",0,26,9,NA,NA,NA,NA
+Red Bluff High School,"Adria, Abby",NA,13,2023-01-18T08:05:00Z,2023-01-18,50.2,"Water is clear, pump functioning well",0,33,2,NA,NA,NA,NA
+Red Bluff High School,Brice,NA,14,2023-01-13T13:59:59Z,2023-01-13,50,"Water is clear, pump functioning well",0,26,9,NA,NA,NA,NA
+Red Bluff High School,Bailey,NA,13,2023-01-13T10:06:00Z,2023-01-13,50.5,"Water is clear, pump functioning well",0,33,2,NA,NA,NA,NA
+Red Bluff High School,Mercy,NA,14,2023-01-11T13:27:00Z,2023-01-11,50,"Water is clear, pump functioning well",0,26,9,NA,NA,NA,NA
+Red Bluff High School,Geoff Barrow,NA,13,2023-01-06T13:10:00Z,2023-01-06,50,"Water is clear, pump functioning well",0,33,2,NA,NA,NA,NA
+Red Bluff High School,Geoff Barrow/teacher,NA,14,2023-01-06T12:49:59Z,2023-01-06,50.2,"Water is clear, pump functioning well",0,26,9,NA,NA,NA,NA
+Red Bluff High School,Geoff/teacher,NA,14,2023-01-03T10:31:00Z,2023-01-03,49.6,"Water is clear, pump functioning well",0,26,9,NA,NA,NA,NA
+Red Bluff High School,Kaitlyn Miller,NA,13,2023-01-02T10:23:00Z,2023-01-02,50,"Water is clear, pump functioning well",0,33,2,NA,NA,NA,NA
+Red Bluff High School,Bailey,NA,13,2022-12-21T12:22:00Z,2022-12-21,49.8,"Water is clear, pump functioning well",1,33,1,NA,NA,NA,NA
+Red Bluff High School,Mercy,NA,14,2022-12-21T10:21:00Z,2022-12-21,50,"Water is clear, pump functioning well",0,27,8,NA,NA,NA,NA
+Red Bluff High School,Milan,NA,13,2022-12-19T11:14:00Z,2022-12-19,50.2,"Water is clear, pump functioning well",1,33,1,NA,NA,NA,NA
+Red Bluff High School,Mercy,NA,14,2022-12-19T10:34:59Z,2022-12-19,50,"Water is clear, pump functioning well",9,26,0,NA,NA,NA,NA
+Red Bluff High School,Brice,NA,14,2022-12-15T14:10:00Z,2022-12-15,50,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,NA
+Red Bluff High School,Ethan,NA,13,2022-12-14T12:35:00Z,2022-12-14,50,"Water is clear, pump functioning well",34,0,1,NA,NA,NA,NA
+Red Bluff High School,Mercy,NA,14,2022-12-14T10:45:00Z,2022-12-14,50,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,NA
+Red Bluff High School,Gage,NA,13,2022-12-12T10:01:59Z,2022-12-12,50.4,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,NA
+Red Bluff High School,Mercy,NA,14,2022-12-09T13:34:59Z,2022-12-09,50,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,NA
+Red Bluff High School,Kelsey,NA,13,2022-12-09T10:02:59Z,2022-12-09,50.4,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,NA
+Red Bluff High School,Sophia Drugovich,NA,13,2022-12-08T10:13:00Z,2022-12-08,50.2,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,NA
+Red Bluff High School,Mercy,NA,14,2022-12-07T11:19:59Z,2022-12-07,50,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,NA
+Travis Education Center,Elijah,NA,2,2023-02-02T10:34:59Z,2023-02-02,49.5,"Water is clear, pump functioning well",0,33,2,NA,NA,NA,NA
+Travis Education Center,Lizzie,NA,2,2023-01-31T10:39:00Z,2023-01-31,50,"Water is clear, pump functioning well",0,33,2,NA,NA,NA,NA
+Travis Education Center,Averi,NA,2,2023-01-24T10:36:00Z,2023-01-24,48.6,"Water is clear, pump functioning well",0,33,2,NA,NA,NA,NA
+Travis Education Center,Audrey,NA,2,2023-01-19T11:36:00Z,2023-01-19,50,"Water is clear, pump functioning well",0,33,2,NA,NA,NA,NA
+Travis Education Center,Jasmine,NA,1,2023-01-19T01:20:00Z,2023-01-19,49,"Water is clear, pump functioning well",0,35,0,NA,NA,NA,NA
+Travis Education Center,Lizzie,NA,2,2023-01-17T10:51:00Z,2023-01-17,50,"Water is clear, pump functioning well",0,33,2,NA,NA,NA,NA
+Travis Education Center,Nico,NA,1,2023-01-17T10:30:00Z,2023-01-17,52,"Water is clear, pump functioning well",0,35,0,NA,NA,NA,NA
+Travis Education Center,Maddy,NA,2,2023-01-13T09:58:00Z,2023-01-13,49,"Water is clear, pump functioning well",0,33,2,NA,NA,NA,NA
+Travis Education Center,Garrett,NA,1,2023-01-12T14:15:00Z,2023-01-12,49.5,"Water is clear, pump functioning well",0,35,0,NA,NA,NA,NA
+Travis Education Center,Audrey,NA,2,2023-01-10T10:47:59Z,2023-01-10,49,"Water is clear, pump functioning well",0,33,2,NA,NA,NA,NA
+Travis Education Center,Garrett,NA,1,2023-01-09T14:15:00Z,2023-01-09,50.3,"Water is clear, pump functioning well",0,35,0,NA,NA,NA,NA
+Travis Education Center,Ellie,NA,2,2022-12-30T13:27:00Z,2022-12-30,49,"Water is clear, pump functioning well",0,33,2,NA,NA,NA,NA
+Travis Education Center,Jesse,NA,2,2022-12-22T10:23:00Z,2022-12-22,49,"Water is clear, pump functioning well",1,33,1,NA,NA,NA,NA
+Travis Education Center,Mia,NA,2,2022-12-20T10:37:00Z,2022-12-20,49,"Water is clear, pump functioning well",2,33,0,NA,NA,NA,NA
+Travis Education Center,Garrett,NA,1,2022-12-20T09:54:00Z,2022-12-20,50.2,"Water is clear, pump functioning well",1,34,0,NA,NA,NA,NA
+Travis Education Center,Garrett,NA,1,2022-12-19T13:53:59Z,2022-12-19,48.7,"Water is clear, pump functioning well",6,29,0,NA,NA,NA,NA
+Travis Education Center,Elizabeth,NA,2,2022-12-15T10:24:00Z,2022-12-15,49,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,NA
+Travis Education Center,Garrett,NA,1,2022-12-15T08:51:59Z,2022-12-15,48.7,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,NA
+Travis Education Center,Hadrian,NA,2,2022-12-13T10:30:00Z,2022-12-13,49,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,NA
+Travis Education Center,Maddy,NA,2,2022-12-09T10:00:00Z,2022-12-09,50,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,NA
+Travis Education Center,Jesse,NA,2,2022-12-08T11:19:59Z,2022-12-08,50,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,NA
+Travis Education Center,Garrett,NA,1,2022-12-08T09:40:00Z,2022-12-08,48.5,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,NA
+Williams High School,Alonzo,NA,21,2023-02-02T15:35:00Z,2023-02-02,48,"Water is clear, pump functioning well",0,25,8,NA,NA,NA,NA
+Williams High School,Gisele,NA,20,2023-02-02T08:19:59Z,2023-02-02,49,"Water is clear, pump functioning well",0,35,0,NA,NA,NA,NA
+Williams High School,Brayden,NA,21,2023-01-31T15:29:59Z,2023-01-31,48.4,"Water is clear, pump functioning well",8,25,8,NA,NA,NA,NA
+Williams High School,Alonzo,NA,21,2023-01-26T15:28:00Z,2023-01-26,48.7,"Water is clear, pump functioning well",0,25,8,NA,NA,NA,NA
+Williams High School,Joclyn,NA,20,2023-01-25T10:00:00Z,2023-01-25,49,"Water is clear, pump functioning well",0,35,0,NA,NA,NA,NA
+Williams High School,Valeria,NA,20,2023-01-24T10:00:00Z,2023-01-24,49,"Water is clear, pump functioning well",0,35,0,NA,NA,NA,NA
+Williams High School,Brayden,NA,21,2023-01-24T09:57:00Z,2023-01-24,50,"Water is clear, pump functioning well",0,25,8,NA,NA,NA,NA
+Williams High School,Guancarlo,NA,20,2023-01-20T08:30:00Z,2023-01-20,49,"Water is clear, pump functioning well",0,35,0,NA,NA,NA,NA
+Williams High School,Alonzo,NA,21,2023-01-17T11:24:00Z,2023-01-17,50,Water is clouding,0,25,8,NA,NA,NA,NA
+Williams High School,Brisaida,NA,20,2023-01-16T10:00:00Z,2023-01-16,49,"Water is clear, pump functioning well",0,35,0,NA,NA,NA,NA
+Williams High School,Marthaelena,NA,20,2023-01-13T08:30:00Z,2023-01-13,49,"Water is clear, pump functioning well",0,35,0,NA,NA,NA,NA
+Williams High School,Emily,NA,20,2023-01-10T13:34:00Z,2023-01-10,49,"Water is clear, pump functioning well",0,35,0,NA,NA,NA,NA
+Williams High School,Miguel,NA,21,2023-01-10T10:05:00Z,2023-01-10,50,"Water is clear, pump functioning well",0,27,8,NA,NA,NA,NA
+Williams High School,Scotty,NA,20,2023-01-02T10:00:00Z,2023-01-02,49,"Water is clear, pump functioning well",0,35,0,NA,NA,NA,NA
+Williams High School,Scotty,NA,20,2022-12-30T10:00:00Z,2022-12-30,49,"Water is clear, pump functioning well",0,35,0,NA,NA,NA,NA
+Williams High School,Scotty,NA,20,2022-12-27T10:00:00Z,2022-12-27,49,"Water is clear, pump functioning well",0,35,0,NA,NA,NA,NA
+Williams High School,Scotty,NA,20,2022-12-22T10:00:00Z,2022-12-22,49,"Water is clear, pump functioning well",0,35,0,NA,NA,NA,NA
+Williams High School,Scotty,NA,20,2022-12-20T01:38:00Z,2022-12-20,49,"Water is clear, pump functioning well",0,35,0,NA,NA,NA,NA
+Williams High School,Brayden,NA,21,2022-12-15T08:30:00Z,2022-12-15,50,"Water is clear, pump functioning well",33,0,0,NA,NA,NA,NA
+Williams High School,Uriel,NA,21,2022-12-13T08:12:59Z,2022-12-13,49.3,"Water is clear, pump functioning well",33,0,2,NA,NA,NA,NA
+Williams High School,Valeria,NA,21,2022-12-12T11:15:00Z,2022-12-12,49.8,"Water is clear, pump functioning well",0,0,0,NA,NA,NA,NA
+Williams High School,Jocelynn,NA,20,2022-12-09T08:22:00Z,2022-12-09,49.7,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,NA
+Williams High School,Cynthis,NA,20,2022-12-06T09:20:00Z,2022-12-06,49.3,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,NA
+Willows High School,Daniel,NA,19,2023-02-09T13:00:00Z,2023-02-09,50,"Water is clear, pump functioning well",0,35,34,NA,NA,NA,NA
+Willows High School,Emily,NA,19,2023-02-07T13:00:00Z,2023-02-07,50,"Water is clear, pump functioning well",0,7,28,NA,NA,NA,NA
+Willows High School,Emily,NA,19,2023-02-02T12:01:00Z,2023-02-02,50,"Water is clear, pump functioning well",0,10,25,NA,NA,NA,NA
+Willows High School,Abigail,NA,18,2023-02-02T09:03:00Z,2023-02-02,51.4,"Water is clear, pump functioning well",0,32,3,NA,NA,NA,NA
+Willows High School,Daniel,NA,19,2023-01-31T07:59:59Z,2023-01-31,50,"Water is clear, pump functioning well",0,19,16,NA,NA,NA,NA
+Willows High School,Aundrea,NA,18,2023-01-30T09:23:00Z,2023-01-30,50.5,"Water is clear, pump functioning well",0,32,3,NA,NA,NA,NA
+Willows High School,Aundrea,NA,18,2023-01-27T13:26:00Z,2023-01-27,51.1,"Water is clear, pump functioning well",0,32,3,NA,NA,NA,NA
+Willows High School,Emily,NA,19,2023-01-26T13:30:00Z,2023-01-26,50.4,Water is clouding,0,34,1,NA,NA,NA,NA
+Willows High School,Brandon,NA,19,2023-01-24T12:45:00Z,2023-01-24,50,"Water is clear, pump functioning well",0,34,1,NA,NA,NA,NA
+Willows High School,Abigail,NA,18,2023-01-23T08:03:00Z,2023-01-23,51.1,"Water is clear, pump functioning well",0,32,3,NA,NA,NA,NA
+Willows High School,Jayden,NA,18,2023-01-20T14:50:00Z,2023-01-20,50,"Water is clear, pump functioning well",0,35,2,NA,NA,NA,NA
+Willows High School,Emily,NA,19,2023-01-20T13:20:00Z,2023-01-20,50.9,"Water is clear, pump functioning well",0,34,1,NA,NA,NA,NA
+Willows High School,Kate,NA,19,2023-01-18T13:00:00Z,2023-01-18,50,"Water is clear, pump functioning well",0,34,1,NA,NA,NA,NA
+Willows High School,Aundrea,NA,18,2023-01-17T08:09:00Z,2023-01-17,60,"Water is clear, but unsure of pump functioning",0,35,2,NA,NA,NA,NA
+Willows High School,Carolina,NA,18,2023-01-13T08:11:00Z,2023-01-13,51.1,"Water is clear, pump functioning well",0,35,1,NA,NA,NA,NA
+Willows High School,Emily,NA,19,2023-01-13T00:00:00Z,2023-01-13,50,"Water is clear, pump functioning well",0,34,1,NA,NA,NA,NA
+Willows High School,Ryan,NA,19,2023-01-11T11:30:00Z,2023-01-11,50,"Water is clear, pump functioning well",0,34,1,NA,NA,NA,NA
+Willows High School,Giselle,NA,18,2023-01-11T08:05:00Z,2023-01-11,50.2,"Water is clear, pump functioning well",0,35,0,NA,NA,NA,NA
+Willows High School,Ryan,NA,19,2023-01-09T09:00:00Z,2023-01-09,50,"Water is clear, pump functioning well",0,34,1,NA,NA,NA,NA
+Willows High School,McKenzie,NA,18,2023-01-05T14:36:00Z,2023-01-05,50,"Water is clear, pump functioning well",0,35,0,NA,NA,NA,NA
+Willows High School,Ryan,NA,19,2023-01-05T13:00:00Z,2023-01-05,50,"Water is clear, pump functioning well",0,34,1,NA,NA,NA,NA
+Willows High School,Daniel,NA,19,2023-01-03T13:10:00Z,2023-01-03,50,"Water is clear, pump functioning well",0,34,1,NA,NA,NA,NA
+Willows High School,Kimberly,NA,18,2023-01-03T09:21:00Z,2023-01-03,50,"Water is clear, pump functioning well",0,35,0,NA,NA,NA,NA
+Willows High School,McKenzie,NA,18,2022-12-16T11:38:59Z,2022-12-16,50,"Water is clear, pump functioning well",34,1,0,NA,NA,NA,NA
+Willows High School,Daniel,NA,19,2022-12-16T10:14:59Z,2022-12-16,50,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,NA
+Willows High School,Eloise,NA,18,2022-12-15T16:14:59Z,2022-12-15,50,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,NA
+Willows High School,Kimberley,NA,18,2022-12-13T15:27:00Z,2022-12-13,50,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,NA
+Willows High School,Daniel,NA,19,2022-12-13T07:50:00Z,2022-12-13,50,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,NA
+Willows High School,Eloise,NA,18,2022-12-09T02:36:00Z,2022-12-09,50,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,NA
+Willows High School,Eloise,NA,18,2022-12-08T10:59:59Z,2022-12-08,50,"Water is clear, pump functioning well",35,1,0,NA,NA,NA,NA
+Willows High School,Daniel,NA,19,2022-12-08T07:25:00Z,2022-12-08,50,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,NA
+Willows High School,Daniel,NA,18,2022-12-06T10:40:00Z,2022-12-06,50,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,NA
+Willows High School,Daniel,NA,19,2022-12-06T10:20:00Z,2022-12-06,50,"Water is clear, pump functioning well",35,0,0,NA,NA,NA,NA
+Travis Education Center,me,NA,1,2023-02-20T13:59:59Z,2023-02-20,50,"Water is clear, pump functioning well",0,0,1,2023-02-14T00:00:00Z,34,NA,NA
+Travis Education Center,me,NA,2,2023-02-20T13:59:59Z,2023-02-20,50,"Water is clear, pump functioning well",0,27,8,2023-02-14T00:00:00Z,27,NA,NA
+Liberty High School,me,NA,3,2023-02-10T13:59:59Z,2023-02-10,50,"Water is clear, pump functioning well",0,35,27,2023-02-09T00:00:00Z,8,NA,NA
+Liberty High School,me,NA,4,2023-02-08T13:59:59Z,2023-02-08,50,"Water is clear, pump functioning well",0,29,6,2023-02-09T00:00:00Z,29,NA,NA
+Maine Prairie High School,me,NA,7,2023-02-10T13:59:59Z,2023-02-10,50,"Water is clear, pump functioning well",0,0,35,2023-02-10T00:00:00Z,0,NA,NA
+John Finney High School,me,NA,5,2023-02-03T13:59:59Z,2023-02-03,50,"Water is clear, pump functioning well",0,35,26,2023-02-13T00:00:00Z,9,NA,NA
+Maine Prairie High School,me,NA,8,2023-02-10T13:59:59Z,2023-02-10,50,"Water is clear, pump functioning well",0,0,35,2023-02-10T00:00:00Z,0,NA,NA
+Fairfield High School,me,NA,10,2023-02-15T13:59:59Z,2023-02-15,50,"Water is clear, pump functioning well",0,34,1,2023-02-15T00:00:00Z,34,NA,NA
+McCaffrey Middle School,me,NA,11,2023-02-10T13:59:59Z,2023-02-10,50,"Water is clear, pump functioning well",0,35,0,2023-02-10T00:00:00Z,35,NA,NA
+Red Bluff High School,me,NA,14,2023-02-10T13:59:59Z,2023-02-10,50,"Water is clear, pump functioning well",0,23,12,2023-02-10T00:00:00Z,23,NA,NA
+Orland High School,me,NA,15,2023-02-10T13:59:59Z,2023-02-10,50,"Water is clear, pump functioning well",0,33,2,2023-02-10T00:00:00Z,33,NA,NA
+Orland High School,me,NA,16,2023-02-10T13:59:59Z,2023-02-10,50,"Water is clear, pump functioning well",0,34,1,2023-02-10T00:00:00Z,34,NA,NA
+Willows High School,me,NA,18,2023-02-10T13:59:59Z,2023-02-10,50,"Water is clear, pump functioning well",0,32,3,2023-02-10T00:00:00Z,32,NA,NA
+Williams High School,me,NA,21,2023-02-10T13:59:59Z,2023-02-10,50,"Water is clear, pump functioning well",0,35,4,2023-02-10T00:00:00Z,31,NA,NA
+Golden Hills Community School,me,NA,9,2023-02-10T13:59:59Z,2023-02-10,50,"Water is clear, pump functioning well",0,32,3,2023-02-10T00:00:00Z,32,NA,NA
