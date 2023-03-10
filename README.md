@@ -26,7 +26,7 @@ Additionally, a few summary plots of the data will be updated each week, and sav
 
 For a current snapshot of what things look like, see below! Again, these can be found [here](figures/) and called `summary_plots_updated_YYYY-MM-DD.png`  if you want to download a copy. 
 
-__*updated 2023-01-26*__
+__*updated 2023-03-06*__
 
 Stay tuned for a summary/reveal!
 
@@ -35,6 +35,10 @@ Stay tuned for a summary/reveal!
 
 
 ![](figures/summary_2023_eggs_hatched_over_time_updated_2023-03-06.png)
+
+
+
+![](figures/thiamine_by_survival_wclassid.png)
 
 ### Open Source and Accessible
 
